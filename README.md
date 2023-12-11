@@ -8,7 +8,7 @@ Learn by practicing on book "Learning SPARQL", which is authored by Bob DuCharme
 
 Mindmap of the Book:
 
-![mindmap](img/cover_learning-sparql.png)
+![mindmap](img/LearningSPARQL.jpg)
 
 ---
 
