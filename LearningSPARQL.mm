@@ -76,6 +76,46 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
+<node TEXT="00. Preface" POSITION="bottom_or_right" ID="ID_586624966" CREATED="1702689062190" MODIFIED="1702689205308"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-style: italic;">&quot;It is hardly surprising that the science they turned to for an explanation of things was divination, the science that revealed connections between words and things, proper names and the deductions that could be drawn from them... </span>
+    </p>
+    <p style="text-align: right">
+      -- Henri-Jean Martin,
+    </p>
+    <p style="text-align: right">
+      The History and Power of Writing
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="00.1 Why Learn SPARQL?" ID="ID_1118870505" CREATED="1702689069941" MODIFIED="1702689722924">
+<node TEXT="Time Berners-Lee (Web Inventor): &quot;Trying to use the Semantic Web without SPARQL is like trying to use a relational database without SQL.&quot;" ID="ID_259879594" CREATED="1702689241678" MODIFIED="1702689290998"/>
+<node TEXT="SPARQL was not designed to query relational data, but to query data conforming to the RDF data model." ID="ID_569808110" CREATED="1702689313985" MODIFIED="1702689342263"/>
+<node ID="ID_479698282" CREATED="1702689508693" MODIFIED="1702689598287" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" MAX_WIDTH="10.5 cm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This book's <span style="font-weight: bold;">primary goal</span><span style="font-weight: normal;">&#xa0;is to quickly get you comfortable using SPARQL to retrieve and update data and to make the best use of that retrieved data.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="00.2 SPARQL 1.1 Query Language Specification" ID="ID_186221197" CREATED="1702689651771" MODIFIED="1702689725763" LINK="https://www.w3.org/TR/sparql11-query/"/>
+<node TEXT="00.3 Link to the book" ID="ID_898233208" CREATED="1702689715579" MODIFIED="1702689739112" LINK="http://www.learningsparql.com/"/>
+</node>
 <node TEXT="01. Jumping Right In: Some Data an Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1702686625602">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992"/>
@@ -85,7 +125,7 @@
 <node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001"/>
 <node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840"/>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480"/>
 <node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616"/>
 <node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1702254632832">
