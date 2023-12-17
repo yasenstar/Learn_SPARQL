@@ -76,7 +76,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="00. Preface" POSITION="bottom_or_right" ID="ID_586624966" CREATED="1702689062190" MODIFIED="1702689205308"><richcontent TYPE="NOTE">
+<node TEXT="00. Preface" FOLDED="true" POSITION="bottom_or_right" ID="ID_586624966" CREATED="1702689062190" MODIFIED="1702689205308"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -114,7 +114,9 @@
 </node>
 </node>
 <node TEXT="00.2 SPARQL 1.1 Query Language Specification" ID="ID_186221197" CREATED="1702689651771" MODIFIED="1702689725763" LINK="https://www.w3.org/TR/sparql11-query/"/>
-<node TEXT="00.3 Link to the book" ID="ID_898233208" CREATED="1702689715579" MODIFIED="1702689739112" LINK="http://www.learningsparql.com/"/>
+<node TEXT="00.3 Link to the book" ID="ID_898233208" CREATED="1702689715579" MODIFIED="1702689739112" LINK="http://www.learningsparql.com/">
+<node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
+</node>
 </node>
 <node TEXT="01. Jumping Right In: Some Data an Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1702686625602">
 <icon BUILTIN="launch"/>
@@ -125,7 +127,7 @@
 <node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001"/>
 <node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840"/>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480"/>
 <node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616"/>
 <node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1702254632832">
