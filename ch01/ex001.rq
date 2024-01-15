@@ -1,3 +1,5 @@
+# filename: ex001.rq same as ex008.rq
+
 PREFIX ab: <http://learningsparql.com/ns/addressbook#>
 SELECT ?person
 WHERE
