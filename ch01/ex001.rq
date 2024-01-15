@@ -1,0 +1,6 @@
+PREFIX d: <http://learningsparql.com/ns/addressbook#>
+SELECT ?person
+WHERE
+{
+    ?person d:hometel "(229) 276-5135" .
+}
