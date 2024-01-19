@@ -121,6 +121,8 @@
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992"/>
 <node TEXT="01.02 Querying the Data" ID="ID_976979623" CREATED="1702254388453" MODIFIED="1702254394087">
 <node TEXT="Tool: arq, download from jena site" POSITION="bottom_or_right" ID="ID_250412399" CREATED="1705285721132" MODIFIED="1705285782274" LINK="https://jena.apache.org/download/index.cgi"/>
+<node TEXT="Command: arq --data datafile.ttl --query queryfile.rq" POSITION="bottom_or_right" ID="ID_151414" CREATED="1705287782886" MODIFIED="1705287810264"/>
+<node TEXT="Using Protege to build ontology and query data" POSITION="bottom_or_right" ID="ID_1523620468" CREATED="1705686880245" MODIFIED="1705686895631"/>
 </node>
 <node TEXT="01.03 More realistic Data and Matching on Multiple Triples" ID="ID_411301703" CREATED="1702254394245" MODIFIED="1702254544776"/>
 <node TEXT="01.04 Searching for Strings" ID="ID_538918424" CREATED="1702254544925" MODIFIED="1702254554089"/>
