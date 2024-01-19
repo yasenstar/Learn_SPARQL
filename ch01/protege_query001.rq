@@ -1,0 +1,13 @@
+PREFIX owl: <http://www.w3.org/2002/08/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/ref-schema#>
+PREFIX ab: <http://www.semanticweb.org/yasen/ontologies/2024/1/addressbook#>
+
+SELECT ?firstName ?lastName ?craigEmail
+WHERE
+{
+    ?person ab:firstName "Craig" .
+    ?person ab:email ?craigEmail .
+    ?person ab:firstName ?firstName .
+    ?person ab:lastName ?lastName .
+}
