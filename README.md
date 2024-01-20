@@ -6,9 +6,17 @@ Learn by practicing on book "Learning SPARQL", which is authored by Bob DuCharme
 
 ---
 
-Mindmap of the Book:
+## Mindmap of the Book
 
 ![mindmap](img/LearningSPARQL.jpg)
+
+---
+
+## Contents per Chaperts
+
+- [Ch 00 - Preface](./ch00/)
+- [Ch 01 - Jumping Right In: Some Data and Some Queries](./ch01/)
+- [Ch 02 - The Semantic Web, RDF, and Linked Data (and SPARQL)](./ch02/)
 
 ---
 
