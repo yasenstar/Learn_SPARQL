@@ -1,0 +1,11 @@
+# filename: ex019.rq
+
+PREFIX ab: <http://yasen.com/ns/addressbook#>
+
+SELECT ?p ?o
+FROM <ex012.ttl>
+WHERE {
+    ?person ab:firstName "Cindy" .
+    ?person ab:lastName "Marshall" .
+    ?person ?p ?o .
+}

@@ -2,12 +2,12 @@
 
 @prefix ab: <http://learningsparql.com/ns/addressbook#> .
 
-ab:richard ab:hometel "(229) 276-5135" .
+ab:richard ab:homeTel "(229) 276-5135" .
 ab:richard ab:email "richard49@hotmail.com" .
 
-ab:cindy ab:hometel "(245) 646-5388" .
+ab:cindy ab:homeTel "(245) 646-5388" .
 ab:cindy ab:email "cindym@gamil.com" .
 
-ab:craig ab:hometel "(194) 866-1505" .
+ab:craig ab:homeTel "(194) 866-1505" .
 ab:craig ab:email "craigellis@yahoo.com" .
 ab:craig ab:email "c.ellis@usairwaysgroup.com" .
