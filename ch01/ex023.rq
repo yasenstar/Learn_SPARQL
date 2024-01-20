@@ -1,0 +1,10 @@
+PREFIX ab: <http://yasen.com/ns/addressbook#>
+
+SELECT ?craigEmail ?homeTel
+FROM <ex012.ttl>
+WHERE {
+    ?person ab:firstName "Craig" .
+    ?person ab:lastName "Ellis" .
+    ?person ab:email    ?craigEmail .
+    OPTIONAL { ?person ab:homeTel  ?homeTel . }
+}
