@@ -119,7 +119,7 @@
 <node TEXT="01. Jumping Right In: Some Data an Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1702686625602">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992"/>
-<node TEXT="01.02 Querying the Data" ID="ID_976979623" CREATED="1702254388453" MODIFIED="1702254394087">
+<node TEXT="01.02 Querying the Data" FOLDED="true" ID="ID_976979623" CREATED="1702254388453" MODIFIED="1702254394087">
 <node TEXT="Tool: arq, download from jena site" POSITION="bottom_or_right" ID="ID_250412399" CREATED="1705285721132" MODIFIED="1705285782274" LINK="https://jena.apache.org/download/index.cgi"/>
 <node TEXT="Command: arq --data datafile.ttl --query queryfile.rq" POSITION="bottom_or_right" ID="ID_151414" CREATED="1705287782886" MODIFIED="1705287810264"/>
 <node TEXT="Using Protege to build ontology and query data" POSITION="bottom_or_right" ID="ID_1523620468" CREATED="1705686880245" MODIFIED="1705686895631"/>
