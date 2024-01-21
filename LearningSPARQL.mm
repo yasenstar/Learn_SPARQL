@@ -140,6 +140,23 @@
 </node>
 </node>
 <node TEXT="The basics of RDF" ID="ID_1859624364" CREATED="1705797651119" MODIFIED="1705797656504">
+<node TEXT="RDF - Resource Description Framework - is a general model of how any piece of data, and representations of knowledge, can be expressed as so called triples." ID="ID_1438883253" CREATED="1705801378507" MODIFIED="1705801413519">
+<node ID="ID_950645452" CREATED="1705801471139" MODIFIED="1705801513775"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      RDF Triples can be aggregated into graphs with <span style="font-weight: bold;">subjects</span><span style="font-weight: normal;">&#xa0;&#xa0;and </span><span style="font-weight: bold;">objects</span><span style="font-weight: normal;">&#xa0;as nodes, and </span><span style="font-weight: bold;">predicates</span><span style="font-weight: normal;">&#xa0;as arcs.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="RDF isn&apos;t a data format, but a data model with a choice of syntaxes for storing data files." ID="ID_1528700409" CREATED="1705797791446" MODIFIED="1705797826713"/>
 <node ID="ID_1821256069" CREATED="1705797827141" MODIFIED="1705797851632"><richcontent TYPE="NODE">
 
@@ -214,8 +231,50 @@
 </node>
 </node>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
-<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480"/>
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
+<node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The semantic web is <span style="font-style: italic;">a set of </span><span style="font-style: italic; font-weight: bold;">standards</span><span style="font-style: italic;">&#xa0;&#xa0;and </span><span style="font-style: italic; font-weight: bold;">best practices</span><span style="font-style: italic;">&#xa0;&#xa0;for sharing data and the semantics of that data over the Web for use by </span><span style="font-style: italic; font-weight: bold;">applications</span><span style="font-style: italic;">.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="A set of Standards" ID="ID_1488652904" CREATED="1705800011356" MODIFIED="1705800514326">
+<font ITALIC="true"/>
+<node TEXT="the RDF data model" ID="ID_1836917402" CREATED="1705800016792" MODIFIED="1705800023005"/>
+<node TEXT="the SPARQL query language" ID="ID_849582679" CREATED="1705800023252" MODIFIED="1705800030550"/>
+<node TEXT="the RDF Schema for storing vocabularies" ID="ID_662833357" CREATED="1705800030932" MODIFIED="1705800060197"/>
+<node TEXT="OWL standards for storing ontologies" ID="ID_257451037" CREATED="1705800036780" MODIFIED="1705800050148"/>
+</node>
+<node TEXT="best practices for sharing data... over the Web for use by applications" ID="ID_389173676" CREATED="1705800510175" MODIFIED="1705800535113">
+<font ITALIC="true"/>
+<node TEXT="Use Linked Data as a set of best practices for sharing data across the web infrastructure so that applications (not human beings!) can more easily retrieve data from public sites with no need for screen scraping." ID="ID_279358034" CREATED="1705800546872" MODIFIED="1705800605176"/>
+<node ID="ID_1988663001" CREATED="1705800815206" MODIFIED="1705800940309" LINK="http://lod-cloud.net/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #000000;">The Linked Open Data Cloud -- http://lod-cloud.net/</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616"/>
 <node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705797883170">
 <arrowlink DESTINATION="ID_1859624364"/>
@@ -228,8 +287,13 @@
 </node>
 <node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1702254844425"/>
 </node>
-<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657"/>
-<node TEXT="02.05 Linked Data" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1702254713048"/>
+<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
+<node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1705801777920"/>
+<node TEXT="Google, Bing and Yahoo use OWL publish a joint vocabulary" ID="ID_180179648" CREATED="1705802123756" MODIFIED="1705802138585"/>
+</node>
+<node TEXT="02.05 Linked Data" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1705800611363">
+<arrowlink DESTINATION="ID_279358034"/>
+</node>
 <node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1702254724906"/>
 <node TEXT="02.07 The SPARQL Specifications" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1702254736233">
 <node TEXT="1. Use URIs as names for things" ID="ID_1909612066" CREATED="1705768484959" MODIFIED="1705768502152"/>
