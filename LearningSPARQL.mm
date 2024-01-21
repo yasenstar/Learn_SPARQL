@@ -116,7 +116,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705769870065"/>
@@ -134,7 +134,7 @@
 <node TEXT="https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705789697117" LINK="https://dbpedia.org/snorql/"/>
 </node>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480"/>
 <node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616"/>
 <node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1702254632832">
