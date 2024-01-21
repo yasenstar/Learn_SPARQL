@@ -116,7 +116,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705769870065"/>
@@ -273,6 +273,10 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="the semantics of that data" ID="ID_323677985" CREATED="1705802386761" MODIFIED="1705802394354">
+<font ITALIC="true"/>
+<node TEXT="The idea of &quot;semantics&quot; is often defined as &quot;the meaning of words&quot;" ID="ID_1675816156" CREATED="1705802398753" MODIFIED="1705802417050"/>
+</node>
 </node>
 </node>
 <node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616"/>
@@ -289,7 +293,8 @@
 </node>
 <node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
 <node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1705801777920"/>
-<node TEXT="Google, Bing and Yahoo use OWL publish a joint vocabulary" ID="ID_180179648" CREATED="1705802123756" MODIFIED="1705802138585"/>
+<node TEXT="Google, Bing and Yahoo use OWL publish a joint vocabulary, example: http://schema.org/City" ID="ID_180179648" CREATED="1705802123756" MODIFIED="1705802174263" LINK="https://schema.org/City"/>
+<node TEXT="NCI use OWL to publish NCI Thesaurus (the source for CDISC&apos;s CT:s) in an RDF/XML format" ID="ID_370941905" CREATED="1705802193740" MODIFIED="1705802223993"/>
 </node>
 <node TEXT="02.05 Linked Data" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1705800611363">
 <arrowlink DESTINATION="ID_279358034"/>
