@@ -116,7 +116,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705769870065"/>
@@ -133,16 +133,97 @@
 <node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
 <node TEXT="https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705789697117" LINK="https://dbpedia.org/snorql/"/>
 </node>
+<node TEXT="Summary" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
+<node TEXT="What SPARQL is?" ID="ID_1114353261" CREATED="1705797533889" MODIFIED="1705797541817">
+<node TEXT="SPARQL is a recursive acronym for &quot;SPARQL Protocol and RDF Query Language&quot;, which is described by a set of specifications from the W3C." ID="ID_734327413" CREATED="1705797541820" MODIFIED="1705797636278">
+<arrowlink DESTINATION="ID_186221197"/>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+</node>
+<node TEXT="The basics of RDF" ID="ID_1859624364" CREATED="1705797651119" MODIFIED="1705797656504">
+<node TEXT="RDF isn&apos;t a data format, but a data model with a choice of syntaxes for storing data files." ID="ID_1528700409" CREATED="1705797791446" MODIFIED="1705797826713"/>
+<node ID="ID_1821256069" CREATED="1705797827141" MODIFIED="1705797851632"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In this data model, you express facts with three-part statements known as <span style="font-style: italic;">triples</span>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink DESTINATION="ID_920990845"/>
+</node>
+</node>
+<node TEXT="The meaning and role of URIs" ID="ID_1976056132" CREATED="1705797656878" MODIFIED="1705797667712">
+<node TEXT="A URI is a Uniform Resource Identifier." ID="ID_1507529194" CREATED="1705797891304" MODIFIED="1705797907977"/>
+<node TEXT="URLs (Uniform Resource Locators), also known as web addresses, are one kind of URI." ID="ID_1050994495" CREATED="1705797908134" MODIFIED="1705797932824"/>
+<node TEXT="A locator helps you find something, like a web page, and an identifier identifies somethings." ID="ID_1108803219" CREATED="1705797939797" MODIFIED="1705797967406"/>
+<node TEXT="A URI may look like a URL, and there may actually be a web page at that address, but there might not be; its primary job is to provide an unique name for something, not to tell you about a web page where you can send your browser." ID="ID_1389671107" CREATED="1705797974870" MODIFIED="1705798031426"/>
+</node>
+<node TEXT="The parts of a simple SPARQL query" ID="ID_273099536" CREATED="1705797668036" MODIFIED="1705797675591">
+<node TEXT="The SPARQL Query Language specification recommends that files storing SPARQL queries have an extension of .rq, in lowercase." ID="ID_1605069962" CREATED="1705798051201" MODIFIED="1705798082025"/>
+<node TEXT="A SPARQL query typically says &quot;I want these pieces of information from the subset of the data that meets these conditions.&quot;" ID="ID_1418466340" CREATED="1705798092262" MODIFIED="1705798139042"/>
+<node ID="ID_1892097978" CREATED="1705798140678" MODIFIED="1705798180116"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You describe the conditions with <span style="font-style: italic;">triple patterns</span>, which are similar to RDF triples but may include variables to add flexibility in how they match against the data.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="How to execute a SPARQL query with ARQ" ID="ID_965415752" CREATED="1705797675790" MODIFIED="1705798206368">
+<arrowlink DESTINATION="ID_151414"/>
+</node>
+<node TEXT="How the same variable in multiple triple patterns can connect up the data in different triples" ID="ID_1770672697" CREATED="1705797688318" MODIFIED="1705797706919">
+<node TEXT="Check ex013.rq" ID="ID_504676866" CREATED="1705798240825" MODIFIED="1705798246543"/>
+</node>
+<node TEXT="What can lead to a query returning nothing" ID="ID_1533776242" CREATED="1705797707138" MODIFIED="1705797717568">
+<node ID="ID_804082743" CREATED="1705798272256" MODIFIED="1705798334660"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Without the <span style="font-weight: bold;">OPTIONAL</span><span style="font-weight: normal;">&#xa0;&#xa0;keyword, a SPARQL processor will only return data for a graph pattern if it can match </span><span style="font-weight: bold;">every single triple pattern </span><span style="font-weight: normal;">in that graph pattern. -- this is the key reason lead to a query returning nothing.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="What SPARQL endpoints are and how to query the most popular one, DBpedia" ID="ID_1639341963" CREATED="1705797718022" MODIFIED="1705797743917">
+<arrowlink DESTINATION="ID_666986616"/>
+<node TEXT="A SPARQL Endpoint is a Point of Presence on an HTTP network that&apos;s capable of receiving and processing SPARQL Protocol requests." ID="ID_304900322" CREATED="1705798374704" MODIFIED="1705798408145"/>
+<node TEXT="It is identified by a URL commonly referred to as a SPARQL Endpoint URL." ID="ID_448369299" CREATED="1705798408320" MODIFIED="1705798425657"/>
+<node TEXT="Reference site @ &quot;Learn SPARQL&quot;" ID="ID_108084628" CREATED="1705798441063" MODIFIED="1705798459210" LINK="https://sparql.dev/article/SPARQL_endpoints_and_how_to_use_them.html"/>
+</node>
+</node>
+</node>
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480"/>
 <node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616"/>
-<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1702254632832">
+<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705797883170">
+<arrowlink DESTINATION="ID_1859624364"/>
 <node TEXT="02.03.01 Storing RDF in Files" ID="ID_421814861" CREATED="1702254749023" MODIFIED="1702254762842"/>
 <node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218"/>
 <node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505"/>
 <node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666"/>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705768649099">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
 </node>
 <node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1702254844425"/>
