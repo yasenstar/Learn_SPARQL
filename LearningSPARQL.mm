@@ -119,7 +119,9 @@
 <node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
-<node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705769870065"/>
+<node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
+<arrowlink DESTINATION="ID_292016894"/>
+</node>
 </node>
 <node TEXT="01.02 Querying the Data" ID="ID_976979623" CREATED="1702254388453" MODIFIED="1702254394087">
 <node TEXT="Tool: arq, download from jena site" POSITION="bottom_or_right" ID="ID_250412399" CREATED="1705285721132" MODIFIED="1705285782274" LINK="https://jena.apache.org/download/index.cgi"/>
@@ -131,9 +133,10 @@
 <node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001"/>
 <node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
 <node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
-<node TEXT="https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705789697117" LINK="https://dbpedia.org/snorql/"/>
+<node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/"/>
+<node TEXT="Wikidata Query Service:&#xa;https://query.wikidata.org/" ID="ID_1254832949" CREATED="1705853279238" MODIFIED="1705853290708" LINK="https://query.wikidata.org/"/>
 </node>
-<node TEXT="Summary" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
+<node TEXT="Summary" FOLDED="true" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
 <node TEXT="What SPARQL is?" ID="ID_1114353261" CREATED="1705797533889" MODIFIED="1705797541817">
 <node TEXT="SPARQL is a recursive acronym for &quot;SPARQL Protocol and RDF Query Language&quot;, which is described by a set of specifications from the W3C." ID="ID_734327413" CREATED="1705797541820" MODIFIED="1705797636278">
 <arrowlink DESTINATION="ID_186221197"/>
@@ -232,7 +235,7 @@
 </node>
 </node>
 <node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
-<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
+<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
 <html>
@@ -276,6 +279,124 @@
 <node TEXT="the semantics of that data" ID="ID_323677985" CREATED="1705802386761" MODIFIED="1705802394354">
 <font ITALIC="true"/>
 <node TEXT="The idea of &quot;semantics&quot; is often defined as &quot;the meaning of words&quot;" ID="ID_1675816156" CREATED="1705802398753" MODIFIED="1705802417050"/>
+</node>
+</node>
+<node TEXT="&quot;The Semantic Web is an extension of the current web in which information is given well-defined meaning, better enabling computers and people to work in cooperation.&quot; -- Tim Berners-Lee, James Hendler, Ora Lassila: The Semantic Web, Scientific American, 284(5), pp. 34-43(2001)" ID="ID_886433912" CREATED="1705851832201" MODIFIED="1705851915938">
+<font ITALIC="true"/>
+<node TEXT="A Web of Data" ID="ID_483098818" CREATED="1705852095754" MODIFIED="1705852100241">
+<node ID="ID_1631379600" CREATED="1705852100242" MODIFIED="1705852112156"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Semantic Web is an <span style="font-weight: bold;">Extension of the traditional Web</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_444049597" CREATED="1705852112832" MODIFIED="1705852181044"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The meaning of information (Semantics) is made explicit by <span style="font-weight: bold;">formal (structured) and standardized knowledge representations (Ontologies).</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Thereby it will be possible:" ID="ID_1601595900" CREATED="1705852182801" MODIFIED="1705852189059">
+<node ID="ID_1564621675" CREATED="1705852189062" MODIFIED="1705852206541"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      to <span style="font-weight: bold;">process</span><span style="font-weight: normal;">&#xa0;the meaning of information automatically</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_979794934" CREATED="1705852206985" MODIFIED="1705852337879"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      to <span style="font-weight: bold;">relate</span><span style="font-weight: normal;">&#xa0;and </span><span style="font-weight: bold;">integrate </span><span style="font-weight: normal;">heterogeneous (异质) data</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_902934720" CREATED="1705852230690" MODIFIED="1705852258565"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      to <span style="font-weight: bold;">deduce </span><span style="font-weight: normal;">implicit (not evident) information from existing (evident) information in an automated way</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_595043608" CREATED="1705852259554" MODIFIED="1705852288574"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Semantic Web is kind of a <span style="font-weight: bold;">global database</span><span style="font-weight: normal;">&#xa0;&#xa0;that contains a </span><span style="font-weight: bold;">universal network of semantic propositions.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="URI - Uniform Resource Identifier" POSITION="bottom_or_right" ID="ID_120959556" CREATED="1705852377245" MODIFIED="1705852458546">
+<arrowlink DESTINATION="ID_483098818"/>
+<node TEXT="Obi-Wan Kenobi: https://dbpedia/org/resource/Obi-Wan_Kenobi" ID="ID_1482810626" CREATED="1705852406702" MODIFIED="1705852430731"/>
+<node TEXT="Graph URIs are regarded as &quot;Specifications &amp; Solutions&quot; in Semantic Web Technology Stack" ID="ID_1472446019" CREATED="1705853590031" MODIFIED="1705853614538"/>
+</node>
+<node TEXT="RDF Triple:&#xa;:Obi-Wan_Kenobi - dbo:occupation -&gt; :Jedi" POSITION="bottom_or_right" ID="ID_292016894" CREATED="1705852509034" MODIFIED="1705852542305">
+<node TEXT="RDF is the main interchange format for the Semantic Web Technology Stack" ID="ID_1153803096" CREATED="1705853521527" MODIFIED="1705853544179"/>
+<node TEXT="RDF is regarded as &quot;Specifications &amp; Solutions&quot; in Semantic Web Technology Stack" ID="ID_541615346" CREATED="1705853590031" MODIFIED="1705853634035"/>
+</node>
+<node TEXT="RDFS - RDF Schema: enable the capability to form models (https://dbpedia.org/ontology/Agent)" POSITION="bottom_or_right" ID="ID_1595984851" CREATED="1705852640181" MODIFIED="1705852670165">
+<node TEXT="RDFS is encoded into the RDF framework" ID="ID_1697915003" CREATED="1705852713492" MODIFIED="1705852729526"/>
+</node>
+<node TEXT="OWL, description logics" POSITION="bottom_or_right" ID="ID_225879470" CREATED="1705852769730" MODIFIED="1705852786070">
+<node TEXT="logical rules: SWRL, SHACL" ID="ID_1457839490" CREATED="1705852919290" MODIFIED="1705852937984"/>
+<node TEXT="OWL and SKOS can help modeling classes and relations between classes" ID="ID_195103617" CREATED="1705853702952" MODIFIED="1705853722635"/>
+</node>
+<node TEXT="SPARQL" POSITION="bottom_or_right" ID="ID_1588787576" CREATED="1705852979900" MODIFIED="1705852985093">
+<node TEXT="SPARQL is a standardized query language for the Semantic Web" ID="ID_575759062" CREATED="1705853762760" MODIFIED="1705853778515"/>
+<node TEXT="SPARQL is a query language used to retrieve and manipulate data stored in RDF format" ID="ID_994868133" CREATED="1705853781512" MODIFIED="1705853799243"/>
+<node TEXT="SPARQL supports graph pattern matching to navigate RDF data" ID="ID_1617261838" CREATED="1705853799408" MODIFIED="1705853813987"/>
 </node>
 </node>
 </node>
