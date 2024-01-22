@@ -400,8 +400,53 @@
 </node>
 </node>
 </node>
-<node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616"/>
-<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705797883170">
+<node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616">
+<node TEXT="URL: Uniform Resource Locator, usually using specific protocols to locate resource within World Wide Web is the most common type of URI." ID="ID_514259764" CREATED="1705873900761" MODIFIED="1705873900761"/>
+<node TEXT="URN: Universal Resource Names, one of the URI type with urn:scheme and the typical use example is ISBN system." ID="ID_1193489763" CREATED="1705873900761" MODIFIED="1705873900761"/>
+<node TEXT="URI: Uniform Resource Identifier, includes URL and URN." FOLDED="true" ID="ID_1999901217" CREATED="1705873900762" MODIFIED="1705873900762">
+<node TEXT="RDF-related syntaxes such as Turtle, N3, and SPARQL use the &lt;&gt; brackets to tell a processor that something is an actual URI and not just some string of characters that begins with &quot;http://&quot;" ID="ID_646728243" CREATED="1705941109906" MODIFIED="1705941185729"/>
+<node ID="ID_389120953" CREATED="1705941470255" MODIFIED="1705941563717"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The URIs that identify RDF resources are like the unique ID fields of relational database tables, except that they're <span style="font-weight: bold;">universally unique</span>, which lets you link data from different sources around the world instead of just linking data from different tables in the same database.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="IRI: Internationalized Resource Identifier, compare to URI, it&apos;s characters are Unicode which means including Chinese, Japanese and Koreans etc." FOLDED="true" ID="ID_834796452" CREATED="1705873900763" MODIFIED="1705873900763">
+<node TEXT="The SPARQL Query Language specification refers to IRIs when it talks about naming resources, and not to URIs or URLs, because IRI is the most inclusive term." POSITION="bottom_or_right" ID="ID_1564454846" CREATED="1705873915172" MODIFIED="1705873969688"/>
+<node POSITION="bottom_or_right" ID="ID_901860576" CREATED="1705874080036" MODIFIED="1705874141912"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      With <span style="font-style: italic;">namespace</span>&#xa0;term (a set of names used for a particular purpose), it is possible to distinguish between different senses of a word
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Namespace" ID="ID_1757599756" CREATED="1705941194102" MODIFIED="1705941202721">
+<node TEXT="Computer science: refer to a set of names used for a particular purpose" ID="ID_763464837" CREATED="1705941202724" MODIFIED="1705941228676"/>
+<node TEXT="W3C: released a spec describing how XML developers could say that certain terms come from specific namespaces, then they could distinguish between different senses of a word" ID="ID_113872279" CREATED="1705941239693" MODIFIED="1705941582929">
+<arrowlink DESTINATION="ID_1266958868"/>
+</node>
+</node>
+</node>
+<node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
 <arrowlink DESTINATION="ID_1859624364"/>
 <node TEXT="02.03.01 Storing RDF in Files" ID="ID_421814861" CREATED="1702254749023" MODIFIED="1702254762842"/>
 <node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218"/>
@@ -412,7 +457,7 @@
 </node>
 <node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1702254844425"/>
 </node>
-<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
+<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
 <node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1705801777920"/>
 <node TEXT="Google, Bing and Yahoo use OWL publish a joint vocabulary, example: http://schema.org/City" ID="ID_180179648" CREATED="1705802123756" MODIFIED="1705802174263" LINK="https://schema.org/City"/>
 <node TEXT="NCI use OWL to publish NCI Thesaurus (the source for CDISC&apos;s CT:s) in an RDF/XML format" ID="ID_370941905" CREATED="1705802193740" MODIFIED="1705802223993"/>
