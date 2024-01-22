@@ -131,7 +131,7 @@
 <node TEXT="01.03 More realistic Data and Matching on Multiple Triples" ID="ID_411301703" CREATED="1702254394245" MODIFIED="1702254544776"/>
 <node TEXT="01.04 Searching for Strings" ID="ID_538918424" CREATED="1702254544925" MODIFIED="1702254554089"/>
 <node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001"/>
-<node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
+<node TEXT="01.06 Querying a Public Data Source" FOLDED="true" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
 <node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
 <node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/"/>
 <node TEXT="Wikidata Query Service:&#xa;https://query.wikidata.org/" ID="ID_1254832949" CREATED="1705853279238" MODIFIED="1705853290708" LINK="https://query.wikidata.org/"/>
@@ -142,7 +142,8 @@
 <arrowlink DESTINATION="ID_186221197"/>
 </node>
 </node>
-<node TEXT="The basics of RDF" ID="ID_1859624364" CREATED="1705797651119" MODIFIED="1705797656504">
+<node TEXT="The basics of RDF" ID="ID_1859624364" CREATED="1705797651119" MODIFIED="1705961205643">
+<arrowlink DESTINATION="ID_912377669"/>
 <node TEXT="RDF - Resource Description Framework - is a general model of how any piece of data, and representations of knowledge, can be expressed as so called triples." ID="ID_1438883253" CREATED="1705801378507" MODIFIED="1705801413519">
 <node ID="ID_950645452" CREATED="1705801471139" MODIFIED="1705801513775"><richcontent TYPE="NODE">
 
@@ -400,7 +401,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616">
+<node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" FOLDED="true" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616">
 <node TEXT="URL: Uniform Resource Locator, usually using specific protocols to locate resource within World Wide Web is the most common type of URI." ID="ID_514259764" CREATED="1705873900761" MODIFIED="1705873900761"/>
 <node TEXT="URN: Universal Resource Names, one of the URI type with urn:scheme and the typical use example is ISBN system." ID="ID_1193489763" CREATED="1705873900761" MODIFIED="1705873900761"/>
 <node TEXT="URI: Uniform Resource Identifier, includes URL and URN." FOLDED="true" ID="ID_1999901217" CREATED="1705873900762" MODIFIED="1705873900762">
@@ -421,7 +422,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="IRI: Internationalized Resource Identifier, compare to URI, it&apos;s characters are Unicode which means including Chinese, Japanese and Koreans etc." FOLDED="true" ID="ID_834796452" CREATED="1705873900763" MODIFIED="1705873900763">
+<node TEXT="IRI: Internationalized Resource Identifier, compare to URI, it&apos;s characters are Unicode which means including Chinese, Japanese and Koreans etc." ID="ID_834796452" CREATED="1705873900763" MODIFIED="1705873900763">
 <node TEXT="The SPARQL Query Language specification refers to IRIs when it talks about naming resources, and not to URIs or URLs, because IRI is the most inclusive term." POSITION="bottom_or_right" ID="ID_1564454846" CREATED="1705873915172" MODIFIED="1705873969688"/>
 <node POSITION="bottom_or_right" ID="ID_901860576" CREATED="1705874080036" MODIFIED="1705874141912"><richcontent TYPE="NODE">
 
@@ -446,8 +447,55 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
+<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
 <arrowlink DESTINATION="ID_1859624364"/>
+<node TEXT="Recap RDF from Chapter 1" FOLDED="true" ID="ID_912377669" CREATED="1705961184358" MODIFIED="1705961195466">
+<node ID="ID_940677254" CREATED="1705961222767" MODIFIED="1705961245928"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      RDF is a data model in which the basic unit of information is known as a <span style="font-weight: bold;">triple</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1729896571" CREATED="1705961246852" MODIFIED="1705961312510"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A triple consists of a <span style="font-weight: bold;">subject</span><span style="font-weight: normal;">, a </span><span style="font-weight: bold;">predicate</span><span style="font-weight: normal;">, and an </span><span style="font-weight: bold;">object</span><span style="font-weight: normal;">. You can also think of these as a </span><span style="font-weight: bold;">resource identifier</span><span style="font-weight: normal;">, an </span><span style="font-weight: bold;">attribute or property name</span><span style="font-weight: normal;">, and an </span><span style="font-weight: bold;">attribute or property value</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1517212544" CREATED="1705961313009" MODIFIED="1705961357233"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      To remove any ambiguity from the information stated by a given triple, the triple's subject and predicate must be <span style="font-weight: bold;">URIs</span><span style="font-weight: normal;">. (We can use prefixed names in place of URIs)</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="02.03.01 Storing RDF in Files" ID="ID_421814861" CREATED="1702254749023" MODIFIED="1702254762842"/>
 <node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218"/>
 <node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505"/>
