@@ -111,24 +111,63 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="00.2 SPARQL 1.1 Query Language Specification" ID="ID_186221197" CREATED="1702689651771" MODIFIED="1702689725763" LINK="https://www.w3.org/TR/sparql11-query/"/>
+<node TEXT="00.2 SPARQL 1.1 Query Language Specification" ID="ID_186221197" CREATED="1702689651771" MODIFIED="1702689725763" LINK="https://www.w3.org/TR/sparql11-query/">
+<node TEXT="ex001.rq" ID="ID_1168151021" CREATED="1705967772144" MODIFIED="1705967944848">
+<icon BUILTIN="links/file/generic"/>
+</node>
+</node>
 <node TEXT="00.3 Link to the book" ID="ID_898233208" CREATED="1702689715579" MODIFIED="1702689739112" LINK="http://www.learningsparql.com/">
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
 <arrowlink DESTINATION="ID_292016894"/>
 </node>
+<node TEXT="ex002.ttl" ID="ID_341186329" CREATED="1705967796250" MODIFIED="1705967883248">
+<icon BUILTIN="links/file/generic"/>
 </node>
-<node TEXT="01.02 Querying the Data" ID="ID_976979623" CREATED="1702254388453" MODIFIED="1702254394087">
+</node>
+<node TEXT="01.02 Querying the Data" FOLDED="true" ID="ID_976979623" CREATED="1702254388453" MODIFIED="1702254394087">
 <node TEXT="Tool: arq, download from jena site" POSITION="bottom_or_right" ID="ID_250412399" CREATED="1705285721132" MODIFIED="1705285782274" LINK="https://jena.apache.org/download/index.cgi"/>
-<node TEXT="Command: arq --data datafile.ttl --query queryfile.rq" POSITION="bottom_or_right" ID="ID_151414" CREATED="1705287782886" MODIFIED="1705287810264"/>
+<node TEXT="Command: arq --data datafile.ttl --query queryfile.rq" POSITION="bottom_or_right" ID="ID_151414" CREATED="1705287782886" MODIFIED="1705287810264">
+<node TEXT="ex003.rq" POSITION="bottom_or_right" ID="ID_41959136" CREATED="1705967965889" MODIFIED="1705967972664">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex006.rq" POSITION="bottom_or_right" ID="ID_1692013752" CREATED="1705967992512" MODIFIED="1705968003666">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex007.rq" POSITION="bottom_or_right" ID="ID_1241031238" CREATED="1705968005980" MODIFIED="1705968012299">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex008.rq" POSITION="bottom_or_right" ID="ID_1875591905" CREATED="1705968017969" MODIFIED="1705968022347">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex010.rq" POSITION="bottom_or_right" ID="ID_1316143166" CREATED="1705968025579" MODIFIED="1705968029786">
+<icon BUILTIN="links/file/generic"/>
+</node>
+</node>
 <node TEXT="Using Protege to build ontology and query data" POSITION="bottom_or_right" ID="ID_1523620468" CREATED="1705686880245" MODIFIED="1705686895631"/>
 </node>
-<node TEXT="01.03 More realistic Data and Matching on Multiple Triples" ID="ID_411301703" CREATED="1702254394245" MODIFIED="1702254544776"/>
+<node TEXT="01.03 More realistic Data and Matching on Multiple Triples" ID="ID_411301703" CREATED="1702254394245" MODIFIED="1702254544776">
+<node TEXT="ex012.ttl" ID="ID_41670512" CREATED="1705968037586" MODIFIED="1705968045661">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex013.rq" ID="ID_772787487" CREATED="1705968048945" MODIFIED="1705968053634">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex015.rq" ID="ID_588832929" CREATED="1705968059290" MODIFIED="1705968063972">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex017.rq" ID="ID_1137619351" CREATED="1705968068209" MODIFIED="1705968075618">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex019.rq" ID="ID_192334020" CREATED="1705968078225" MODIFIED="1705968082657">
+<icon BUILTIN="links/file/generic"/>
+</node>
+</node>
 <node TEXT="01.04 Searching for Strings" ID="ID_538918424" CREATED="1702254544925" MODIFIED="1702254554089"/>
 <node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001"/>
 <node TEXT="01.06 Querying a Public Data Source" FOLDED="true" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
@@ -496,7 +535,85 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="02.03.01 Storing RDF in Files" ID="ID_421814861" CREATED="1702254749023" MODIFIED="1702254762842"/>
+<node TEXT="02.03.01 Storing RDF in Files" ID="ID_421814861" CREATED="1702254749023" MODIFIED="1702254762842">
+<node ID="ID_1733251438" CREATED="1705961421253" MODIFIED="1705961456681"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The technical term for saving RDF as a string of bytes that can be saved on a disk is <span style="font-weight: bold; font-style: italic;">serialization</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_441781129" CREATED="1705961474957" MODIFIED="1705961504841"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      All RDF serializations so far have been <span style="font-weight: bold;">text</span><span style="font-weight: normal;">&#xa0;&#xa0;files that used different syntaxes to represent the triples.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_518565939" CREATED="1705961516991" MODIFIED="1705961535056"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The serialization format is called <span style="font-weight: bold;">Turtle</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1125620556" CREATED="1705967395567" MODIFIED="1705967565463"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The simplest format is called N-Triples, in which you write out complete URIs inside of angle brackets and strings inside of quotation marks. <span style="font-weight: bold;">Each triple is on its own line with a period at the end.</span>&#xa0;(N-Triple has extention as .nt)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="ex028.nt" ID="ID_1877951733" CREATED="1705967695984" MODIFIED="1705967701562"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_953181710" CREATED="1705967659209" MODIFIED="1705967688564"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The oldest RDF serialization, <span style="font-style: italic;">RDF/XML</span>, was part of the original RDF specification in 1999.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="ex029.rdf" ID="ID_101205834" CREATED="1705967706617" MODIFIED="1705967710267"/>
+</node>
+</node>
 <node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218"/>
 <node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505"/>
 <node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666"/>
