@@ -6,5 +6,6 @@ WHERE {
     ?person ab:firstName "Craig" .
     ?person ab:lastName "Ellis" .
     ?person ab:email    ?craigEmail .
+    # ?person ab:homeTel  ?homeTel .
     OPTIONAL { ?person ab:homeTel  ?homeTel . }
 }

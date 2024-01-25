@@ -3,9 +3,9 @@
 PREFIX ab: <http://yasen.com/ns/addressbook#>
 
 SELECT *
-FROM <ex012.ttl>
+# FROM <ex012.ttl>
 WHERE {
     ?s ?p ?o .
     # FILTER (regex(?o, "gmail", "i"))
-    FILTER (regex(?o, "ght", "i"))
+    FILTER (regex(?o, "yahoo", "i"))
 }
