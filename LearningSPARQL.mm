@@ -122,7 +122,7 @@
 </node>
 <node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
-<node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
+<node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
 <arrowlink DESTINATION="ID_292016894"/>
 </node>
@@ -169,17 +169,17 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="01.04 Searching for Strings" ID="ID_538918424" CREATED="1702254544925" MODIFIED="1702254554089">
+<node TEXT="01.04 Searching for Strings" FOLDED="true" ID="ID_538918424" CREATED="1702254544925" MODIFIED="1702254554089">
 <node TEXT="ex021.rq" ID="ID_942310575" CREATED="1705969003461" MODIFIED="1705969030605">
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001">
+<node TEXT="01.05 What Could Go Wrong?" FOLDED="true" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001">
 <node TEXT="ex023.rq" ID="ID_560355002" CREATED="1705969036379" MODIFIED="1705969043085">
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
+<node TEXT="01.06 Querying a Public Data Source" FOLDED="true" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
 <node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
 <node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/"/>
 <node TEXT="Wikidata Query Service:&#xa;https://query.wikidata.org/" ID="ID_1254832949" CREATED="1705853279238" MODIFIED="1705853290708" LINK="https://query.wikidata.org/"/>
@@ -188,13 +188,13 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="Summary" FOLDED="true" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
-<node TEXT="What SPARQL is?" ID="ID_1114353261" CREATED="1705797533889" MODIFIED="1705797541817">
+<node TEXT="Summary" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
+<node TEXT="What SPARQL is?" FOLDED="true" ID="ID_1114353261" CREATED="1705797533889" MODIFIED="1705797541817">
 <node TEXT="SPARQL is a recursive acronym for &quot;SPARQL Protocol and RDF Query Language&quot;, which is described by a set of specifications from the W3C." ID="ID_734327413" CREATED="1705797541820" MODIFIED="1706209105504">
 <arrowlink DESTINATION="ID_186221197"/>
 </node>
 </node>
-<node TEXT="The basics of RDF" ID="ID_1859624364" CREATED="1705797651119" MODIFIED="1705961205643">
+<node TEXT="The basics of RDF" FOLDED="true" ID="ID_1859624364" CREATED="1705797651119" MODIFIED="1705961205643">
 <arrowlink DESTINATION="ID_912377669"/>
 <node TEXT="RDF - Resource Description Framework - is a general model of how any piece of data, and representations of knowledge, can be expressed as so called triples." ID="ID_1438883253" CREATED="1705801378507" MODIFIED="1705801413519">
 <node ID="ID_950645452" CREATED="1705801471139" MODIFIED="1705801513775"><richcontent TYPE="NODE">
@@ -231,13 +231,13 @@
 <arrowlink DESTINATION="ID_920990845"/>
 </node>
 </node>
-<node TEXT="The meaning and role of URIs" ID="ID_1976056132" CREATED="1705797656878" MODIFIED="1705797667712">
+<node TEXT="The meaning and role of URIs" FOLDED="true" ID="ID_1976056132" CREATED="1705797656878" MODIFIED="1705797667712">
 <node TEXT="A URI is a Uniform Resource Identifier." ID="ID_1507529194" CREATED="1705797891304" MODIFIED="1705797907977"/>
 <node TEXT="URLs (Uniform Resource Locators), also known as web addresses, are one kind of URI." ID="ID_1050994495" CREATED="1705797908134" MODIFIED="1705797932824"/>
 <node TEXT="A locator helps you find something, like a web page, and an identifier identifies somethings." ID="ID_1108803219" CREATED="1705797939797" MODIFIED="1705797967406"/>
 <node TEXT="A URI may look like a URL, and there may actually be a web page at that address, but there might not be; its primary job is to provide an unique name for something, not to tell you about a web page where you can send your browser." ID="ID_1389671107" CREATED="1705797974870" MODIFIED="1705798031426"/>
 </node>
-<node TEXT="The parts of a simple SPARQL query" ID="ID_273099536" CREATED="1705797668036" MODIFIED="1705797675591">
+<node TEXT="The parts of a simple SPARQL query" FOLDED="true" ID="ID_273099536" CREATED="1705797668036" MODIFIED="1705797675591">
 <node TEXT="The SPARQL Query Language specification recommends that files storing SPARQL queries have an extension of .rq, in lowercase." ID="ID_1605069962" CREATED="1705798051201" MODIFIED="1705798082025"/>
 <node TEXT="A SPARQL query typically says &quot;I want these pieces of information from the subset of the data that meets these conditions.&quot;" ID="ID_1418466340" CREATED="1705798092262" MODIFIED="1705798139042"/>
 <node ID="ID_1892097978" CREATED="1705798140678" MODIFIED="1705798180116"><richcontent TYPE="NODE">
@@ -262,7 +262,7 @@
 <node TEXT="How the same variable in multiple triple patterns can connect up the data in different triples" ID="ID_1770672697" CREATED="1705797688318" MODIFIED="1705797706919">
 <node TEXT="Check ex013.rq" ID="ID_504676866" CREATED="1705798240825" MODIFIED="1705798246543"/>
 </node>
-<node TEXT="What can lead to a query returning nothing" ID="ID_1533776242" CREATED="1705797707138" MODIFIED="1705797717568">
+<node TEXT="What can lead to a query returning nothing" FOLDED="true" ID="ID_1533776242" CREATED="1705797707138" MODIFIED="1705797717568">
 <node ID="ID_804082743" CREATED="1705798272256" MODIFIED="1705798334660"><richcontent TYPE="NODE">
 
 <html>
@@ -279,7 +279,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="What SPARQL endpoints are and how to query the most popular one, DBpedia" ID="ID_1639341963" CREATED="1705797718022" MODIFIED="1705797743917">
+<node TEXT="What SPARQL endpoints are and how to query the most popular one, DBpedia" FOLDED="true" ID="ID_1639341963" CREATED="1705797718022" MODIFIED="1705797743917">
 <arrowlink DESTINATION="ID_666986616"/>
 <node TEXT="A SPARQL Endpoint is a Point of Presence on an HTTP network that&apos;s capable of receiving and processing SPARQL Protocol requests." ID="ID_304900322" CREATED="1705798374704" MODIFIED="1705798408145"/>
 <node TEXT="It is identified by a URL commonly referred to as a SPARQL Endpoint URL." ID="ID_448369299" CREATED="1705798408320" MODIFIED="1705798425657"/>
@@ -288,7 +288,7 @@
 </node>
 </node>
 <node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
-<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
+<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
 <html>
@@ -456,7 +456,7 @@
 <node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" FOLDED="true" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616">
 <node TEXT="URL: Uniform Resource Locator, usually using specific protocols to locate resource within World Wide Web is the most common type of URI." ID="ID_514259764" CREATED="1705873900761" MODIFIED="1705873900761"/>
 <node TEXT="URN: Universal Resource Names, one of the URI type with urn:scheme and the typical use example is ISBN system." ID="ID_1193489763" CREATED="1705873900761" MODIFIED="1705873900761"/>
-<node TEXT="URI: Uniform Resource Identifier, includes URL and URN." FOLDED="true" ID="ID_1999901217" CREATED="1705873900762" MODIFIED="1705873900762">
+<node TEXT="URI: Uniform Resource Identifier, includes URL and URN." ID="ID_1999901217" CREATED="1705873900762" MODIFIED="1705873900762">
 <node TEXT="RDF-related syntaxes such as Turtle, N3, and SPARQL use the &lt;&gt; brackets to tell a processor that something is an actual URI and not just some string of characters that begins with &quot;http://&quot;" ID="ID_646728243" CREATED="1705941109906" MODIFIED="1705941185729"/>
 <node ID="ID_389120953" CREATED="1705941470255" MODIFIED="1705941563717"><richcontent TYPE="NODE">
 
@@ -499,7 +499,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
+<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
 <arrowlink DESTINATION="ID_1859624364"/>
 <node TEXT="Recap RDF from Chapter 1" FOLDED="true" ID="ID_912377669" CREATED="1705961184358" MODIFIED="1705961195466">
 <node ID="ID_940677254" CREATED="1705961222767" MODIFIED="1705961245928"><richcontent TYPE="NODE">
@@ -640,7 +640,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.02 Storing RDF in Databases" FOLDED="true" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
+<node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
 <node ID="ID_882149374" CREATED="1706210398926" MODIFIED="1706210615819" LINK="https://en.wikipedia.org/wiki/Triplestore"><richcontent TYPE="NODE">
 
 <html>
@@ -664,10 +664,11 @@
 <node TEXT="TripleStore Products (some)" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
 <node TEXT="Commercial" ID="ID_1689707747" CREATED="1706211026144" MODIFIED="1706211030550">
 <node TEXT="Virtuoso" ID="ID_820679579" CREATED="1706211047007" MODIFIED="1706211050922"/>
-<node TEXT="GraphDB" ID="ID_293289198" CREATED="1706211051094" MODIFIED="1706211053370"/>
+<node TEXT="GraphDB (OntoText)" ID="ID_293289198" CREATED="1706211051094" MODIFIED="1706309162172" LINK="https://www.ontotext.com/products/graphdb/?ref=menu"/>
 <node TEXT="Stardog" ID="ID_928608714" CREATED="1706211053575" MODIFIED="1706211055417"/>
 <node TEXT="AnzoGraph" ID="ID_892632707" CREATED="1706211055621" MODIFIED="1706211059003"/>
 <node TEXT="RDFox" ID="ID_1282735498" CREATED="1706211059488" MODIFIED="1706211062987"/>
+<node TEXT="neo4j graph database" ID="ID_1045108650" CREATED="1706309193515" MODIFIED="1706309213264" LINK="https://neo4j.com/product/neo4j-graph-database/"/>
 <node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706211167051"/>
 </node>
 <node TEXT="OpenSource" ID="ID_1235812438" CREATED="1706211030910" MODIFIED="1706211034259">
