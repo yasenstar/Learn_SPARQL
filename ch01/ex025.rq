@@ -4,5 +4,5 @@ PREFIX : <http://dbpedia.org/resource/>
 SELECT ?artist ?album
 WHERE {
     ?album d:producer :Timbaland .
-    ?album d:musicalArtist ?artist .
+    OPTIONAL {?album d:musicalArtist ?artist .}
 }

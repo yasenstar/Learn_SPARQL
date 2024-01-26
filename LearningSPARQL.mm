@@ -151,7 +151,8 @@
 </node>
 <node TEXT="Using Protege to build ontology and query data" POSITION="bottom_or_right" ID="ID_1523620468" CREATED="1705686880245" MODIFIED="1705686895631"/>
 </node>
-<node TEXT="01.03 More realistic Data and Matching on Multiple Triples" ID="ID_411301703" CREATED="1702254394245" MODIFIED="1702254544776">
+<node TEXT="01.03 More realistic Data and Matching on Multiple Triples" FOLDED="true" ID="ID_411301703" CREATED="1702254394245" MODIFIED="1706228452336">
+<arrowlink DESTINATION="ID_1754761441" STARTINCLINATION="2256.74993 pt;0 pt;" ENDINCLINATION="2257.49993 pt;0 pt;"/>
 <node TEXT="ex012.ttl" ID="ID_41670512" CREATED="1705968037586" MODIFIED="1705968045661">
 <icon BUILTIN="links/file/generic"/>
 </node>
@@ -182,13 +183,14 @@
 <node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
 <node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/"/>
 <node TEXT="Wikidata Query Service:&#xa;https://query.wikidata.org/" ID="ID_1254832949" CREATED="1705853279238" MODIFIED="1705853290708" LINK="https://query.wikidata.org/"/>
+<node TEXT="120 Year of Olympics Data" ID="ID_711133367" CREATED="1706211259289" MODIFIED="1706211268641" LINK="https://github.com/wallscope/olympics-rdf"/>
 <node TEXT="ex025.rq" ID="ID_286568568" CREATED="1705969050671" MODIFIED="1705969058923">
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
 <node TEXT="Summary" FOLDED="true" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
 <node TEXT="What SPARQL is?" ID="ID_1114353261" CREATED="1705797533889" MODIFIED="1705797541817">
-<node TEXT="SPARQL is a recursive acronym for &quot;SPARQL Protocol and RDF Query Language&quot;, which is described by a set of specifications from the W3C." ID="ID_734327413" CREATED="1705797541820" MODIFIED="1705797636278">
+<node TEXT="SPARQL is a recursive acronym for &quot;SPARQL Protocol and RDF Query Language&quot;, which is described by a set of specifications from the W3C." ID="ID_734327413" CREATED="1705797541820" MODIFIED="1706209105504">
 <arrowlink DESTINATION="ID_186221197"/>
 </node>
 </node>
@@ -625,13 +627,158 @@
 <node TEXT="ex029.rdf" ID="ID_101205834" CREATED="1705967706617" MODIFIED="1705967710267"/>
 </node>
 </node>
-<node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218"/>
+<node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
+<node ID="ID_882149374" CREATED="1706210398926" MODIFIED="1706210615819" LINK="https://en.wikipedia.org/wiki/Triplestore"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The best way to store RDF is to a database manager optimized for RDF triples, we call this a <span style="font-style: italic; font-weight: bold;">triplestore</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="What is an RDF TripleStore (by OntoText)" ID="ID_1965211562" CREATED="1706210655516" MODIFIED="1706210672970" LINK="https://www.ontotext.com/knowledgehub/fundamentals/what-is-rdf-triplestore/"/>
+<node TEXT="TripleStore 101 (by DataVersity)" ID="ID_34447171" CREATED="1706210700718" MODIFIED="1706210714460" LINK="https://www.dataversity.net/triplestores-101-storing-data-efficient-inferencing/">
+<node TEXT="UK Gov&apos;s School Info Endpoint" ID="ID_644758965" CREATED="1706210810377" MODIFIED="1706210823136" LINK="https://get-information-schools.service.gov.uk/"/>
+</node>
+<node TEXT="About TripleStore (by DBpedia)" ID="ID_155091510" CREATED="1706210872752" MODIFIED="1706210888971" LINK="https://dbpedia.org/page/Triplestore"/>
+</node>
+<node TEXT="TripleStore Products (some)" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
+<node TEXT="Commercial" ID="ID_1689707747" CREATED="1706211026144" MODIFIED="1706211030550">
+<node TEXT="Virtuoso" ID="ID_820679579" CREATED="1706211047007" MODIFIED="1706211050922"/>
+<node TEXT="GraphDB" ID="ID_293289198" CREATED="1706211051094" MODIFIED="1706211053370"/>
+<node TEXT="Stardog" ID="ID_928608714" CREATED="1706211053575" MODIFIED="1706211055417"/>
+<node TEXT="AnzoGraph" ID="ID_892632707" CREATED="1706211055621" MODIFIED="1706211059003"/>
+<node TEXT="RDFox" ID="ID_1282735498" CREATED="1706211059488" MODIFIED="1706211062987"/>
+<node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706211167051"/>
+</node>
+<node TEXT="OpenSource" ID="ID_1235812438" CREATED="1706211030910" MODIFIED="1706211034259">
+<node TEXT="Blazegraph" ID="ID_1163034271" CREATED="1706211034262" MODIFIED="1706211174409">
+<arrowlink DESTINATION="ID_369839986"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">Blazegraph, previously known as&#xa0;</span><em style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">Bigdata</span></em><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">, is a great triplestore that scales to billions of&#xa0;</span><a class="termStyle_juzR" href="https://lincsproject.ca/docs/terms/triple" style="color: black; text-decoration: underline dashed 1px var(--ifm-color-primary); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: underline dashed 1px var(--ifm-color-primary); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">triples</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">&#xa0;with thousands of proven use cases. In fact, it was so good that AWS bought the Blazegraph&#xa0;</span><a href="https://trademark.trademarkia.com/blazegraph-86498414.html" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">trademark</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">&#xa0;almost five years ago and hired some of its staff, including the CEO. Unfortunately, that meant that most of Blazegraph’s development experience was used to create a competing product: Amazon&#xa0;</span><a href="https://www.bobdc.com/blog/sparql-and-amazon-web-services/.html" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">Neptune</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">. Although the official releases of Blazegraph have slowed down, it still supports SPARQL 1.1 and is by no means outdated.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Apache&apos;s Jena Fuseki" ID="ID_1173891720" CREATED="1706211040002" MODIFIED="1706211125397"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">Apache’s Fuseki, along with the entire Jena project and all its plugins, is still actively developed as of October 2020. It supports the SPARQL 1.1 update and gets new features and enhancements with each new release, which takes place every quarter or so. We know that Fuseki can&#xa0;</span><a href="https://muncca.com/2019/02/14/wikidata-import-in-apache-jena/" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">scale loading the entire Wikidata dump</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505"/>
-<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666"/>
+<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
+<node TEXT="RDF 1.2 Schema (RDFS)" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
+<node TEXT="rdfs classes" ID="ID_520923170" CREATED="1706224251239" MODIFIED="1706224258036">
+<node TEXT="rdfs:Resource" ID="ID_1084873526" CREATED="1706224258036" MODIFIED="1706224262829"/>
+<node TEXT="rdfs:Class" ID="ID_1133301807" CREATED="1706224263161" MODIFIED="1706224267621"/>
+<node TEXT="rdfs:Literal" ID="ID_1262774732" CREATED="1706224267767" MODIFIED="1706224272052"/>
+<node TEXT="rdfs:Datatype" ID="ID_1684316640" CREATED="1706224272645" MODIFIED="1706224278083"/>
+<node TEXT="rdfs:langString" ID="ID_188707249" CREATED="1706224278570" MODIFIED="1706224284006"/>
+<node TEXT="rdfs:HTML" ID="ID_867297661" CREATED="1706224285571" MODIFIED="1706224289864"/>
+<node TEXT="rdfs:XMLLiteral" ID="ID_1145729396" CREATED="1706224290646" MODIFIED="1706224295832"/>
+<node TEXT="rdfs:JSON" ID="ID_283136771" CREATED="1706224295973" MODIFIED="1706224302285"/>
+<node TEXT="rdfs:Property" ID="ID_1660363403" CREATED="1706224302428" MODIFIED="1706224308270"/>
+</node>
+<node TEXT="rdfs properties" ID="ID_490921686" CREATED="1706224310258" MODIFIED="1706224316546">
+<node TEXT="rdfs:range" ID="ID_431978036" CREATED="1706224316547" MODIFIED="1706224324520"/>
+<node TEXT="rdfs:domain" ID="ID_1338032750" CREATED="1706224324864" MODIFIED="1706224328732"/>
+<node TEXT="rdf:type" ID="ID_83947864" CREATED="1706224328895" MODIFIED="1706224332379"/>
+<node TEXT="rdfs:subClassOf" ID="ID_1153508005" CREATED="1706224332880" MODIFIED="1706224338176"/>
+<node TEXT="rdfs:subPropertyOf" ID="ID_831963763" CREATED="1706224338362" MODIFIED="1706224342656"/>
+<node TEXT="rdfs:label" ID="ID_660012110" CREATED="1706224343075" MODIFIED="1706224347295"/>
+<node TEXT="rdfs:comment" ID="ID_1437683798" CREATED="1706224347457" MODIFIED="1706224350411"/>
+</node>
+<node TEXT="Container Classes and Properties" ID="ID_1906090331" CREATED="1706224421578" MODIFIED="1706224432646">
+<node TEXT="rdfs:Container" ID="ID_221729561" CREATED="1706224432650" MODIFIED="1706224437286"/>
+<node TEXT="rdfs:Bag" ID="ID_1408555962" CREATED="1706224437440" MODIFIED="1706224440787"/>
+<node TEXT="rdfs:Seq" ID="ID_814131697" CREATED="1706224440995" MODIFIED="1706224445349"/>
+<node TEXT="rdfs:Alt" ID="ID_1715782029" CREATED="1706224445554" MODIFIED="1706224450094"/>
+<node TEXT="rdfs:ContainerMembershipProperty" ID="ID_1924524454" CREATED="1706224450467" MODIFIED="1706224462292"/>
+<node TEXT="rdfs:member" ID="ID_972995797" CREATED="1706224462989" MODIFIED="1706224466532"/>
+</node>
+<node TEXT="RDF Collections" ID="ID_570160524" CREATED="1706224467750" MODIFIED="1706228210247">
+<node TEXT="rdf:List" ID="ID_673820887" CREATED="1706228210267" MODIFIED="1706228213919"/>
+<node TEXT="rdf:first" ID="ID_1499387056" CREATED="1706228214106" MODIFIED="1706228217262"/>
+<node TEXT="rdf:rest" ID="ID_1197892379" CREATED="1706228217452" MODIFIED="1706228220581"/>
+<node TEXT="rdf:nil" ID="ID_1285368634" CREATED="1706228220779" MODIFIED="1706228223807"/>
+</node>
+<node TEXT="Reification Vocabulary" ID="ID_1335801276" CREATED="1706228224738" MODIFIED="1706228231428">
+<node TEXT="rdf:Statement" ID="ID_197648340" CREATED="1706228231432" MODIFIED="1706228235059"/>
+<node TEXT="rdf:subject" ID="ID_1991044776" CREATED="1706228235231" MODIFIED="1706228238932"/>
+<node TEXT="rdf:predicate" ID="ID_1382489336" CREATED="1706228239107" MODIFIED="1706228242373"/>
+<node TEXT="rdf:object" ID="ID_742527551" CREATED="1706228242565" MODIFIED="1706228247586"/>
+</node>
+<node TEXT="Utility Properties" ID="ID_1575515966" CREATED="1706228248420" MODIFIED="1706228253762">
+<node TEXT="rdfs:seeAlso" ID="ID_1961753696" CREATED="1706228253762" MODIFIED="1706228258886"/>
+<node TEXT="rdfs:isDefinedBy" ID="ID_1184526604" CREATED="1706228259051" MODIFIED="1706228263841">
+<node TEXT="S rdfs:isDefinedBy O" ID="ID_779858767" CREATED="1706228280466" MODIFIED="1706228288419"/>
+</node>
+<node TEXT="rdf:value" ID="ID_1343404127" CREATED="1706228264481" MODIFIED="1706228269303"/>
+</node>
+</node>
+<node TEXT="W3C SKOS (Simple Knowledge Organization System)" ID="ID_683526429" CREATED="1706223491818" MODIFIED="1706223512182" LINK="https://www.w3.org/2004/02/skos/">
+<node TEXT="defining vocabularies, texonomies, and thesauruses" ID="ID_249484181" CREATED="1706223642322" MODIFIED="1706223679292"/>
+<node TEXT="SKOS Specification" ID="ID_1782716975" CREATED="1706223612969" MODIFIED="1706223619896" LINK="https://www.w3.org/2004/02/skos/specs"/>
+</node>
+<node TEXT="ISO 25964 thesaurus standard" ID="ID_265385148" CREATED="1706223551131" MODIFIED="1706223565610"/>
+</node>
 <node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
+<node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
+<icon BUILTIN="links/file/generic"/>
 </node>
-<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1702254844425"/>
+<node TEXT="ex041.ttl" ID="ID_1821637913" CREATED="1706228537115" MODIFIED="1706228542705">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node ID="ID_1378094538" CREATED="1706228591850" MODIFIED="1706228630383"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The understore &quot;_&quot; prefix means that this is a special kind of node known as <span style="font-style: italic;">blank node</span>&#xa0;or <span style="font-style: italic;">bnode</span>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="BNode has no permanent identity; its only purpose is to group together some other values." ID="ID_1286764577" CREATED="1706228634372" MODIFIED="1706228656557"/>
+<node TEXT="Query bnode as subject" ID="ID_1077405770" CREATED="1706230526687" MODIFIED="1706230541350">
+<node TEXT="SELECT ?c&#xa;WHERE&#xa;{&#xa;    ?s &lt;...&gt; [  &lt;&gt; ?c ]&#xa;}" ID="ID_1624271134" CREATED="1706230541350" MODIFIED="1706230599924"/>
+<node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
+</node>
+</node>
+<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1702254844425">
+<node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
+<node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
+</node>
 </node>
 <node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
 <node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1705801777920"/>
