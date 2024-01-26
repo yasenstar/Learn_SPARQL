@@ -2,4 +2,4 @@
 
 ## 02.03.00 Recap RDF from Chapter 1
 
-![ch02-03-00](../img/LearningSPARQL_ch02-03-00.jpg)
+![ch02-03-00](../../img/LearningSPARQL_ch02-03-00.jpg)
