@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.207">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -288,7 +288,7 @@
 </node>
 </node>
 <node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
-<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
+<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
 <html>
@@ -453,7 +453,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" FOLDED="true" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616">
+<node TEXT="02.02 URLs, URIs, IRIs, and Namespaces" ID="ID_209473606" CREATED="1702254597366" MODIFIED="1702254619616">
 <node TEXT="URL: Uniform Resource Locator, usually using specific protocols to locate resource within World Wide Web is the most common type of URI." ID="ID_514259764" CREATED="1705873900761" MODIFIED="1705873900761"/>
 <node TEXT="URN: Universal Resource Names, one of the URI type with urn:scheme and the typical use example is ISBN system." ID="ID_1193489763" CREATED="1705873900761" MODIFIED="1705873900761"/>
 <node TEXT="URI: Uniform Resource Identifier, includes URL and URN." FOLDED="true" ID="ID_1999901217" CREATED="1705873900762" MODIFIED="1705873900762">
@@ -608,7 +608,9 @@
 </html>
 
 </richcontent>
-<node TEXT="ex028.nt" ID="ID_1877951733" CREATED="1705967695984" MODIFIED="1705967701562"/>
+<node TEXT="ex028.nt" ID="ID_1877951733" CREATED="1705967695984" MODIFIED="1706235037574">
+<icon BUILTIN="links/file/generic"/>
+</node>
 </node>
 <node POSITION="bottom_or_right" ID="ID_953181710" CREATED="1705967659209" MODIFIED="1705967688564"><richcontent TYPE="NODE">
 
@@ -624,7 +626,18 @@
 </html>
 
 </richcontent>
-<node TEXT="ex029.rdf" ID="ID_101205834" CREATED="1705967706617" MODIFIED="1705967710267"/>
+<node TEXT="ex029.rdf" ID="ID_101205834" CREATED="1705967706617" MODIFIED="1706235037573">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex030.rdf" ID="ID_1644624468" CREATED="1706235052673" MODIFIED="1706235086402">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex031.n3" ID="ID_582606389" CREATED="1706235075824" MODIFIED="1706235086402">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex032.n3" ID="ID_11704840" CREATED="1706235079604" MODIFIED="1706235086402">
+<icon BUILTIN="links/file/generic"/>
+</node>
 </node>
 </node>
 <node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
@@ -689,9 +702,19 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505"/>
+<node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505">
+<node TEXT="ex033.ttl" ID="ID_347230866" CREATED="1706233181674" MODIFIED="1706233197217">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex034.ttl" ID="ID_233310387" CREATED="1706233187102" MODIFIED="1706233197217">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex035.ttl" ID="ID_293069002" CREATED="1706233192054" MODIFIED="1706233197217">
+<icon BUILTIN="links/file/generic"/>
+</node>
+</node>
 <node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
-<node TEXT="RDF 1.2 Schema (RDFS)" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
+<node TEXT="RDF 1.2 Schema (RDFS)" FOLDED="true" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
 <node TEXT="rdfs classes" ID="ID_520923170" CREATED="1706224251239" MODIFIED="1706224258036">
 <node TEXT="rdfs:Resource" ID="ID_1084873526" CREATED="1706224258036" MODIFIED="1706224262829"/>
 <node TEXT="rdfs:Class" ID="ID_1133301807" CREATED="1706224263161" MODIFIED="1706224267621"/>
@@ -745,6 +768,18 @@
 <node TEXT="SKOS Specification" ID="ID_1782716975" CREATED="1706223612969" MODIFIED="1706223619896" LINK="https://www.w3.org/2004/02/skos/specs"/>
 </node>
 <node TEXT="ISO 25964 thesaurus standard" ID="ID_265385148" CREATED="1706223551131" MODIFIED="1706223565610"/>
+<node TEXT="ex036.ttl" ID="ID_1203014715" CREATED="1706233145277" MODIFIED="1706233172473">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex037.ttl" ID="ID_1330785708" CREATED="1706233152422" MODIFIED="1706233172473">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex038.ttl" ID="ID_1645836586" CREATED="1706233155381" MODIFIED="1706233172473">
+<icon BUILTIN="links/file/generic"/>
+</node>
+<node TEXT="ex039.ttl" ID="ID_1631229717" CREATED="1706233161032" MODIFIED="1706233172472">
+<icon BUILTIN="links/file/generic"/>
+</node>
 </node>
 <node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
@@ -775,12 +810,13 @@
 <node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
 </node>
 </node>
-<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1702254844425">
+<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
 <node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
 <node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
+<node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
 </node>
 </node>
-<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
+<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
 <node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1705801777920"/>
 <node TEXT="Google, Bing and Yahoo use OWL publish a joint vocabulary, example: http://schema.org/City" ID="ID_180179648" CREATED="1705802123756" MODIFIED="1705802174263" LINK="https://schema.org/City"/>
 <node TEXT="NCI use OWL to publish NCI Thesaurus (the source for CDISC&apos;s CT:s) in an RDF/XML format" ID="ID_370941905" CREATED="1705802193740" MODIFIED="1705802223993"/>
@@ -796,7 +832,7 @@
 <node TEXT="4. Include links to other URIs so that they can discover more things." ID="ID_1215774551" CREATED="1705768550072" MODIFIED="1705768568067"/>
 </node>
 </node>
-<node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
+<node TEXT="03. SPARQL Queries: A Deeper Dive" FOLDED="true" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
 <node TEXT="03.01 More Readable Query Results" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
 <node TEXT="03.01.01 Using the Labels Provided by DBpedia" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1702254921650"/>
 <node TEXT="03.01.02 Getting Labels from Schemas and Ontologies" ID="ID_1616598261" CREATED="1702254922055" MODIFIED="1702254933993"/>
