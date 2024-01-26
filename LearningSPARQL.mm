@@ -288,7 +288,7 @@
 </node>
 </node>
 <node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
-<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
+<node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
 <html>
@@ -499,7 +499,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
+<node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
 <arrowlink DESTINATION="ID_1859624364"/>
 <node TEXT="Recap RDF from Chapter 1" FOLDED="true" ID="ID_912377669" CREATED="1705961184358" MODIFIED="1705961195466">
 <node ID="ID_940677254" CREATED="1705961222767" MODIFIED="1705961245928"><richcontent TYPE="NODE">
@@ -548,7 +548,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="02.03.01 Storing RDF in Files" ID="ID_421814861" CREATED="1702254749023" MODIFIED="1702254762842">
+<node TEXT="02.03.01 Storing RDF in Files" FOLDED="true" ID="ID_421814861" CREATED="1702254749023" MODIFIED="1702254762842">
 <node ID="ID_1733251438" CREATED="1705961421253" MODIFIED="1706235786781"><richcontent TYPE="NODE">
 
 <html>
@@ -640,7 +640,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
+<node TEXT="02.03.02 Storing RDF in Databases" FOLDED="true" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
 <node ID="ID_882149374" CREATED="1706210398926" MODIFIED="1706210615819" LINK="https://en.wikipedia.org/wiki/Triplestore"><richcontent TYPE="NODE">
 
 <html>
@@ -702,7 +702,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505">
+<node TEXT="02.03.03 Data Typing" FOLDED="true" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505">
 <node TEXT="ex033.ttl" ID="ID_347230866" CREATED="1706233181674" MODIFIED="1706233197217">
 <icon BUILTIN="links/file/generic"/>
 </node>
@@ -713,7 +713,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
+<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" FOLDED="true" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
 <node TEXT="W3C SKOS (Simple Knowledge Organization System)" ID="ID_683526429" CREATED="1706223491818" MODIFIED="1706223512182" LINK="https://www.w3.org/2004/02/skos/">
 <node TEXT="defining vocabularies, texonomies, and thesauruses" ID="ID_249484181" CREATED="1706223642322" MODIFIED="1706223679292"/>
 <node TEXT="SKOS Specification" ID="ID_1782716975" CREATED="1706223612969" MODIFIED="1706223619896" LINK="https://www.w3.org/2004/02/skos/specs"/>
@@ -732,7 +732,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -761,13 +761,13 @@
 <node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
 </node>
 </node>
-<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
+<node TEXT="02.03.06 Named Graphs" FOLDED="true" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
 <node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
 <node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
 </node>
 </node>
-<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
+<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
 <node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1705801777920">
 <node TEXT="RDF 1.2 Schema (RDFS)" FOLDED="true" POSITION="bottom_or_right" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
 <node TEXT="rdfs classes" ID="ID_520923170" CREATED="1706224251239" MODIFIED="1706224258036">
@@ -849,7 +849,7 @@
 <arrowlink DESTINATION="ID_279358034"/>
 </node>
 <node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1702254724906"/>
-<node TEXT="02.07 The SPARQL Specifications" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1702254736233">
+<node TEXT="02.07 The SPARQL Specifications" FOLDED="true" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1702254736233">
 <node TEXT="1. Use URIs as names for things" ID="ID_1909612066" CREATED="1705768484959" MODIFIED="1705768502152"/>
 <node TEXT="2. Use HTTP URIs so that people can look up those names" ID="ID_1843830121" CREATED="1705768502353" MODIFIED="1705768519749"/>
 <node TEXT="3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)" ID="ID_552070909" CREATED="1705768519925" MODIFIED="1705768549688"/>
