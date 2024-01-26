@@ -663,13 +663,15 @@
 </node>
 <node TEXT="TripleStore Products (some)" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
 <node TEXT="Commercial" ID="ID_1689707747" CREATED="1706211026144" MODIFIED="1706211030550">
-<node TEXT="AllegroGraph" ID="ID_1234606807" CREATED="1706309660976" MODIFIED="1706309668811"/>
-<node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706211167051"/>
+<node TEXT="AllegroGraph" ID="ID_1234606807" CREATED="1706309660976" MODIFIED="1706310150977" LINK="https://allegrograph.com/"/>
+<node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706310175415" LINK="https://aws.amazon.com/neptune/"/>
 <node TEXT="AnzoGraph DB (Cambridge Semantics)" ID="ID_892632707" CREATED="1706211055621" MODIFIED="1706309751573" LINK="https://cambridgesemantics.com/anzograph/"/>
-<node TEXT="ArangoDB" ID="ID_89963471" CREATED="1706309625096" MODIFIED="1706309628658"/>
-<node TEXT="DataStax Enterprise Graph" ID="ID_745748293" CREATED="1706309681367" MODIFIED="1706309705346"/>
-<node TEXT="GraphDB (OntoText)" POSITION="bottom_or_right" ID="ID_293289198" CREATED="1706211051094" MODIFIED="1706309162172" LINK="https://www.ontotext.com/products/graphdb/?ref=menu"/>
-<node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310043520">
+<node TEXT="ArangoDB" ID="ID_89963471" CREATED="1706309625096" MODIFIED="1706310237328" LINK="https://arangodb.com/"/>
+<node TEXT="DataStax Enterprise Graph" ID="ID_745748293" CREATED="1706309681367" MODIFIED="1706310274021" LINK="https://www.datastax.com/products/datastax-enterprise?utm_medium=search_pd&amp;utm_source=bing&amp;utm_campaign=bing_s_nam_ent_brand&amp;utm_content="/>
+<node TEXT="GraphDB Enterprise (OntoText)" POSITION="bottom_or_right" ID="ID_293289198" CREATED="1706211051094" MODIFIED="1706310837946" LINK="https://www.ontotext.com/products/graphdb/?ref=menu">
+<arrowlink DESTINATION="ID_544354516"/>
+</node>
+<node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
 <arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_1045108650"/>
 <arrowlink DESTINATION="ID_166133416"/>
@@ -677,18 +679,35 @@
 <arrowlink DESTINATION="ID_450773116"/>
 <arrowlink DESTINATION="ID_745748293"/>
 </node>
-<node TEXT="JanusGraph" ID="ID_1603075471" CREATED="1706309614208" MODIFIED="1706309620082"/>
-<node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706309624498"/>
-<node TEXT="Memgraph" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706309908820"/>
-<node TEXT="neo4j graph database" ID="ID_1045108650" CREATED="1706309193515" MODIFIED="1706309213264" LINK="https://neo4j.com/product/neo4j-graph-database/"/>
-<node TEXT="ONgDB" ID="ID_166133416" CREATED="1706309914489" MODIFIED="1706309917502"/>
-<node TEXT="OrientDB" ID="ID_872255059" CREATED="1706309671984" MODIFIED="1706309676963"/>
+<node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
+<node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
+<arrowlink DESTINATION="ID_992705620"/>
+</node>
+<node TEXT="Neo4j graph database" ID="ID_1045108650" CREATED="1706309193515" MODIFIED="1706310868647" LINK="https://neo4j.com/product/neo4j-graph-database/">
+<arrowlink DESTINATION="ID_1428338207"/>
+</node>
+<node TEXT="ONgDB Enterprise" ID="ID_166133416" CREATED="1706309914489" MODIFIED="1706310677198" LINK="https://graphfoundation.org/ongdb/">
+<arrowlink DESTINATION="ID_1968888360"/>
+</node>
 <node TEXT="RDFox" ID="ID_1282735498" CREATED="1706211059488" MODIFIED="1706309470609" LINK="https://www.oxfordsemantic.tech/rdfox"/>
-<node TEXT="RedisGraph" ID="ID_184210398" CREATED="1706309921215" MODIFIED="1706309926469"/>
+<node TEXT="RedisGraph" ID="ID_184210398" CREATED="1706309921215" MODIFIED="1706310896630" LINK="https://developer.redis.com/modules/redisgraph/"/>
 <node TEXT="Stardog" ID="ID_928608714" CREATED="1706211053575" MODIFIED="1706309496270" LINK="https://www.stardog.com/platform/"/>
 <node TEXT="Virtuoso (OpenLink Software)" ID="ID_820679579" CREATED="1706211047007" MODIFIED="1706309549064" LINK="https://virtuoso.openlinksw.com/"/>
 </node>
 <node TEXT="OpenSource" ID="ID_1235812438" CREATED="1706211030910" MODIFIED="1706211034259">
+<node TEXT="Apache&apos;s Jena Fuseki" ID="ID_1173891720" CREATED="1706211040002" MODIFIED="1706211125397"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">Apache’s Fuseki, along with the entire Jena project and all its plugins, is still actively developed as of October 2020. It supports the SPARQL 1.1 update and gets new features and enhancements with each new release, which takes place every quarter or so. We know that Fuseki can&#xa0;</span><a href="https://muncca.com/2019/02/14/wikidata-import-in-apache-jena/" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">scale loading the entire Wikidata dump</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="Blazegraph" ID="ID_1163034271" CREATED="1706211034262" MODIFIED="1706211174409">
 <arrowlink DESTINATION="ID_369839986"/>
 <richcontent TYPE="NOTE">
@@ -704,19 +723,15 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Apache&apos;s Jena Fuseki" ID="ID_1173891720" CREATED="1706211040002" MODIFIED="1706211125397"><richcontent TYPE="NOTE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">Apache’s Fuseki, along with the entire Jena project and all its plugins, is still actively developed as of October 2020. It supports the SPARQL 1.1 update and gets new features and enhancements with each new release, which takes place every quarter or so. We know that Fuseki can&#xa0;</span><a href="https://muncca.com/2019/02/14/wikidata-import-in-apache-jena/" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">scale loading the entire Wikidata dump</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">.</span>
-    </p>
-  </body>
-</html>
-</richcontent>
+<node TEXT="GraphDB Lite (OntoText)" ID="ID_544354516" CREATED="1706310804654" MODIFIED="1706310926234" LINK="http://ontotext.com/products/ontotext-graphdb/graphdb-lite/"/>
+<node TEXT="JanusGraph" POSITION="bottom_or_right" ID="ID_1603075471" CREATED="1706309614208" MODIFIED="1706310330267" LINK="https://janusgraph.org/">
+<font BOLD="true"/>
+<node TEXT="Gremlin Query Language" ID="ID_294856133" CREATED="1706310403749" MODIFIED="1706310413846" LINK="https://docs.janusgraph.org/master/getting-started/gremlin/"/>
 </node>
+<node TEXT="Memgraph Community Edition" POSITION="bottom_or_right" ID="ID_992705620" CREATED="1706310500533" MODIFIED="1706310541691" LINK="https://memgraph.com/memgraphdb"/>
+<node TEXT="Neo4j Community" POSITION="bottom_or_right" ID="ID_1428338207" CREATED="1706310853834" MODIFIED="1706310877207" LINK="http://neo4j.com/download/"/>
+<node TEXT="ONgDB Community" POSITION="bottom_or_right" ID="ID_1968888360" CREATED="1706310620380" MODIFIED="1706310630151" LINK="https://graphfoundation.org/ongdb/"/>
+<node TEXT="OrientDB Community Edition" POSITION="bottom_or_right" ID="ID_872255059" CREATED="1706309671984" MODIFIED="1706310943611" LINK="https://orientdb.org/"/>
 </node>
 </node>
 </node>
