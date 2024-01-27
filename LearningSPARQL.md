@@ -441,11 +441,17 @@ Weaver is a distributed graph store that provides horizontal scalability, high-p
 
 ### 02.03.03 Data Typing
 
-#### ex033.ttl
+#### XML Schema 1.1 Part 2: Datatypes
 
-#### ex034.ttl
+#### Assignment of datatypes in Turtle
 
-#### ex035.ttl
+##### ex033.ttl
+
+##### ex034.ttl
+
+#### Assignment of datatypes in RDF/XML
+
+##### ex035.rdf
 
 ### 02.03.04 Making RDF More Readable with Languages Tags and Labels
 
