@@ -312,28 +312,131 @@ The best way to store RDF is to a database manager optimized for RDF triples, we
 
 ##### Commercial
 
-###### Virtuoso
-
-###### GraphDB
-
-###### Stardog
-
-###### AnzoGraph
-
-###### RDFox
+###### AllegroGraph
 
 ###### Amazon Neptune
 
+###### AnzoGraph DB (Cambridge Semantics)
+
+###### ArangoDB
+
+https://arangodb.com/community-server/
+
+ (see:ArangoDB Community Edition)
+###### DataStax Enterprise Graph
+
+###### GraphDB Enterprise (OntoText)
+ (see:GraphDB Lite (OntoText))
+###### Graphileon (GDB Tool)
+ (see:AnzoGraph DB (Cambridge Semantics)DataStax Enterprise GraphMemgraph Enterprise/Cloud EditionNeo4j graph databaseONgDB EnterpriseRedisGraph)
+###### MarkLogic
+
+###### Memgraph Enterprise/Cloud Edition
+ (see:Memgraph Community Edition)
+###### Neo4j graph database
+ (see:Neo4j Community)
+###### ONgDB Enterprise
+ (see:ONgDB Community)
+###### RDFox
+
+###### RedisGraph
+
+###### Stardog
+
+###### Virtuoso (OpenLink Software)
+
 ##### OpenSource
+
+###### Apache's Jena Fuseki
+
+Apache’s Fuseki, along with the entire Jena project and all its plugins, is still actively developed as of October 2020. It supports the SPARQL 1.1 update and gets new features and enhancements with each new release, which takes place every quarter or so. We know that Fuseki can scale loading the entire Wikidata dump.
+
+
+###### ArangoDB Community Edition
 
 ###### Blazegraph
 
 Blazegraph, previously known as  *Bigdata* , is a great triplestore that scales to billions of triples with thousands of proven use cases. In fact, it was so good that AWS bought the Blazegraph trademark almost five years ago and hired some of its staff, including the CEO. Unfortunately, that meant that most of Blazegraph’s development experience was used to create a competing product: Amazon Neptune. Although the official releases of Blazegraph have slowed down, it still supports SPARQL 1.1 and is by no means outdated.
 
  (see:Amazon Neptune)
-###### Apache's Jena Fuseki
+###### BrightstarDB
 
-Apache’s Fuseki, along with the entire Jena project and all its plugins, is still actively developed as of October 2020. It supports the SPARQL 1.1 update and gets new features and enhancements with each new release, which takes place every quarter or so. We know that Fuseki can scale loading the entire Wikidata dump.
+BrightstarDB is an RDF triple store. It does not require the definition of a database schema, and with the RDF data model model , it can easily add and integrate data of all shapes. The core libraries have a small footprint and install with zero configuration for embedded applications.
+
+
+###### cayley
+
+Cayley is an open-source graph inspired by the graph database behind Freebase and Google's Knowledge Graph.
+
+
+###### Filament
+
+Filament is a graph persistence framework and associated toolkits based on a navigational query style. A default persistence engine is included for storing graph objects and properties into simple relational tables but the actual storage model is pluggable.
+
+
+###### GraphDB Lite (OntoText)
+
+GraphDB Lite is a free RDF triplestore that allows to store up to 100 million triples on a desktop computer. This version of GraphDB can be easily deployed using JAVA. SPARQL 1.1 queries are performed in memory, not using files based indices. Reasoning operations for inferencing are supported in GraphDB Lite.
+
+
+###### Graph Engine
+
+Graph Engine
+
+= RAM Store + Computation Engine + Graph Model
+
+Graph Engine (GE) is a distributed in-memory data processing engine, underpinned by a strongly-typed RAM store and a general distributed computation engine.
+
+
+
+The distributed RAM store provides a globally addressable high-performance key-value store over a cluster of machines. Through the RAM store, GE enables the fast random data access power over a large distributed data set.
+
+
+
+The capability of fast data exploration and distributed parallel computing makes GE a natural large graph processing platform. GE supports both low-latency online query processing and high-throughput offline analytics on billion-node large graphs.
+
+
+###### HyperGraphDB
+
+HyperGraphDB is a general purpose, open-source data storage mechanism based on a powerful knowledge management formalism known as directed hypergraphs designed mostly for knowledge management, AI and semantic web projects, it can also be used as an embedded object-oriented database for Java projects of all sizes.
+
+
+###### JanusGraph
+
+* Gremlin Query Language
+
+###### MapGraph
+
+MapGraph API makes it easy to develop high performance graph analytics on GPUs. The API is based on the Gather-Apply-Scatter (GAS) model as used in GraphLab. To deliver high performance computation and efficiently utilize the high memory bandwidth of GPUs, MapGraph's CUDA kernels use multiple sophisticated strategies, such as vertex-degree-dependent dynamic parallelism granularity and frontier compaction.
+
+
+###### Memgraph Community Edition
+
+###### Neo4j Community
+
+Neo4j is an open-source graph database, implemented in Java described as embedded, disk-based, fully transactional Java persistence engine that stores data structured in graphs rather than in tables.
+
+
+###### ONgDB Community
+
+###### OrientDB Community Edition
+
+OrientDB is a 2nd Generation Distributed Graph Database with the flexibility of Documents in one product. It can store 220,000 records per second on common hardware. Even for a Document based database, the relationships are managed as in Graph Databases with direct connections among records.
+
+
+###### orly
+
+Orly is a non-relational database, meant to be fast and to scale for billions of users. Orly provides a single path to data and will eliminate our need for memcache due to its speed and high concurrency.
+
+
+###### sones
+
+sones GraphDB is an object-orientated graph data storage for a large amount of highly connected semi-structured data in a distributed environment.
+
+
+###### weaver
+
+Weaver is a distributed graph store that provides horizontal scalability, high-performance, and strong consistency.Weaver enables users to execute transactional graph updates and queries through a simple python API
 
 
 ### 02.03.03 Data Typing

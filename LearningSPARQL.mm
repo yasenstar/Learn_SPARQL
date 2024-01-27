@@ -764,6 +764,19 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="Filament" ID="ID_720577415" CREATED="1706316007752" MODIFIED="1706316038470" LINK="https://sourceforge.net/projects/filament/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Filament is a graph persistence framework and associated toolkits based on a navigational query style. A default persistence engine is included for storing graph objects and properties into simple relational tables but the actual storage model is pluggable.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="GraphDB Lite (OntoText)" ID="ID_544354516" CREATED="1706310804654" MODIFIED="1706315277280" LINK="http://ontotext.com/products/ontotext-graphdb/graphdb-lite/"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -874,6 +887,19 @@
   <body>
     <p>
       Orly is a non-relational database, meant to be fast and to scale for billions of users. Orly provides a single path to data and will eliminate our need for memcache due to its speed and high concurrency.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="sones" POSITION="bottom_or_right" ID="ID_1717065052" CREATED="1706315973733" MODIFIED="1706315999655" LINK="https://github.com/sones/sones"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sones GraphDB is an object-orientated graph data storage for a large amount of highly connected semi-structured data in a distributed environment.
     </p>
   </body>
 </html>

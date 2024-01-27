@@ -7,3 +7,7 @@
 ## 02.03.01 Storing RDF in Files
 
 ![ch02-03-01](../../img/LearningSPARQL_ch02-03-01.jpg)
+
+## 02.03.01 Storing RDF in Databases
+
+![ch02-03-02](../../img/LearningSPARQL_ch02-03-02.jpg)
