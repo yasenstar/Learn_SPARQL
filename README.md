@@ -1,6 +1,6 @@
 # Learn SPARQL
 
-Learn by practicing on book "Learning SPARQL", which is authored by Bob DuCharme
+Learn by practicing on book "Learning SPARQL", which is authored by [Bob DuCharme](https://www.linkedin.com/in/bobdc/)
 
 [![book cover](img/cover_learning-sparql.png)](http://learningsparql.com/)
 
