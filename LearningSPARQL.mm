@@ -640,7 +640,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.02 Storing RDF in Databases" FOLDED="true" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
+<node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
 <node FOLDED="true" ID="ID_882149374" CREATED="1706210398926" MODIFIED="1706210615819" LINK="https://en.wikipedia.org/wiki/Triplestore"><richcontent TYPE="NODE">
 
 <html>
@@ -661,7 +661,7 @@
 </node>
 <node TEXT="About TripleStore (by DBpedia)" ID="ID_155091510" CREATED="1706210872752" MODIFIED="1706210888971" LINK="https://dbpedia.org/page/Triplestore"/>
 </node>
-<node TEXT="TripleStore Products (some)" FOLDED="true" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
+<node TEXT="TripleStore Products (some)" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
 <node TEXT="Commercial" ID="ID_1689707747" CREATED="1706211026144" MODIFIED="1706211030550">
 <node TEXT="AllegroGraph" ID="ID_1234606807" CREATED="1706309660976" MODIFIED="1706310150977" LINK="https://allegrograph.com/"/>
 <node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706310175415" LINK="https://aws.amazon.com/neptune/"/>
