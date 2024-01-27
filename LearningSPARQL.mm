@@ -666,7 +666,21 @@
 <node TEXT="AllegroGraph" ID="ID_1234606807" CREATED="1706309660976" MODIFIED="1706310150977" LINK="https://allegrograph.com/"/>
 <node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706310175415" LINK="https://aws.amazon.com/neptune/"/>
 <node TEXT="AnzoGraph DB (Cambridge Semantics)" ID="ID_892632707" CREATED="1706211055621" MODIFIED="1706309751573" LINK="https://cambridgesemantics.com/anzograph/"/>
-<node TEXT="ArangoDB" ID="ID_89963471" CREATED="1706309625096" MODIFIED="1706310237328" LINK="https://arangodb.com/"/>
+<node TEXT="ArangoDB" ID="ID_89963471" CREATED="1706309625096" MODIFIED="1706315743425" LINK="https://arangodb.com/">
+<arrowlink DESTINATION="ID_659774028"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://arangodb.com/community-server/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="DataStax Enterprise Graph" ID="ID_745748293" CREATED="1706309681367" MODIFIED="1706310274021" LINK="https://www.datastax.com/products/datastax-enterprise?utm_medium=search_pd&amp;utm_source=bing&amp;utm_campaign=bing_s_nam_ent_brand&amp;utm_content="/>
 <node TEXT="GraphDB Enterprise (OntoText)" POSITION="bottom_or_right" ID="ID_293289198" CREATED="1706211051094" MODIFIED="1706310837946" LINK="https://www.ontotext.com/products/graphdb/?ref=menu">
 <arrowlink DESTINATION="ID_544354516"/>
@@ -695,7 +709,7 @@
 <node TEXT="Virtuoso (OpenLink Software)" ID="ID_820679579" CREATED="1706211047007" MODIFIED="1706309549064" LINK="https://virtuoso.openlinksw.com/"/>
 </node>
 <node TEXT="OpenSource" ID="ID_1235812438" CREATED="1706211030910" MODIFIED="1706211034259">
-<node TEXT="Apache&apos;s Jena Fuseki" ID="ID_1173891720" CREATED="1706211040002" MODIFIED="1706211125397"><richcontent TYPE="NOTE">
+<node TEXT="Apache&apos;s Jena Fuseki" ID="ID_1173891720" CREATED="1706211040002" MODIFIED="1706315771858" LINK="https://jena.apache.org/documentation/fuseki2/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -708,7 +722,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Blazegraph" ID="ID_1163034271" CREATED="1706211034262" MODIFIED="1706211174409">
+<node TEXT="ArangoDB Community Edition" ID="ID_659774028" CREATED="1706315686910" MODIFIED="1706315700337" LINK="https://arangodb.com/community-server/"/>
+<node TEXT="Blazegraph" ID="ID_1163034271" CREATED="1706211034262" MODIFIED="1706315758772" LINK="https://blazegraph.com/">
 <arrowlink DESTINATION="ID_369839986"/>
 <richcontent TYPE="NOTE">
 <html>
@@ -723,15 +738,160 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="GraphDB Lite (OntoText)" ID="ID_544354516" CREATED="1706310804654" MODIFIED="1706310926234" LINK="http://ontotext.com/products/ontotext-graphdb/graphdb-lite/"/>
+<node TEXT="BrightstarDB" ID="ID_1736160861" CREATED="1706315780624" MODIFIED="1706315801907" LINK="https://brightstardb.com/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      BrightstarDB is an RDF triple store. It does not require the definition of a database schema, and with the RDF data model model , it can easily add and integrate data of all shapes. The core libraries have a small footprint and install with zero configuration for embedded applications.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="cayley" ID="ID_1348551488" CREATED="1706315816143" MODIFIED="1706315861928" LINK="https://github.com/cayleygraph/cayley"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cayley is an open-source graph inspired by the graph database behind Freebase and Google's Knowledge Graph.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="GraphDB Lite (OntoText)" ID="ID_544354516" CREATED="1706310804654" MODIFIED="1706315277280" LINK="http://ontotext.com/products/ontotext-graphdb/graphdb-lite/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GraphDB Lite is a free RDF triplestore that allows to store up to 100 million triples on a desktop computer. This version of GraphDB can be easily deployed using JAVA. SPARQL 1.1 queries are performed in memory, not using files based indices. Reasoning operations for inferencing are supported in GraphDB Lite.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Graph Engine" ID="ID_931053656" CREATED="1706315277272" MODIFIED="1706315325498" LINK="https://www.graphengine.io/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Graph Engine
+    </p>
+    <p>
+      = RAM Store + Computation Engine + Graph Model
+    </p>
+    <p>
+      Graph Engine (GE) is a distributed in-memory data processing engine, underpinned by a strongly-typed RAM store and a general distributed computation engine.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The distributed RAM store provides a globally addressable high-performance key-value store over a cluster of machines. Through the RAM store, GE enables the fast random data access power over a large distributed data set.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The capability of fast data exploration and distributed parallel computing makes GE a natural large graph processing platform. GE supports both low-latency online query processing and high-throughput offline analytics on billion-node large graphs.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="HyperGraphDB" ID="ID_34955139" CREATED="1706315326110" MODIFIED="1706315414386" LINK="http://www.hypergraphdb.org/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HyperGraphDB is a general purpose, open-source data storage mechanism based on a powerful knowledge management formalism known as directed hypergraphs designed mostly for knowledge management, AI and semantic web projects, it can also be used as an embedded object-oriented database for Java projects of all sizes.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="JanusGraph" POSITION="bottom_or_right" ID="ID_1603075471" CREATED="1706309614208" MODIFIED="1706310330267" LINK="https://janusgraph.org/">
 <font BOLD="true"/>
 <node TEXT="Gremlin Query Language" ID="ID_294856133" CREATED="1706310403749" MODIFIED="1706310413846" LINK="https://docs.janusgraph.org/master/getting-started/gremlin/"/>
 </node>
+<node TEXT="MapGraph" POSITION="bottom_or_right" ID="ID_1241712928" CREATED="1706315415102" MODIFIED="1706315650791" LINK="https://github.com/GraphProcessor/MirrorOfMapGraph"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MapGraph API makes it easy to develop high performance graph analytics on GPUs. The API is based on the Gather-Apply-Scatter (GAS) model as used in GraphLab. To deliver high performance computation and efficiently utilize the high memory bandwidth of GPUs, MapGraph's CUDA kernels use multiple sophisticated strategies, such as vertex-degree-dependent dynamic parallelism granularity and frontier compaction.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="Memgraph Community Edition" POSITION="bottom_or_right" ID="ID_992705620" CREATED="1706310500533" MODIFIED="1706310541691" LINK="https://memgraph.com/memgraphdb"/>
-<node TEXT="Neo4j Community" POSITION="bottom_or_right" ID="ID_1428338207" CREATED="1706310853834" MODIFIED="1706310877207" LINK="http://neo4j.com/download/"/>
+<node TEXT="Neo4j Community" POSITION="bottom_or_right" ID="ID_1428338207" CREATED="1706310853834" MODIFIED="1706315264557" LINK="http://neo4j.com/download/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Neo4j is an open-source graph database, implemented in Java described as embedded, disk-based, fully transactional Java persistence engine that stores data structured in graphs rather than in tables.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="ONgDB Community" POSITION="bottom_or_right" ID="ID_1968888360" CREATED="1706310620380" MODIFIED="1706310630151" LINK="https://graphfoundation.org/ongdb/"/>
-<node TEXT="OrientDB Community Edition" POSITION="bottom_or_right" ID="ID_872255059" CREATED="1706309671984" MODIFIED="1706310943611" LINK="https://orientdb.org/"/>
+<node TEXT="OrientDB Community Edition" POSITION="bottom_or_right" ID="ID_872255059" CREATED="1706309671984" MODIFIED="1706315239002" LINK="https://orientdb.org/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OrientDB is a 2nd Generation Distributed Graph Database with the flexibility of Documents in one product. It can store 220,000 records per second on common hardware. Even for a Document based database, the relationships are managed as in Graph Databases with direct connections among records.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="orly" POSITION="bottom_or_right" ID="ID_1874123569" CREATED="1706315874783" MODIFIED="1706315888588" LINK="https://github.com/orlyatomics/orly"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Orly is a non-relational database, meant to be fast and to scale for billions of users. Orly provides a single path to data and will eliminate our need for memcache due to its speed and high concurrency.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="weaver" POSITION="bottom_or_right" ID="ID_838974400" CREATED="1706315924609" MODIFIED="1706315948604" LINK="https://github.com/dubey/weaver"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Weaver is a distributed graph store that provides horizontal scalability, high-performance, and strong consistency.Weaver enables users to execute transactional graph updates and queries through a simple python API
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
