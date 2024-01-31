@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-7.5 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-6.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -209,7 +209,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -226,7 +225,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink DESTINATION="ID_920990845"/>
 </node>
@@ -252,7 +250,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -275,7 +272,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -301,7 +297,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="A set of Standards" ID="ID_1488652904" CREATED="1705800011356" MODIFIED="1705800514326">
 <font ITALIC="true"/>
@@ -325,7 +320,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -349,7 +343,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_444049597" CREATED="1705852112832" MODIFIED="1705852181044"><richcontent TYPE="NODE">
@@ -364,7 +357,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Thereby it will be possible:" ID="ID_1601595900" CREATED="1705852182801" MODIFIED="1705852189059">
@@ -380,7 +372,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_979794934" CREATED="1705852206985" MODIFIED="1705852337879"><richcontent TYPE="NODE">
@@ -395,7 +386,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_902934720" CREATED="1705852230690" MODIFIED="1705852258565"><richcontent TYPE="NODE">
@@ -410,7 +400,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -426,7 +415,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -470,7 +458,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -488,7 +475,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -514,7 +500,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1729896571" CREATED="1705961246852" MODIFIED="1705961312510"><richcontent TYPE="NODE">
@@ -529,7 +514,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1517212544" CREATED="1705961313009" MODIFIED="1705961357233"><richcontent TYPE="NODE">
@@ -544,7 +528,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -561,7 +544,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_441781129" CREATED="1705961474957" MODIFIED="1705961504841"><richcontent TYPE="NODE">
@@ -576,7 +558,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_518565939" CREATED="1705961516991" MODIFIED="1706235821564"><richcontent TYPE="NODE">
@@ -591,7 +572,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node POSITION="bottom_or_right" ID="ID_1125620556" CREATED="1705967395567" MODIFIED="1705967565463"><richcontent TYPE="NODE">
@@ -606,7 +586,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ex028.nt" ID="ID_1877951733" CREATED="1705967695984" MODIFIED="1706235037574">
 <icon BUILTIN="links/file/generic"/>
@@ -624,7 +603,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ex029.rdf" ID="ID_101205834" CREATED="1705967706617" MODIFIED="1706235037573">
 <icon BUILTIN="links/file/generic"/>
@@ -653,7 +631,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="What is an RDF TripleStore (by OntoText)" ID="ID_1965211562" CREATED="1706210655516" MODIFIED="1706210672970" LINK="https://www.ontotext.com/knowledgehub/fundamentals/what-is-rdf-triplestore/"/>
 <node TEXT="TripleStore 101 (by DataVersity)" ID="ID_34447171" CREATED="1706210700718" MODIFIED="1706210714460" LINK="https://www.dataversity.net/triplestores-101-storing-data-efficient-inferencing/">
@@ -661,7 +638,7 @@
 </node>
 <node TEXT="About TripleStore (by DBpedia)" ID="ID_155091510" CREATED="1706210872752" MODIFIED="1706210888971" LINK="https://dbpedia.org/page/Triplestore"/>
 </node>
-<node TEXT="TripleStore Products (some)" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
+<node TEXT="TripleStore Products (some)" FOLDED="true" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
 <node TEXT="Commercial" ID="ID_1689707747" CREATED="1706211026144" MODIFIED="1706211030550">
 <node TEXT="AllegroGraph" ID="ID_1234606807" CREATED="1706309660976" MODIFIED="1706310150977" LINK="https://allegrograph.com/"/>
 <node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706310175415" LINK="https://aws.amazon.com/neptune/"/>
@@ -678,8 +655,7 @@
       https://arangodb.com/community-server/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="DataStax Enterprise Graph" ID="ID_745748293" CREATED="1706309681367" MODIFIED="1706310274021" LINK="https://www.datastax.com/products/datastax-enterprise?utm_medium=search_pd&amp;utm_source=bing&amp;utm_campaign=bing_s_nam_ent_brand&amp;utm_content="/>
 <node TEXT="GraphDB Enterprise (OntoText)" POSITION="bottom_or_right" ID="ID_293289198" CREATED="1706211051094" MODIFIED="1706310837946" LINK="https://www.ontotext.com/products/graphdb/?ref=menu">
@@ -687,11 +663,11 @@
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
 <arrowlink DESTINATION="ID_184210398"/>
-<arrowlink DESTINATION="ID_1045108650"/>
-<arrowlink DESTINATION="ID_166133416"/>
-<arrowlink DESTINATION="ID_892632707"/>
-<arrowlink DESTINATION="ID_450773116"/>
 <arrowlink DESTINATION="ID_745748293"/>
+<arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_1045108650"/>
+<arrowlink DESTINATION="ID_450773116"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
 <node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
@@ -719,8 +695,7 @@
       <span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">Apache’s Fuseki, along with the entire Jena project and all its plugins, is still actively developed as of October 2020. It supports the SPARQL 1.1 update and gets new features and enhancements with each new release, which takes place every quarter or so. We know that Fuseki can&#xa0;</span><a href="https://muncca.com/2019/02/14/wikidata-import-in-apache-jena/" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">scale loading the entire Wikidata dump</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">.</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="ArangoDB Community Edition" ID="ID_659774028" CREATED="1706315686910" MODIFIED="1706315700337" LINK="https://arangodb.com/community-server/"/>
 <node TEXT="Blazegraph" ID="ID_1163034271" CREATED="1706211034262" MODIFIED="1706315758772" LINK="https://blazegraph.com/">
@@ -735,8 +710,7 @@
       <span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">Blazegraph, previously known as&#xa0;</span><em style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">Bigdata</span></em><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">, is a great triplestore that scales to billions of&#xa0;</span><a class="termStyle_juzR" href="https://lincsproject.ca/docs/terms/triple" style="color: black; text-decoration: underline dashed 1px var(--ifm-color-primary); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: underline dashed 1px var(--ifm-color-primary); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">triples</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">&#xa0;with thousands of proven use cases. In fact, it was so good that AWS bought the Blazegraph&#xa0;</span><a href="https://trademark.trademarkia.com/blazegraph-86498414.html" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">trademark</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">&#xa0;almost five years ago and hired some of its staff, including the CEO. Unfortunately, that meant that most of Blazegraph’s development experience was used to create a competing product: Amazon&#xa0;</span><a href="https://www.bobdc.com/blog/sparql-and-amazon-web-services/.html" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><span style="color: black; text-decoration: var(--ifm-link-decoration); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;">Neptune</span></a><span style="color: rgb(28, 30, 33); font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none;">. Although the official releases of Blazegraph have slowed down, it still supports SPARQL 1.1 and is by no means outdated.</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="BrightstarDB" ID="ID_1736160861" CREATED="1706315780624" MODIFIED="1706315801907" LINK="https://brightstardb.com/"><richcontent TYPE="NOTE">
 <html>
@@ -748,8 +722,7 @@
       BrightstarDB is an RDF triple store. It does not require the definition of a database schema, and with the RDF data model model , it can easily add and integrate data of all shapes. The core libraries have a small footprint and install with zero configuration for embedded applications.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="cayley" ID="ID_1348551488" CREATED="1706315816143" MODIFIED="1706315861928" LINK="https://github.com/cayleygraph/cayley"><richcontent TYPE="NOTE">
 <html>
@@ -761,8 +734,7 @@
       Cayley is an open-source graph inspired by the graph database behind Freebase and Google's Knowledge Graph.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Filament" ID="ID_720577415" CREATED="1706316007752" MODIFIED="1706316038470" LINK="https://sourceforge.net/projects/filament/"><richcontent TYPE="NOTE">
 <html>
@@ -774,8 +746,7 @@
       Filament is a graph persistence framework and associated toolkits based on a navigational query style. A default persistence engine is included for storing graph objects and properties into simple relational tables but the actual storage model is pluggable.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="GraphDB Lite (OntoText)" ID="ID_544354516" CREATED="1706310804654" MODIFIED="1706315277280" LINK="http://ontotext.com/products/ontotext-graphdb/graphdb-lite/"><richcontent TYPE="NOTE">
 <html>
@@ -787,8 +758,7 @@
       GraphDB Lite is a free RDF triplestore that allows to store up to 100 million triples on a desktop computer. This version of GraphDB can be easily deployed using JAVA. SPARQL 1.1 queries are performed in memory, not using files based indices. Reasoning operations for inferencing are supported in GraphDB Lite.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Graph Engine" ID="ID_931053656" CREATED="1706315277272" MODIFIED="1706315325498" LINK="https://www.graphengine.io/"><richcontent TYPE="NOTE">
 <html>
@@ -818,8 +788,7 @@
       The capability of fast data exploration and distributed parallel computing makes GE a natural large graph processing platform. GE supports both low-latency online query processing and high-throughput offline analytics on billion-node large graphs.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="HyperGraphDB" ID="ID_34955139" CREATED="1706315326110" MODIFIED="1706315414386" LINK="http://www.hypergraphdb.org/"><richcontent TYPE="NOTE">
 <html>
@@ -831,8 +800,7 @@
       HyperGraphDB is a general purpose, open-source data storage mechanism based on a powerful knowledge management formalism known as directed hypergraphs designed mostly for knowledge management, AI and semantic web projects, it can also be used as an embedded object-oriented database for Java projects of all sizes.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="JanusGraph" POSITION="bottom_or_right" ID="ID_1603075471" CREATED="1706309614208" MODIFIED="1706310330267" LINK="https://janusgraph.org/">
 <font BOLD="true"/>
@@ -848,8 +816,7 @@
       MapGraph API makes it easy to develop high performance graph analytics on GPUs. The API is based on the Gather-Apply-Scatter (GAS) model as used in GraphLab. To deliver high performance computation and efficiently utilize the high memory bandwidth of GPUs, MapGraph's CUDA kernels use multiple sophisticated strategies, such as vertex-degree-dependent dynamic parallelism granularity and frontier compaction.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Memgraph Community Edition" POSITION="bottom_or_right" ID="ID_992705620" CREATED="1706310500533" MODIFIED="1706310541691" LINK="https://memgraph.com/memgraphdb"/>
 <node TEXT="Neo4j Community" POSITION="bottom_or_right" ID="ID_1428338207" CREATED="1706310853834" MODIFIED="1706315264557" LINK="http://neo4j.com/download/"><richcontent TYPE="NOTE">
@@ -862,8 +829,7 @@
       Neo4j is an open-source graph database, implemented in Java described as embedded, disk-based, fully transactional Java persistence engine that stores data structured in graphs rather than in tables.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="ONgDB Community" POSITION="bottom_or_right" ID="ID_1968888360" CREATED="1706310620380" MODIFIED="1706310630151" LINK="https://graphfoundation.org/ongdb/"/>
 <node TEXT="OrientDB Community Edition" POSITION="bottom_or_right" ID="ID_872255059" CREATED="1706309671984" MODIFIED="1706315239002" LINK="https://orientdb.org/"><richcontent TYPE="NOTE">
@@ -876,8 +842,7 @@
       OrientDB is a 2nd Generation Distributed Graph Database with the flexibility of Documents in one product. It can store 220,000 records per second on common hardware. Even for a Document based database, the relationships are managed as in Graph Databases with direct connections among records.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="orly" POSITION="bottom_or_right" ID="ID_1874123569" CREATED="1706315874783" MODIFIED="1706315888588" LINK="https://github.com/orlyatomics/orly"><richcontent TYPE="NOTE">
 <html>
@@ -889,8 +854,7 @@
       Orly is a non-relational database, meant to be fast and to scale for billions of users. Orly provides a single path to data and will eliminate our need for memcache due to its speed and high concurrency.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="sones" POSITION="bottom_or_right" ID="ID_1717065052" CREATED="1706315973733" MODIFIED="1706315999655" LINK="https://github.com/sones/sones"><richcontent TYPE="NOTE">
 <html>
@@ -902,8 +866,7 @@
       sones GraphDB is an object-orientated graph data storage for a large amount of highly connected semi-structured data in a distributed environment.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="weaver" POSITION="bottom_or_right" ID="ID_838974400" CREATED="1706315924609" MODIFIED="1706315948604" LINK="https://github.com/dubey/weaver"><richcontent TYPE="NOTE">
 <html>
@@ -915,8 +878,7 @@
       Weaver is a distributed graph store that provides horizontal scalability, high-performance, and strong consistency.Weaver enables users to execute transactional graph updates and queries through a simple python API
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -976,7 +938,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="BNode has no permanent identity; its only purpose is to group together some other values." ID="ID_1286764577" CREATED="1706228634372" MODIFIED="1706228656557"/>
