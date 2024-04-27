@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-6.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-6 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -179,16 +179,18 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="01.06 Querying a Public Data Source" FOLDED="true" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
+<node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
 <node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
-<node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/"/>
+<node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/">
+<node TEXT="dbpedia SPARQL Query Editor" ID="ID_217143760" CREATED="1714252958918" MODIFIED="1714252973520" LINK="https://dbpedia.org/sparql"/>
+</node>
 <node TEXT="Wikidata Query Service:&#xa;https://query.wikidata.org/" ID="ID_1254832949" CREATED="1705853279238" MODIFIED="1705853290708" LINK="https://query.wikidata.org/"/>
 <node TEXT="120 Year of Olympics Data" ID="ID_711133367" CREATED="1706211259289" MODIFIED="1706211268641" LINK="https://github.com/wallscope/olympics-rdf"/>
 <node TEXT="ex025.rq" ID="ID_286568568" CREATED="1705969050671" MODIFIED="1705969058923">
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="Summary" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
+<node TEXT="Summary" FOLDED="true" ID="ID_1911941225" CREATED="1705797529886" MODIFIED="1705797533886">
 <node TEXT="What SPARQL is?" FOLDED="true" ID="ID_1114353261" CREATED="1705797533889" MODIFIED="1705797541817">
 <node TEXT="SPARQL is a recursive acronym for &quot;SPARQL Protocol and RDF Query Language&quot;, which is described by a set of specifications from the W3C." ID="ID_734327413" CREATED="1705797541820" MODIFIED="1706209105504">
 <arrowlink DESTINATION="ID_186221197"/>
@@ -485,7 +487,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
+<node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
 <arrowlink DESTINATION="ID_1859624364"/>
 <node TEXT="Recap RDF from Chapter 1" FOLDED="true" ID="ID_912377669" CREATED="1705961184358" MODIFIED="1705961195466">
 <node ID="ID_940677254" CREATED="1705961222767" MODIFIED="1705961245928"><richcontent TYPE="NODE">
@@ -618,7 +620,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.02 Storing RDF in Databases" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
+<node TEXT="02.03.02 Storing RDF in Databases" FOLDED="true" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
 <node FOLDED="true" ID="ID_882149374" CREATED="1706210398926" MODIFIED="1706210615819" LINK="https://en.wikipedia.org/wiki/Triplestore"><richcontent TYPE="NODE">
 
 <html>
@@ -662,12 +664,12 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
+<arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_450773116"/>
+<arrowlink DESTINATION="ID_892632707"/>
 <arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_745748293"/>
-<arrowlink DESTINATION="ID_892632707"/>
-<arrowlink DESTINATION="ID_166133416"/>
 <arrowlink DESTINATION="ID_1045108650"/>
-<arrowlink DESTINATION="ID_450773116"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
 <node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
@@ -883,7 +885,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.03 Data Typing" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505">
+<node TEXT="02.03.03 Data Typing" FOLDED="true" ID="ID_266814182" CREATED="1702254773423" MODIFIED="1702254787505">
 <node TEXT="XML Schema 1.1 Part 2: Datatypes" ID="ID_1750934911" CREATED="1706320553340" MODIFIED="1706320575752" LINK="http://www.w3.org/TR/xmlschema11-2/"/>
 <node TEXT="Assignment of datatypes in Turtle" ID="ID_788724466" CREATED="1706321123281" MODIFIED="1706321139808">
 <node TEXT="ex033.ttl" POSITION="bottom_or_right" ID="ID_347230866" CREATED="1706233181674" MODIFIED="1706233197217">
@@ -899,14 +901,16 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" FOLDED="true" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
-<node TEXT="W3C SKOS (Simple Knowledge Organization System)" ID="ID_683526429" CREATED="1706223491818" MODIFIED="1706223512182" LINK="https://www.w3.org/2004/02/skos/">
+<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
+<node TEXT="W3C SKOS (Simple Knowledge Organization System)" FOLDED="true" ID="ID_683526429" CREATED="1706223491818" MODIFIED="1706223512182" LINK="https://www.w3.org/2004/02/skos/">
 <node TEXT="defining vocabularies, texonomies, and thesauruses" ID="ID_249484181" CREATED="1706223642322" MODIFIED="1706223679292"/>
 <node TEXT="SKOS Specification" ID="ID_1782716975" CREATED="1706223612969" MODIFIED="1706223619896" LINK="https://www.w3.org/2004/02/skos/specs"/>
 </node>
 <node TEXT="ISO 25964 thesaurus standard" ID="ID_265385148" CREATED="1706223551131" MODIFIED="1706223565610"/>
 <node TEXT="ex036.ttl" ID="ID_1203014715" CREATED="1706233145277" MODIFIED="1706233172473">
 <icon BUILTIN="links/file/generic"/>
+<node TEXT="List of ISO 639 language codes" ID="ID_1615421508" CREATED="1714252344451" MODIFIED="1714252356323" LINK="https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes"/>
+<node TEXT="List of ISO 3166 country codes" ID="ID_684334295" CREATED="1714252457985" MODIFIED="1714252469585" LINK="https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"/>
 </node>
 <node TEXT="ex037.ttl" ID="ID_1330785708" CREATED="1706233152422" MODIFIED="1706233172473">
 <icon BUILTIN="links/file/generic"/>
