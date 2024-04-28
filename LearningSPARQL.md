@@ -81,6 +81,8 @@ Subject (s)-> Predicate (p) -> Object (o)
 ### Public DBpedia SPARQL endpoint:
 https://dbpedia.org/snorql/
 
+#### dbpedia SPARQL Query Editor
+
 ### Wikidata Query Service:
 https://query.wikidata.org/
 
@@ -461,9 +463,13 @@ Weaver is a distributed graph store that provides horizontal scalability, high-p
 
 ##### SKOS Specification
 
-#### ISO 25964 thesaurus standard
+##### ISO 25964 thesaurus standard
 
 #### ex036.ttl
+
+##### List of ISO 639 language codes
+
+##### List of ISO 3166 country codes
 
 #### ex037.ttl
 
