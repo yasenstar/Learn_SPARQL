@@ -1,6 +1,6 @@
 # filename: ex017.rq
 
-PREFIX ab: <http://yasen.com/ns/addressbook#>
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
 
 SELECT ?firstName ?lastName
 FROM <ex012.ttl>

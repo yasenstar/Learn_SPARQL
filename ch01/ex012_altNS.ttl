@@ -1,6 +1,6 @@
 # filename: ex012.ttl
 
-@prefix ab: <http://learningsparql.com/ns/addressbook#> .
+@prefix ab: <http://yasen.com/ns/addressbook#> .
 @prefix d:  <http://yasen.com/ns/data#> .
 
 d:i0432     ab:firstName    "Richard" .
