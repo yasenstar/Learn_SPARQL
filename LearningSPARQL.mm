@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.77">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -901,7 +901,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
+<node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" FOLDED="true" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
 <node TEXT="W3C SKOS (Simple Knowledge Organization System)" FOLDED="true" ID="ID_683526429" CREATED="1706223491818" MODIFIED="1706223512182" LINK="https://www.w3.org/2004/02/skos/">
 <node TEXT="defining vocabularies, texonomies, and thesauruses" ID="ID_249484181" CREATED="1706223642322" MODIFIED="1706223679292"/>
 <node TEXT="SKOS Specification" ID="ID_1782716975" CREATED="1706223612969" MODIFIED="1706223619896" LINK="https://www.w3.org/2004/02/skos/specs"/>
@@ -922,7 +922,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -950,7 +950,7 @@
 <node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
 </node>
 </node>
-<node TEXT="02.03.06 Named Graphs" FOLDED="true" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
+<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
 <node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
 <node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
