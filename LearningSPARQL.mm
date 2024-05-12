@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-6 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-5.25 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -182,10 +182,17 @@
 <node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
 <node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
 <node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/">
-<node TEXT="dbpedia SPARQL Query Editor" ID="ID_217143760" CREATED="1714252958918" MODIFIED="1714252973520" LINK="https://dbpedia.org/sparql"/>
+<node TEXT="dbpedia SPARQL Query Editor (SPARQL Playground)" ID="ID_217143760" CREATED="1714252958918" MODIFIED="1715391873566" LINK="https://dbpedia.org/sparql"/>
 </node>
 <node TEXT="Wikidata Query Service:&#xa;https://query.wikidata.org/" ID="ID_1254832949" CREATED="1705853279238" MODIFIED="1705853290708" LINK="https://query.wikidata.org/"/>
 <node TEXT="120 Year of Olympics Data" ID="ID_711133367" CREATED="1706211259289" MODIFIED="1706211268641" LINK="https://github.com/wallscope/olympics-rdf"/>
+<node TEXT="Ontology Registry and Repository" ID="ID_1789268380" CREATED="1715391587607" MODIFIED="1715391616257" LINK="https://mmisw.org/ont/#/">
+<node TEXT="SPARQL Search" ID="ID_229983936" CREATED="1715391603876" MODIFIED="1715391610701" LINK="https://mmisw.org/ont/sparql"/>
+</node>
+<node TEXT="Online SPARQL Query Editor" ID="ID_1288119322" CREATED="1715391723752" MODIFIED="1715391735358">
+<node TEXT="SPARQL Query Editor from string-db.org" ID="ID_1072101277" CREATED="1715391735363" MODIFIED="1715391760098" LINK="https://sparql.string-db.org/"/>
+<node TEXT="SPARQL Editor from carsten.io" ID="ID_1292433066" CREATED="1715391923331" MODIFIED="1715391937897" LINK="http://sparql.carsten.io/"/>
+</node>
 <node TEXT="ex025.rq" ID="ID_286568568" CREATED="1705969050671" MODIFIED="1705969058923">
 <icon BUILTIN="links/file/generic"/>
 </node>
@@ -665,10 +672,10 @@
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
 <arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_745748293"/>
+<arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_450773116"/>
 <arrowlink DESTINATION="ID_892632707"/>
-<arrowlink DESTINATION="ID_184210398"/>
-<arrowlink DESTINATION="ID_745748293"/>
 <arrowlink DESTINATION="ID_1045108650"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
@@ -922,7 +929,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -1045,7 +1052,7 @@
 <node TEXT="4. Include links to other URIs so that they can discover more things." ID="ID_1215774551" CREATED="1705768550072" MODIFIED="1705768568067"/>
 </node>
 </node>
-<node TEXT="03. SPARQL Queries: A Deeper Dive" FOLDED="true" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
+<node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
 <node TEXT="03.01 More Readable Query Results" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
 <node TEXT="03.01.01 Using the Labels Provided by DBpedia" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1702254921650"/>
 <node TEXT="03.01.02 Getting Labels from Schemas and Ontologies" ID="ID_1616598261" CREATED="1702254922055" MODIFIED="1702254933993"/>
