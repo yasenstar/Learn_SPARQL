@@ -929,7 +929,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -957,7 +957,7 @@
 <node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
 </node>
 </node>
-<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
+<node TEXT="02.03.06 Named Graphs" FOLDED="true" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
 <node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
 <node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
@@ -1052,7 +1052,7 @@
 <node TEXT="4. Include links to other URIs so that they can discover more things." ID="ID_1215774551" CREATED="1705768550072" MODIFIED="1705768568067"/>
 </node>
 </node>
-<node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
+<node TEXT="03. SPARQL Queries: A Deeper Dive" FOLDED="true" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
 <node TEXT="03.01 More Readable Query Results" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
 <node TEXT="03.01.01 Using the Labels Provided by DBpedia" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1702254921650"/>
 <node TEXT="03.01.02 Getting Labels from Schemas and Ontologies" ID="ID_1616598261" CREATED="1702254922055" MODIFIED="1702254933993"/>
@@ -1227,6 +1227,9 @@
 <node TEXT="11.03.04 How Do I Change the Datatype of a Certain Property&apos;s Values?" ID="ID_941080241" CREATED="1702258026349" MODIFIED="1702258046184"/>
 <node TEXT="11.03.05 How Do I Turn Resources into Instances of Declared Classes?" ID="ID_1747166339" CREATED="1702258046390" MODIFIED="1702258062824"/>
 </node>
+</node>
+<node TEXT="Tools" POSITION="bottom_or_right" ID="ID_1538146970" CREATED="1715616107060" MODIFIED="1715616110783">
+<node TEXT="RDF Visualizer from issemantic.net" ID="ID_604334433" CREATED="1715616110789" MODIFIED="1715616133778" LINK="https://issemantic.net/rdf-visualizer"/>
 </node>
 </node>
 </map>
