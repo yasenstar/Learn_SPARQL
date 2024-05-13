@@ -494,7 +494,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.03 The Resources Description Framework (RDF)" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
+<node TEXT="02.03 The Resources Description Framework (RDF)" FOLDED="true" ID="ID_1266958868" CREATED="1702254620110" MODIFIED="1705941144874">
 <arrowlink DESTINATION="ID_1859624364"/>
 <node TEXT="Recap RDF from Chapter 1" FOLDED="true" ID="ID_912377669" CREATED="1705961184358" MODIFIED="1705961195466">
 <node ID="ID_940677254" CREATED="1705961222767" MODIFIED="1705961245928"><richcontent TYPE="NODE">
@@ -929,7 +929,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1715621169069">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -957,7 +957,7 @@
 <node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
 </node>
 </node>
-<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
+<node TEXT="02.03.06 Named Graphs" FOLDED="true" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
 <node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
 <node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
@@ -1043,6 +1043,41 @@
 </node>
 <node TEXT="02.05 Linked Data" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1705800611363">
 <arrowlink DESTINATION="ID_279358034"/>
+<node TEXT="Four Linked Data Principles" ID="ID_1476024422" CREATED="1715623466051" MODIFIED="1715623497733"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      by Tim Berners-Lee 2006
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="1. Use URIs as names for things" ID="ID_634500292" CREATED="1715623499437" MODIFIED="1715623508414"/>
+<node TEXT="2. Use HTTP URIs so that people can look up those names" ID="ID_1950029813" CREATED="1715623508586" MODIFIED="1715623518966"/>
+<node TEXT="3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)" ID="ID_247951913" CREATED="1715623524726" MODIFIED="1715623549028"/>
+<node TEXT="4. Include links to other URIs so that they can discover more things" ID="ID_1159748252" CREATED="1715623549184" MODIFIED="1715623562940"/>
+</node>
+<node TEXT="Five-Star of Open Data Schema" ID="ID_316330890" CREATED="1715623567274" MODIFIED="1715623610528"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      by Tim Berners-Lee, 2010
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="*: any kind of sharing at all." ID="ID_914300863" CREATED="1715623612928" MODIFIED="1715623638309"/>
+<node TEXT="**: sharing it in a machine-readable formate (as opposed to a scan of a fax), regardless of the format" ID="ID_1919147813" CREATED="1715623639032" MODIFIED="1715623671940"/>
+<node TEXT="***: sharing data on the Web using a nonproprietary format, such as comma-separated values instead of Microsoft Excel spreadsheets" ID="ID_275478504" CREATED="1715623672128" MODIFIED="1715623712269"/>
+<node TEXT="****: putting shared data in a Linked Data format, in which concepts were identified by URLs so that we could more easily cross-reference them with other data" ID="ID_778702168" CREATED="1715623712663" MODIFIED="1715623754591"/>
+<node TEXT="" ID="ID_299802264" CREATED="1715623754764" MODIFIED="1715623754764"/>
+</node>
 </node>
 <node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1702254724906"/>
 <node TEXT="02.07 The SPARQL Specifications" FOLDED="true" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1702254736233">
@@ -1139,7 +1174,7 @@
 <node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173"/>
 <node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989"/>
 <node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629"/>
-<node TEXT="06.05 Named Graphs" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715620415714">
+<node TEXT="06.05 Named Graphs" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715621415282">
 <arrowlink DESTINATION="ID_320976328"/>
 <node TEXT="06.05.1 Dropping Graphs" ID="ID_462413524" CREATED="1702256943725" MODIFIED="1702256951413"/>
 <node TEXT="06.05.2 Named Graph Syntax Shortcuts: WITH and USING" ID="ID_304013574" CREATED="1702256951699" MODIFIED="1702256966549"/>
