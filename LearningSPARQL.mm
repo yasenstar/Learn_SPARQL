@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -628,7 +628,7 @@
 </node>
 </node>
 <node TEXT="02.03.02 Storing RDF in Databases" FOLDED="true" ID="ID_1717571032" CREATED="1702254763255" MODIFIED="1702254773218">
-<node FOLDED="true" ID="ID_882149374" CREATED="1706210398926" MODIFIED="1706210615819" LINK="https://en.wikipedia.org/wiki/Triplestore"><richcontent TYPE="NODE">
+<node ID="ID_882149374" CREATED="1706210398926" MODIFIED="1706210615819" LINK="https://en.wikipedia.org/wiki/Triplestore"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -647,7 +647,7 @@
 </node>
 <node TEXT="About TripleStore (by DBpedia)" ID="ID_155091510" CREATED="1706210872752" MODIFIED="1706210888971" LINK="https://dbpedia.org/page/Triplestore"/>
 </node>
-<node TEXT="TripleStore Products (some)" FOLDED="true" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
+<node TEXT="TripleStore Products (some)" ID="ID_403774725" CREATED="1706211007823" MODIFIED="1706211026142">
 <node TEXT="Commercial" ID="ID_1689707747" CREATED="1706211026144" MODIFIED="1706211030550">
 <node TEXT="AllegroGraph" ID="ID_1234606807" CREATED="1706309660976" MODIFIED="1706310150977" LINK="https://allegrograph.com/"/>
 <node TEXT="Amazon Neptune" ID="ID_369839986" CREATED="1706211160692" MODIFIED="1706310175415" LINK="https://aws.amazon.com/neptune/"/>
@@ -909,7 +909,7 @@
 </node>
 </node>
 <node TEXT="02.03.04 Making RDF More Readable with Languages Tags and Labels" FOLDED="true" ID="ID_32778692" CREATED="1702254789928" MODIFIED="1702254808666">
-<node TEXT="W3C SKOS (Simple Knowledge Organization System)" FOLDED="true" ID="ID_683526429" CREATED="1706223491818" MODIFIED="1706223512182" LINK="https://www.w3.org/2004/02/skos/">
+<node TEXT="W3C SKOS (Simple Knowledge Organization System)" ID="ID_683526429" CREATED="1706223491818" MODIFIED="1706223512182" LINK="https://www.w3.org/2004/02/skos/">
 <node TEXT="defining vocabularies, texonomies, and thesauruses" ID="ID_249484181" CREATED="1706223642322" MODIFIED="1706223679292"/>
 <node TEXT="SKOS Specification" ID="ID_1782716975" CREATED="1706223612969" MODIFIED="1706223619896" LINK="https://www.w3.org/2004/02/skos/specs"/>
 <node TEXT="ISO 25964 thesaurus standard" POSITION="bottom_or_right" ID="ID_265385148" CREATED="1706223551131" MODIFIED="1706223565610"/>
@@ -929,7 +929,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1705798497312">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -957,7 +957,7 @@
 <node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
 </node>
 </node>
-<node TEXT="02.03.06 Named Graphs" FOLDED="true" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
+<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
 <node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
 <node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
@@ -1052,17 +1052,17 @@
 <node TEXT="4. Include links to other URIs so that they can discover more things." ID="ID_1215774551" CREATED="1705768550072" MODIFIED="1705768568067"/>
 </node>
 </node>
-<node TEXT="03. SPARQL Queries: A Deeper Dive" FOLDED="true" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
-<node TEXT="03.01 More Readable Query Results" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
+<node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
+<node TEXT="03.01 More Readable Query Results" FOLDED="true" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
 <node TEXT="03.01.01 Using the Labels Provided by DBpedia" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1702254921650"/>
 <node TEXT="03.01.02 Getting Labels from Schemas and Ontologies" ID="ID_1616598261" CREATED="1702254922055" MODIFIED="1702254933993"/>
 </node>
-<node TEXT="03.02 Data That Might Not Be There" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
+<node TEXT="03.02 Data That Might Not Be There" FOLDED="true" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
 <node TEXT="OPTIONAL" ID="ID_1749097275" CREATED="1705768293632" MODIFIED="1705772198740">
 <arrowlink DESTINATION="ID_1415407541"/>
 </node>
 </node>
-<node TEXT="03.03 Finding Data That Doesn&apos;t Meet Certain Conditions" ID="ID_1381710793" CREATED="1702254965352" MODIFIED="1702254982384">
+<node TEXT="03.03 Finding Data That Doesn&apos;t Meet Certain Conditions" FOLDED="true" ID="ID_1381710793" CREATED="1702254965352" MODIFIED="1702254982384">
 <node TEXT="FILTER" ID="ID_1065214148" CREATED="1705768328436" MODIFIED="1706207343603">
 <arrowlink DESTINATION="ID_538918424"/>
 </node>
@@ -1072,14 +1072,18 @@
 <node TEXT="03.04 Searching Further in the Data" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
 <node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
 </node>
-<node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1702255003915"/>
+<node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1715620203452">
+<arrowlink DESTINATION="ID_1754761441"/>
+</node>
 <node TEXT="03.06 Eliminating Redundant Output" ID="ID_1995007971" CREATED="1702255004185" MODIFIED="1702255029412"/>
 <node TEXT="03.07 Combining Different Search Conditions" ID="ID_1696839565" CREATED="1702255029672" MODIFIED="1702255041698"/>
 <node TEXT="03.08 FILTERing Data Based on Conditions" ID="ID_391442690" CREATED="1702255041985" MODIFIED="1705720767932">
 <arrowlink DESTINATION="ID_538918424"/>
 </node>
 <node TEXT="03.09 Retrieving a Specific Number of Results" ID="ID_1422350324" CREATED="1702255055136" MODIFIED="1702255069322"/>
-<node TEXT="03.10 Querying Named Graphs" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1702255085635"/>
+<node TEXT="03.10 Querying Named Graphs" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1715620399778">
+<arrowlink DESTINATION="ID_320976328"/>
+</node>
 <node TEXT="03.11 Queries in Your Queries" ID="ID_1333095933" CREATED="1702255079736" MODIFIED="1702255095435"/>
 <node TEXT="03.12 Combining Values and Assigning Values to Variables" ID="ID_336702797" CREATED="1702255095657" MODIFIED="1702255107523"/>
 <node TEXT="03.13 Creating Tables of Values in Your Queries" ID="ID_300341315" CREATED="1702255108082" MODIFIED="1702255124643"/>
@@ -1130,12 +1134,13 @@
 </node>
 <node TEXT="05.03 Extension Functions" ID="ID_1505584738" CREATED="1702256879386" MODIFIED="1702256885676"/>
 </node>
-<node TEXT="06. Updating Data with SPARQL" FOLDED="true" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
+<node TEXT="06. Updating Data with SPARQL" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
 <node TEXT="06.01 Getting Started with Fuseki" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478"/>
 <node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173"/>
 <node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989"/>
 <node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629"/>
-<node TEXT="06.05 Named Graphs" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1702256943276">
+<node TEXT="06.05 Named Graphs" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715620415714">
+<arrowlink DESTINATION="ID_320976328"/>
 <node TEXT="06.05.1 Dropping Graphs" ID="ID_462413524" CREATED="1702256943725" MODIFIED="1702256951413"/>
 <node TEXT="06.05.2 Named Graph Syntax Shortcuts: WITH and USING" ID="ID_304013574" CREATED="1702256951699" MODIFIED="1702256966549"/>
 <node TEXT="06.05.03 Copying and Moving Entire Graphs" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518"/>
