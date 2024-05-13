@@ -1,0 +1,7 @@
+# SurveyAnswers.ttl
+
+@prefix sua: <http://yasen.com/surveyanswers#>
+
+sua:alice sua:hasJob sua:softwareDeveloper .
+sua:bob sua:hasJob sua:softwareDeveloper .
+sua:charles sua:hasJob sua:accountant .

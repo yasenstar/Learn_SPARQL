@@ -1,0 +1,7 @@
+# OfficialRecords.ttl
+
+@prefix ofr: <http://yasen.com/officialrecords#>
+
+ofr:alice ofr:hasJob ofr:softwareDeveloper .
+ofr:bob ofr:hasJob ofr:softwareDeveloper .
+ofr:charles ofr:hasJob ofr:accountant .

@@ -1,0 +1,11 @@
+prefix ofr: <http://yasen.com/officialrecords#>
+prefix sua: <http://yasen.com/surveyanswers#>
+
+SELECT *
+FROM NAMED <./OfficialRecords.ttl>
+FROM NAMED <./SurveyAnswers.ttl>
+WHERE {
+    {GRAPH <./OfficialRecords.ttl> {?s ?p ?o .}}
+    UNION
+    {GRAPH <./SurveyAnswers.ttl> {?s ?p ?o .}}
+}
