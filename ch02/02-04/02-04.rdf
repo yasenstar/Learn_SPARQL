@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/4/02-04/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/4/02-04/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-151="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#doctor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#doctor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#patient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#patient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#patient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#playInstrument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#playInstrument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/02-04#Musician"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/02-04#MusicalInstrument"/>
+        <rdfs:comment>Identifies the instrument that someone plays</rdfs:comment>
+        <rdfs:label>plays instrument</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#spouse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#spouse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#firstName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#lastName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/02-04#MusicalInstrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/02-04#MusicalInstrument">
+        <rdfs:label>musical instrument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/02-04#Musician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/02-04#Musician">
+        <rdfs:comment>Somone who plays a musical instrument</rdfs:comment>
+        <rdfs:label>Musician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i0432 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i0432">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#Person"/>
+        <untitled-ontology-151:playInstrument rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#vacuumCleaner"/>
+        <untitled-ontology-151:spouse rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i9771"/>
+        <untitled-ontology-151:firstName>Richard</untitled-ontology-151:firstName>
+        <untitled-ontology-151:lastName>Mutt</untitled-ontology-151:lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i8301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i8301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#Person"/>
+        <untitled-ontology-151:patient rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i9771"/>
+        <untitled-ontology-151:firstName>Craig</untitled-ontology-151:firstName>
+        <untitled-ontology-151:lastName>Ellis</untitled-ontology-151:lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i9771 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#i9771">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#Person"/>
+        <untitled-ontology-151:firstName>Cindy</untitled-ontology-151:firstName>
+        <untitled-ontology-151:lastName>Marshall</untitled-ontology-151:lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#vacuumCleaner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/untitled-ontology-151#vacuumCleaner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/02-04#MusicalInstrument"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

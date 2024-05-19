@@ -180,7 +180,11 @@
 </node>
 </node>
 <node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
-<node TEXT="DBpedia" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
+<node TEXT="Online Ontology" POSITION="bottom_or_right" ID="ID_569413191" CREATED="1716128952350" MODIFIED="1716128966123">
+<node TEXT="DBpedia" POSITION="bottom_or_right" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
+<node TEXT="FOAF" POSITION="bottom_or_right" ID="ID_648010465" CREATED="1716128970508" MODIFIED="1716128977500" LINK="http://xmlns.com/foaf/spec/"/>
+<node TEXT="Dublin Core" POSITION="bottom_or_right" ID="ID_390433039" CREATED="1716128998397" MODIFIED="1716129007304" LINK="https://www.dublincore.org/"/>
+</node>
 <node TEXT="Public DBpedia SPARQL endpoint:&#xa;https://dbpedia.org/snorql/" ID="ID_666986616" CREATED="1705789691058" MODIFIED="1705853196897" LINK="https://dbpedia.org/snorql/">
 <node TEXT="dbpedia SPARQL Query Editor (SPARQL Playground)" ID="ID_217143760" CREATED="1714252958918" MODIFIED="1715391873566" LINK="https://dbpedia.org/sparql"/>
 </node>
@@ -963,8 +967,9 @@
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
 </node>
 </node>
-<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
-<node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1705801777920">
+<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
+<node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1716129060683">
+<arrowlink DESTINATION="ID_569413191"/>
 <node TEXT="RDF 1.2 Schema (RDFS)" FOLDED="true" POSITION="bottom_or_right" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
 <node TEXT="rdfs classes" ID="ID_520923170" CREATED="1706224251239" MODIFIED="1706224258036">
 <node TEXT="rdfs:Resource" ID="ID_1084873526" CREATED="1706224258036" MODIFIED="1706224262829"/>
@@ -1041,7 +1046,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.05 Linked Data" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1705800611363">
+<node TEXT="02.05 Linked Data" FOLDED="true" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1705800611363">
 <arrowlink DESTINATION="ID_279358034"/>
 <node TEXT="Four Linked Data Principles" ID="ID_1476024422" CREATED="1715623466051" MODIFIED="1715623497733"><richcontent TYPE="NOTE">
 <html>
@@ -1076,7 +1081,7 @@
 <node TEXT="**: sharing it in a machine-readable formate (as opposed to a scan of a fax), regardless of the format" ID="ID_1919147813" CREATED="1715623639032" MODIFIED="1715623671940"/>
 <node TEXT="***: sharing data on the Web using a nonproprietary format, such as comma-separated values instead of Microsoft Excel spreadsheets" ID="ID_275478504" CREATED="1715623672128" MODIFIED="1715623712269"/>
 <node TEXT="****: putting shared data in a Linked Data format, in which concepts were identified by URLs so that we could more easily cross-reference them with other data" ID="ID_778702168" CREATED="1715623712663" MODIFIED="1715623754591"/>
-<node TEXT="" ID="ID_299802264" CREATED="1715623754764" MODIFIED="1715623754764"/>
+<node TEXT="*****: connecting the data to other data, by providing links to related data, especially links that make use of the URLs in the data" ID="ID_299802264" CREATED="1715623754764" MODIFIED="1715623805644"/>
 </node>
 </node>
 <node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1702254724906"/>
@@ -1087,7 +1092,7 @@
 <node TEXT="4. Include links to other URIs so that they can discover more things." ID="ID_1215774551" CREATED="1705768550072" MODIFIED="1705768568067"/>
 </node>
 </node>
-<node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
+<node TEXT="03. SPARQL Queries: A Deeper Dive" FOLDED="true" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
 <node TEXT="03.01 More Readable Query Results" FOLDED="true" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
 <node TEXT="03.01.01 Using the Labels Provided by DBpedia" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1702254921650"/>
 <node TEXT="03.01.02 Getting Labels from Schemas and Ontologies" ID="ID_1616598261" CREATED="1702254922055" MODIFIED="1702254933993"/>
