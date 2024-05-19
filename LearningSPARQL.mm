@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.77">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -968,7 +968,7 @@
 </node>
 </node>
 <node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
-<node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1716129060683">
+<node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1716132512974">
 <arrowlink DESTINATION="ID_569413191"/>
 <node TEXT="RDF 1.2 Schema (RDFS)" FOLDED="true" POSITION="bottom_or_right" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
 <node TEXT="rdfs classes" ID="ID_520923170" CREATED="1706224251239" MODIFIED="1706224258036">
