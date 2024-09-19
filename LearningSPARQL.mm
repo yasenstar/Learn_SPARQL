@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.455">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-4.2 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3.9 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -179,7 +179,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="01.06 Querying a Public Data Source" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
+<node TEXT="01.06 Querying a Public Data Source" FOLDED="true" ID="ID_1284135076" CREATED="1702254565174" MODIFIED="1702254575840">
 <node TEXT="Online Ontology" POSITION="bottom_or_right" ID="ID_569413191" CREATED="1716128952350" MODIFIED="1716128966123">
 <node TEXT="DBpedia" POSITION="bottom_or_right" ID="ID_1889431054" CREATED="1705795807941" MODIFIED="1705795815092" LINK="https://www.dbpedia.org/"/>
 <node TEXT="FOAF" POSITION="bottom_or_right" ID="ID_648010465" CREATED="1716128970508" MODIFIED="1716128977500" LINK="http://xmlns.com/foaf/spec/"/>
@@ -675,12 +675,12 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_184210398"/>
-<arrowlink DESTINATION="ID_892632707"/>
-<arrowlink DESTINATION="ID_450773116"/>
 <arrowlink DESTINATION="ID_1045108650"/>
-<arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_745748293"/>
+<arrowlink DESTINATION="ID_450773116"/>
+<arrowlink DESTINATION="ID_166133416"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
 <node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
@@ -1083,7 +1083,7 @@
 </node>
 </node>
 <node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1726731778410" LINK="https://en.wikipedia.org/wiki/SPARQL"/>
-<node TEXT="02.07 The SPARQL Specifications" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1726732954546" LINK="https://w3c.github.io/sparql-concepts/spec/">
+<node TEXT="02.07 The SPARQL Specifications" FOLDED="true" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1726732954546" LINK="https://w3c.github.io/sparql-concepts/spec/">
 <node TEXT="1. Use URIs as names for things" ID="ID_1909612066" CREATED="1705768484959" MODIFIED="1705768502152"/>
 <node TEXT="2. Use HTTP URIs so that people can look up those names" ID="ID_1843830121" CREATED="1705768502353" MODIFIED="1705768519749"/>
 <node TEXT="3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)" ID="ID_552070909" CREATED="1705768519925" MODIFIED="1705768549688"/>
