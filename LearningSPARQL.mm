@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-4.5 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-4.2 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -675,11 +675,11 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_1045108650"/>
-<arrowlink DESTINATION="ID_450773116"/>
 <arrowlink DESTINATION="ID_184210398"/>
-<arrowlink DESTINATION="ID_166133416"/>
 <arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_450773116"/>
+<arrowlink DESTINATION="ID_1045108650"/>
+<arrowlink DESTINATION="ID_166133416"/>
 <arrowlink DESTINATION="ID_745748293"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
@@ -1046,7 +1046,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02.05 Linked Data" FOLDED="true" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1705800611363">
+<node TEXT="02.05 Linked Data" FOLDED="true" ID="ID_206838512" CREATED="1702254707863" MODIFIED="1726731574951" LINK="https://en.wikipedia.org/wiki/Linked_data">
 <arrowlink DESTINATION="ID_279358034"/>
 <node TEXT="Four Linked Data Principles" ID="ID_1476024422" CREATED="1715623466051" MODIFIED="1715623497733"><richcontent TYPE="NOTE">
 <html>
@@ -1082,8 +1082,8 @@
 <node TEXT="*****: connecting the data to other data, by providing links to related data, especially links that make use of the URLs in the data" ID="ID_299802264" CREATED="1715623754764" MODIFIED="1715623805644"/>
 </node>
 </node>
-<node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1702254724906"/>
-<node TEXT="02.07 The SPARQL Specifications" FOLDED="true" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1702254736233">
+<node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1726731778410" LINK="https://en.wikipedia.org/wiki/SPARQL"/>
+<node TEXT="02.07 The SPARQL Specifications" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1726732954546" LINK="https://w3c.github.io/sparql-concepts/spec/">
 <node TEXT="1. Use URIs as names for things" ID="ID_1909612066" CREATED="1705768484959" MODIFIED="1705768502152"/>
 <node TEXT="2. Use HTTP URIs so that people can look up those names" ID="ID_1843830121" CREATED="1705768502353" MODIFIED="1705768519749"/>
 <node TEXT="3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)" ID="ID_552070909" CREATED="1705768519925" MODIFIED="1705768549688"/>
