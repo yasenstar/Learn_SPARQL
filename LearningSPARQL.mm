@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.455">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-5.25 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-4.5 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -152,7 +152,7 @@
 <node TEXT="Using Protege to build ontology and query data" POSITION="bottom_or_right" ID="ID_1523620468" CREATED="1705686880245" MODIFIED="1705686895631"/>
 </node>
 <node TEXT="01.03 More realistic Data and Matching on Multiple Triples" FOLDED="true" ID="ID_411301703" CREATED="1702254394245" MODIFIED="1706228452336">
-<arrowlink DESTINATION="ID_1754761441" STARTINCLINATION="2256.74993 pt;0 pt;" ENDINCLINATION="2257.49993 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_1754761441" STARTINCLINATION="2256.60005 pt;0 pt;" ENDINCLINATION="2257.50005 pt;0 pt;"/>
 <node TEXT="ex012.ttl" ID="ID_41670512" CREATED="1705968037586" MODIFIED="1705968045661">
 <icon BUILTIN="links/file/generic"/>
 </node>
@@ -675,12 +675,12 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_166133416"/>
-<arrowlink DESTINATION="ID_745748293"/>
-<arrowlink DESTINATION="ID_184210398"/>
-<arrowlink DESTINATION="ID_450773116"/>
-<arrowlink DESTINATION="ID_892632707"/>
 <arrowlink DESTINATION="ID_1045108650"/>
+<arrowlink DESTINATION="ID_450773116"/>
+<arrowlink DESTINATION="ID_184210398"/>
+<arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_745748293"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
 <node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
@@ -967,7 +967,7 @@
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
 </node>
 </node>
-<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
+<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
 <node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1716132512974">
 <arrowlink DESTINATION="ID_569413191"/>
 <node TEXT="RDF 1.2 Schema (RDFS)" FOLDED="true" POSITION="bottom_or_right" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
@@ -1058,8 +1058,7 @@
       by Tim Berners-Lee 2006
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="1. Use URIs as names for things" ID="ID_634500292" CREATED="1715623499437" MODIFIED="1715623508414"/>
 <node TEXT="2. Use HTTP URIs so that people can look up those names" ID="ID_1950029813" CREATED="1715623508586" MODIFIED="1715623518966"/>
 <node TEXT="3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)" ID="ID_247951913" CREATED="1715623524726" MODIFIED="1715623549028"/>
@@ -1075,8 +1074,7 @@
       by Tim Berners-Lee, 2010
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="*: any kind of sharing at all." ID="ID_914300863" CREATED="1715623612928" MODIFIED="1715623638309"/>
 <node TEXT="**: sharing it in a machine-readable formate (as opposed to a scan of a fax), regardless of the format" ID="ID_1919147813" CREATED="1715623639032" MODIFIED="1715623671940"/>
 <node TEXT="***: sharing data on the Web using a nonproprietary format, such as comma-separated values instead of Microsoft Excel spreadsheets" ID="ID_275478504" CREATED="1715623672128" MODIFIED="1715623712269"/>
@@ -1174,7 +1172,7 @@
 </node>
 <node TEXT="05.03 Extension Functions" ID="ID_1505584738" CREATED="1702256879386" MODIFIED="1702256885676"/>
 </node>
-<node TEXT="06. Updating Data with SPARQL" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
+<node TEXT="06. Updating Data with SPARQL" FOLDED="true" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
 <node TEXT="06.01 Getting Started with Fuseki" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478"/>
 <node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173"/>
 <node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989"/>
@@ -1273,7 +1271,7 @@
 <node TEXT="11.03.05 How Do I Turn Resources into Instances of Declared Classes?" ID="ID_1747166339" CREATED="1702258046390" MODIFIED="1702258062824"/>
 </node>
 </node>
-<node TEXT="Tools" POSITION="bottom_or_right" ID="ID_1538146970" CREATED="1715616107060" MODIFIED="1715616110783">
+<node TEXT="Tools" FOLDED="true" POSITION="bottom_or_right" ID="ID_1538146970" CREATED="1715616107060" MODIFIED="1715616110783">
 <node TEXT="RDF Visualizer from issemantic.net" ID="ID_604334433" CREATED="1715616110789" MODIFIED="1715616133778" LINK="https://issemantic.net/rdf-visualizer"/>
 </node>
 </node>
