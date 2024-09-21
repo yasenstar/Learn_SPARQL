@@ -4,6 +4,10 @@ Learn by practicing on book "Learning SPARQL", which is authored by [Bob DuCharm
 
 [![book cover](img/cover_learning-sparql.png)](http://learningsparql.com/)
 
+Welcome to enroll the demo course packaging in Udemy now:
+
+[![udemy-logo](img/udemy-icon.png)](https://www.udemy.com/course/learning-sparql-for-querying-rdf-by-practice/?referralCode=BA578CE881FA1438F6DF)
+
 ---
 
 ## Mindmap of the Book
@@ -17,7 +21,7 @@ Learn by practicing on book "Learning SPARQL", which is authored by [Bob DuCharm
 - [Ch 00 - Preface](./ch00/)
 - [Ch 01 - Jumping Right In: Some Data and Some Queries](./ch01/)
 - [Ch 02 - The Semantic Web, RDF, and Linked Data (and SPARQL)](./ch02/)
-- [Ch 03 - SPARQL Queries: A Deeper Dive)](./ch03/)
+- [Ch 03 - SPARQL Queries: A Deeper Dive](./ch03/)
 
 ---
 
