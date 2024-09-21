@@ -1,0 +1,4 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.learningsparql.com/ns/demo#i93234>
+    foaf:nick   "Dick" .
