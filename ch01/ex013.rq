@@ -1,7 +1,7 @@
 PREFIX ab: <http://yasen.com/ns/addressbook#>
 
 SELECT *
-FROM <ex012.ttl>
+FROM <ex012_altNS.ttl>
 WHERE {
     ?person ab:firstName "Craig" .
     ?person ab:email    ?craigEmail .
