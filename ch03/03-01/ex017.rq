@@ -1,0 +1,10 @@
+# filename: ex008.rq
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+
+SELECT ?person ?firstName ?lastName
+WHERE {
+    ?person ab:homeTel "(229) 276-5135" .
+    ?person ab:firstName ?firstName .
+    ?person ab:lastName ?lastName .
+}
