@@ -1091,7 +1091,7 @@
 </node>
 </node>
 <node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
-<node TEXT="03.01 More Readable Query Results" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
+<node TEXT="03.01 More Readable Query Results" FOLDED="true" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
 <node TEXT="03.01.01 Using the Labels Provided by DBpedia - https://dbpedia.org/snorql/" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1726895215293" LINK="https://dbpedia.org/snorql/">
 <node TEXT="query: ex048-1" ID="ID_1064149533" CREATED="1726895190952" MODIFIED="1726895198042" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3Fartist+%3Falbum%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A%7D"/>
 <node TEXT="query: ex048-2" ID="ID_608879733" CREATED="1726895130472" MODIFIED="1726895138803" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3FalbumName+%3FartistName%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A++++%3Falbum+rdfs%3Alabel+%3FalbumName+.%0D%0A++++%3Fartist+rdfs%3Alabel+%3FartistName+.%0D%0A%7D"/>
@@ -1100,8 +1100,11 @@
 <node TEXT="03.01.02 Getting Labels from Schemas and Ontologies" ID="ID_1616598261" CREATED="1702254922055" MODIFIED="1702254933993"/>
 </node>
 <node TEXT="03.02 Data That Might Not Be There" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
-<node TEXT="OPTIONAL" ID="ID_1749097275" CREATED="1705768293632" MODIFIED="1705772198740">
+<node TEXT="OPTIONAL" ID="ID_1749097275" CREATED="1705768293632" MODIFIED="1726920724635">
 <arrowlink DESTINATION="ID_1415407541"/>
+<arrowlink DESTINATION="ID_1647965527"/>
+<node TEXT="The triples in the pattern work together as a unit, or as a graph pattern" ID="ID_386065804" CREATED="1726920749234" MODIFIED="1726920776547"/>
+<node TEXT="The order of OPTIONAL graph patterns matters" ID="ID_507793727" CREATED="1726920800730" MODIFIED="1726920817556"/>
 </node>
 </node>
 <node TEXT="03.03 Finding Data That Doesn&apos;t Meet Certain Conditions" FOLDED="true" ID="ID_1381710793" CREATED="1702254965352" MODIFIED="1702254982384">
@@ -1189,7 +1192,7 @@
 <node TEXT="06.05.04 Deleting and Replacing Triples in Named Graphs" ID="ID_1230375298" CREATED="1702256978738" MODIFIED="1702256992845"/>
 </node>
 </node>
-<node TEXT="07. Query Efficiency and Debugging" FOLDED="true" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
+<node TEXT="07. Query Efficiency and Debugging" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
 <node TEXT="07.01 Efficiency Inside the WHERE Clause" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
 <node TEXT="07.01.01 Reduce the Search Space" ID="ID_474317469" CREATED="1702257031830" MODIFIED="1702257039836"/>
 <node TEXT="07.01.02 OPTIONAL Is Very Optional" ID="ID_1647965527" CREATED="1702257040051" MODIFIED="1702257050092"/>

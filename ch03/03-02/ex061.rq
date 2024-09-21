@@ -1,0 +1,16 @@
+# filename: ex061.rq
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+
+SELECT ?first ?last ?workTel ?nick
+WHERE {
+    ?s  ab:firstName    ?first ;
+        ab:lastName     ?last .
+    # above line can be ended either in ";" or ".", no error
+    OPTIONAL {
+        ?s    ab:workTel      ?workTel .
+    }
+    OPTIONAL {
+        ?s    ab:nick   ?nick .
+    }
+}
