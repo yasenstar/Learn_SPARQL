@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3.9 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3.6 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -296,7 +296,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
@@ -675,11 +675,11 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_1045108650"/>
-<arrowlink DESTINATION="ID_892632707"/>
 <arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_745748293"/>
+<arrowlink DESTINATION="ID_1045108650"/>
 <arrowlink DESTINATION="ID_450773116"/>
+<arrowlink DESTINATION="ID_892632707"/>
 <arrowlink DESTINATION="ID_166133416"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
@@ -1090,12 +1090,16 @@
 <node TEXT="4. Include links to other URIs so that they can discover more things." ID="ID_1215774551" CREATED="1705768550072" MODIFIED="1705768568067"/>
 </node>
 </node>
-<node TEXT="03. SPARQL Queries: A Deeper Dive" FOLDED="true" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
-<node TEXT="03.01 More Readable Query Results" FOLDED="true" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
-<node TEXT="03.01.01 Using the Labels Provided by DBpedia" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1702254921650"/>
+<node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
+<node TEXT="03.01 More Readable Query Results" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
+<node TEXT="03.01.01 Using the Labels Provided by DBpedia - https://dbpedia.org/snorql/" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1726895215293" LINK="https://dbpedia.org/snorql/">
+<node TEXT="query: ex048-1" ID="ID_1064149533" CREATED="1726895190952" MODIFIED="1726895198042" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3Fartist+%3Falbum%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A%7D"/>
+<node TEXT="query: ex048-2" ID="ID_608879733" CREATED="1726895130472" MODIFIED="1726895138803" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3FalbumName+%3FartistName%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A++++%3Falbum+rdfs%3Alabel+%3FalbumName+.%0D%0A++++%3Fartist+rdfs%3Alabel+%3FartistName+.%0D%0A%7D"/>
+<node TEXT="query: ex048-3" ID="ID_501142923" CREATED="1726895050319" MODIFIED="1726895070536" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3FalbumName+%3FartistName%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A++++%3Falbum+rdfs%3Alabel+%3FalbumName+.%0D%0A++++%3Fartist+rdfs%3Alabel+%3FartistName+.%0D%0A++++FILTER+%28+lang%28%3FalbumName%29+%3D+%22en%22%29%0D%0A++++FILTER+%28+lang%28%3FartistName%29+%3D+%22en%22%29%0D%0A%7D"/>
+</node>
 <node TEXT="03.01.02 Getting Labels from Schemas and Ontologies" ID="ID_1616598261" CREATED="1702254922055" MODIFIED="1702254933993"/>
 </node>
-<node TEXT="03.02 Data That Might Not Be There" FOLDED="true" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
+<node TEXT="03.02 Data That Might Not Be There" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
 <node TEXT="OPTIONAL" ID="ID_1749097275" CREATED="1705768293632" MODIFIED="1705772198740">
 <arrowlink DESTINATION="ID_1415407541"/>
 </node>
@@ -1107,7 +1111,7 @@
 <node TEXT="FILTER NOT EXISTS" ID="ID_1660440767" CREATED="1705768349878" MODIFIED="1705768357495"/>
 <node TEXT="MINUS" ID="ID_236638185" CREATED="1705768357901" MODIFIED="1705768361182"/>
 </node>
-<node TEXT="03.04 Searching Further in the Data" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
+<node TEXT="03.04 Searching Further in the Data" FOLDED="true" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
 <node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
 </node>
 <node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1715620203452">
