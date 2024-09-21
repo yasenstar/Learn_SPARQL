@@ -1,0 +1,11 @@
+# filename: ex050.ttl
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/>
+
+<http://www.learningsparql.com/ns/demo#i93234>
+    foaf:nick   "Dick" ;
+    foaf:givenname "Rickard" ;
+    foaf:mbox   "richard49@hotmail.com" ;
+    foaf:surname    "Mutt" ;
+    foaf:workplaceHomepage <http://www.philamuseum.org/> ;
+    foaf:aimChatID "bridesbachelor" .
