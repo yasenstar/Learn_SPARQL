@@ -1113,16 +1113,26 @@
 <node TEXT="MINUS" ID="ID_236638185" CREATED="1705768357901" MODIFIED="1705768361182"/>
 <node TEXT="Relationships and Difference between NOT EXISTS and MINUS" ID="ID_1474168871" CREATED="1726931392067" MODIFIED="1726931429174" LINK="https://www.w3.org/TR/sparql11-query/#neg-notexists-minus"/>
 </node>
-<node TEXT="03.04 Searching Further in the Data" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
+<node TEXT="03.04 Searching Further in the Data" FOLDED="true" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
 <node TEXT="1) Query from multiple tables or files" ID="ID_726512935" CREATED="1727509329590" MODIFIED="1727524803339"/>
-<node TEXT="2) Query via Property Path" ID="ID_473236620" CREATED="1727509342988" MODIFIED="1727524807107" LINK="https://www.w3.org/TR/sparql11-property-paths/"/>
+<node TEXT="2) Query via Property Path" ID="ID_473236620" CREATED="1727509342988" MODIFIED="1727524807107" LINK="https://www.w3.org/TR/sparql11-property-paths/">
+<node TEXT="next triple has same subjext and predicate as last one: ," ID="ID_755718209" CREATED="1727532326126" MODIFIED="1727532358074"/>
+<node TEXT="next tripe has same subject as last one: ;" ID="ID_710196713" CREATED="1727532360079" MODIFIED="1727532371161"/>
+<node TEXT="bind more than one variable: |" ID="ID_472974601" CREATED="1727530145376" MODIFIED="1727530171833"/>
+<node TEXT="&quot;one or more&quot;: +" ID="ID_394649286" CREATED="1727530174040" MODIFIED="1727530197283"/>
+<node TEXT="&quot;zero or more&quot;: *" ID="ID_1745887498" CREATED="1727530197767" MODIFIED="1727530203233"/>
+<node TEXT="property path: /" ID="ID_639428957" CREATED="1727530203400" MODIFIED="1727530217277"/>
+<node TEXT="inverse property path: ^" ID="ID_435646630" CREATED="1727530217697" MODIFIED="1727530231683"/>
 </node>
-<node TEXT="03.05 Searching with Blank Nodes" FOLDED="true" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1727507052739">
+</node>
+<node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1727507052739">
 <arrowlink DESTINATION="ID_1754761441"/>
 <node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." POSITION="bottom_or_right" ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
 </node>
 <node TEXT="03.06 Eliminating Redundant Output" ID="ID_1995007971" CREATED="1702255004185" MODIFIED="1702255029412"/>
-<node TEXT="03.07 Combining Different Search Conditions" ID="ID_1696839565" CREATED="1702255029672" MODIFIED="1702255041698"/>
+<node TEXT="03.07 Combining Different Search Conditions" ID="ID_1696839565" CREATED="1702255029672" MODIFIED="1727529450670">
+<arrowlink DESTINATION="ID_473236620"/>
+</node>
 <node TEXT="03.08 FILTERing Data Based on Conditions" ID="ID_391442690" CREATED="1702255041985" MODIFIED="1705720767932">
 <arrowlink DESTINATION="ID_538918424"/>
 </node>
