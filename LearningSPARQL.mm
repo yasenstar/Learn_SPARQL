@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3.6 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3.3 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -296,7 +296,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
@@ -675,11 +675,11 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_184210398"/>
-<arrowlink DESTINATION="ID_745748293"/>
 <arrowlink DESTINATION="ID_1045108650"/>
+<arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_450773116"/>
 <arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_745748293"/>
 <arrowlink DESTINATION="ID_166133416"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
@@ -933,7 +933,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1715621169069">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1727509313706">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -1101,8 +1101,8 @@
 </node>
 <node TEXT="03.02 Data That Might Not Be There" FOLDED="true" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
 <node TEXT="OPTIONAL" ID="ID_1749097275" CREATED="1705768293632" MODIFIED="1726921401267">
-<arrowlink DESTINATION="ID_1415407541"/>
 <arrowlink DESTINATION="ID_1647965527"/>
+<arrowlink DESTINATION="ID_1415407541"/>
 <node TEXT="The triples in the pattern work together as a unit, or as a graph pattern" ID="ID_386065804" CREATED="1726920749234" MODIFIED="1726920776547"/>
 <node TEXT="The order of OPTIONAL graph patterns matters" ID="ID_507793727" CREATED="1726920800730" MODIFIED="1726920817556"/>
 </node>
@@ -1114,10 +1114,12 @@
 <node TEXT="Relationships and Difference between NOT EXISTS and MINUS" ID="ID_1474168871" CREATED="1726931392067" MODIFIED="1726931429174" LINK="https://www.w3.org/TR/sparql11-query/#neg-notexists-minus"/>
 </node>
 <node TEXT="03.04 Searching Further in the Data" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
-<node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
+<node TEXT="Query from multiple tables or files" ID="ID_726512935" CREATED="1727509329590" MODIFIED="1727509342836"/>
+<node TEXT="Query via Property Path" ID="ID_473236620" CREATED="1727509342988" MODIFIED="1727509348207"/>
 </node>
-<node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1715620203452">
+<node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1727507052739">
 <arrowlink DESTINATION="ID_1754761441"/>
+<node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." POSITION="bottom_or_right" ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
 </node>
 <node TEXT="03.06 Eliminating Redundant Output" ID="ID_1995007971" CREATED="1702255004185" MODIFIED="1702255029412"/>
 <node TEXT="03.07 Combining Different Search Conditions" ID="ID_1696839565" CREATED="1702255029672" MODIFIED="1702255041698"/>

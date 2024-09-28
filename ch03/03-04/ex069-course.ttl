@@ -1,0 +1,11 @@
+# filename: ex069-course.ttl
+
+@prefix ab: <http://learningsparql.com/ns/addressbook#>
+@prefix d: <http://learningsparql.com/ns/data#>
+
+# Courses
+
+d:course34  ab:couresTitle  "Modeling Data with OWL" .
+d:course71  ab:couresTitle  "Enhancing Websites with REFa" .
+d:course59  ab:couresTitle  "Using SPARQL with non-RDF Data" .
+d:course85  ab:couresTitle  "Updating Data with SPARQL" .
