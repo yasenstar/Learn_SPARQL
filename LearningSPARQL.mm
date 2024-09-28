@@ -1114,10 +1114,10 @@
 <node TEXT="Relationships and Difference between NOT EXISTS and MINUS" ID="ID_1474168871" CREATED="1726931392067" MODIFIED="1726931429174" LINK="https://www.w3.org/TR/sparql11-query/#neg-notexists-minus"/>
 </node>
 <node TEXT="03.04 Searching Further in the Data" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
-<node TEXT="Query from multiple tables or files" ID="ID_726512935" CREATED="1727509329590" MODIFIED="1727509342836"/>
-<node TEXT="Query via Property Path" ID="ID_473236620" CREATED="1727509342988" MODIFIED="1727509348207"/>
+<node TEXT="1) Query from multiple tables or files" ID="ID_726512935" CREATED="1727509329590" MODIFIED="1727524803339"/>
+<node TEXT="2) Query via Property Path" ID="ID_473236620" CREATED="1727509342988" MODIFIED="1727524807107" LINK="https://www.w3.org/TR/sparql11-property-paths/"/>
 </node>
-<node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1727507052739">
+<node TEXT="03.05 Searching with Blank Nodes" FOLDED="true" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1727507052739">
 <arrowlink DESTINATION="ID_1754761441"/>
 <node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." POSITION="bottom_or_right" ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
 </node>

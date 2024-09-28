@@ -76,17 +76,33 @@ Subject (s)-> Predicate (p) -> Object (o)
 
 ## 01.06 Querying a Public Data Source
 
-### DBpedia
+### Online Ontology
+
+#### DBpedia
+
+#### FOAF
+
+#### Dublin Core
 
 ### Public DBpedia SPARQL endpoint:
 https://dbpedia.org/snorql/
 
-#### dbpedia SPARQL Query Editor
+#### dbpedia SPARQL Query Editor (SPARQL Playground)
 
 ### Wikidata Query Service:
 https://query.wikidata.org/
 
 ### 120 Year of Olympics Data
+
+### Ontology Registry and Repository
+
+#### SPARQL Search
+
+### Online SPARQL Query Editor
+
+#### SPARQL Query Editor from string-db.org
+
+#### SPARQL Editor from carsten.io
 
 ### ex025.rq
 
@@ -509,7 +525,7 @@ WHERE
 ## 02.04 Reusing and Creating Vocabularies: RDF Schema and OWL
 
 ### RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies
-
+ (see:Online Ontology)
 #### RDF 1.2 Schema (RDFS)
 
 ##### rdfs classes
@@ -612,6 +628,34 @@ WHERE
 
 ## 02.05 Linked Data
  (see:Use Linked Data as a set of best practices for sharing data across the web infrastructure so that applications (not human beings!) can more easily retrieve data from public sites with no need for screen scraping.)
+### Four Linked Data Principles
+
+by Tim Berners-Lee 2006
+
+
+#### 1. Use URIs as names for things
+
+#### 2. Use HTTP URIs so that people can look up those names
+
+#### 3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)
+
+#### 4. Include links to other URIs so that they can discover more things
+
+### Five-Star of Open Data Schema
+
+by Tim Berners-Lee, 2010
+
+
+#### *: any kind of sharing at all.
+
+#### **: sharing it in a machine-readable formate (as opposed to a scan of a fax), regardless of the format
+
+#### ***: sharing data on the Web using a nonproprietary format, such as comma-separated values instead of Microsoft Excel spreadsheets
+
+#### ****: putting shared data in a Linked Data format, in which concepts were identified by URLs so that we could more easily cross-reference them with other data
+
+#### *****: connecting the data to other data, by providing links to related data, especially links that make use of the URLs in the data
+
 ## 02.06 SPARQL's Past, Present, and Future
 
 ## 02.07 The SPARQL Specifications
@@ -628,27 +672,43 @@ WHERE
 
 ## 03.01 More Readable Query Results
 
-### 03.01.01 Using the Labels Provided by DBpedia
+### 03.01.01 Using the Labels Provided by DBpedia - https://dbpedia.org/snorql/
+
+#### query: ex048-1
+
+#### query: ex048-2
+
+#### query: ex048-3
 
 ### 03.01.02 Getting Labels from Schemas and Ontologies
 
 ## 03.02 Data That Might Not Be There
 
 ### OPTIONAL
- (see:01.05 What Could Go Wrong?)
+ (see:01.05 What Could Go Wrong?07.01.02 OPTIONAL Is Very Optional)
+#### The triples in the pattern work together as a unit, or as a graph pattern
+
+#### The order of OPTIONAL graph patterns matters
+
 ## 03.03 Finding Data That Doesn't Meet Certain Conditions
 
-### FILTER
- (see:01.04 Searching for Strings)
+### bound and !bound
+
 ### FILTER NOT EXISTS
 
 ### MINUS
 
+### Relationships and Difference between NOT EXISTS and MINUS
+
 ## 03.04 Searching Further in the Data
 
-### Although blank nodes have no permanent identity, we can use them to group together other values.
+### 1) Query from multiple tables or files
+
+### 2) Query via Property Path
 
 ## 03.05 Searching with Blank Nodes
+ (see:02.03.05 Blank Nodes and Why They're Useful)
+### Although blank nodes have no permanent identity, we can use them to group together other values.
 
 ## 03.06 Eliminating Redundant Output
 
@@ -659,7 +719,7 @@ WHERE
 ## 03.09 Retrieving a Specific Number of Results
 
 ## 03.10 Querying Named Graphs
-
+ (see:02.03.06 Named Graphs)
 ## 03.11 Queries in Your Queries
 
 ## 03.12 Combining Values and Assigning Values to Variables
@@ -751,7 +811,7 @@ WHERE
 ## 06.04 Changing Existing Data
 
 ## 06.05 Named Graphs
-
+ (see:02.03.06 Named Graphs)
 ### 06.05.1 Dropping Graphs
 
 ### 06.05.2 Named Graph Syntax Shortcuts: WITH and USING
@@ -899,3 +959,7 @@ WHERE
 ### 11.03.04 How Do I Change the Datatype of a Certain Property's Values?
 
 ### 11.03.05 How Do I Turn Resources into Instances of Declared Classes?
+
+# Tools
+
+## RDF Visualizer from issemantic.net
