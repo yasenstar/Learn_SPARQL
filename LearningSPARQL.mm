@@ -1107,13 +1107,13 @@
 <node TEXT="The order of OPTIONAL graph patterns matters" ID="ID_507793727" CREATED="1726920800730" MODIFIED="1726920817556"/>
 </node>
 </node>
-<node TEXT="03.03 Finding Data That Doesn&apos;t Meet Certain Conditions" ID="ID_1381710793" CREATED="1702254965352" MODIFIED="1702254982384">
+<node TEXT="03.03 Finding Data That Doesn&apos;t Meet Certain Conditions" FOLDED="true" ID="ID_1381710793" CREATED="1702254965352" MODIFIED="1702254982384">
 <node TEXT="bound and !bound" ID="ID_1065214148" CREATED="1705768328436" MODIFIED="1726928016675"/>
 <node TEXT="FILTER NOT EXISTS" ID="ID_1660440767" CREATED="1705768349878" MODIFIED="1705768357495"/>
 <node TEXT="MINUS" ID="ID_236638185" CREATED="1705768357901" MODIFIED="1705768361182"/>
 <node TEXT="Relationships and Difference between NOT EXISTS and MINUS" ID="ID_1474168871" CREATED="1726931392067" MODIFIED="1726931429174" LINK="https://www.w3.org/TR/sparql11-query/#neg-notexists-minus"/>
 </node>
-<node TEXT="03.04 Searching Further in the Data" FOLDED="true" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
+<node TEXT="03.04 Searching Further in the Data" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
 <node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
 </node>
 <node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1715620203452">
