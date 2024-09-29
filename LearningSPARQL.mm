@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -174,7 +174,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="01.05 What Could Go Wrong?" FOLDED="true" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001">
+<node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001">
 <node TEXT="ex023.rq" ID="ID_560355002" CREATED="1705969036379" MODIFIED="1705969043085">
 <icon BUILTIN="links/file/generic"/>
 </node>
@@ -933,7 +933,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1727509313706">
+<node TEXT="02.03.05 Blank Nodes and Why They&apos;re Useful" FOLDED="true" ID="ID_1754761441" CREATED="1702254809615" MODIFIED="1727587134491">
 <arrowlink DESTINATION="ID_1919088017"/>
 <node TEXT="ex040.ttl" ID="ID_947642444" CREATED="1706228460561" MODIFIED="1706228484709">
 <icon BUILTIN="links/file/generic"/>
@@ -1113,7 +1113,7 @@
 <node TEXT="MINUS" ID="ID_236638185" CREATED="1705768357901" MODIFIED="1705768361182"/>
 <node TEXT="Relationships and Difference between NOT EXISTS and MINUS" ID="ID_1474168871" CREATED="1726931392067" MODIFIED="1726931429174" LINK="https://www.w3.org/TR/sparql11-query/#neg-notexists-minus"/>
 </node>
-<node TEXT="03.04 Searching Further in the Data" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
+<node TEXT="03.04 Searching Further in the Data" FOLDED="true" ID="ID_1919088017" CREATED="1702254982697" MODIFIED="1702254993323">
 <node TEXT="1) Query from multiple tables or files" ID="ID_726512935" CREATED="1727509329590" MODIFIED="1727524803339"/>
 <node TEXT="2) Query via Property Paths" ID="ID_473236620" CREATED="1727509342988" MODIFIED="1727536348609" LINK="https://www.w3.org/TR/sparql11-property-paths/">
 <node TEXT="next triple has same subjext and predicate as last one: ," ID="ID_755718209" CREATED="1727532326126" MODIFIED="1727532358074"/>
@@ -1125,7 +1125,7 @@
 <node TEXT="inverse property path: ^" ID="ID_435646630" CREATED="1727530217697" MODIFIED="1727530231683"/>
 </node>
 </node>
-<node TEXT="03.05 Searching with Blank Nodes" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1727507052739">
+<node TEXT="03.05 Searching with Blank Nodes" FOLDED="true" ID="ID_1050605418" CREATED="1702254993592" MODIFIED="1727507052739">
 <arrowlink DESTINATION="ID_1754761441"/>
 <node TEXT="Although blank nodes have no permanent identity, we can use them to group together other values." POSITION="bottom_or_right" ID="ID_1978114398" CREATED="1705768397462" MODIFIED="1705768450347"/>
 </node>

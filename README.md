@@ -25,4 +25,10 @@ Welcome to enroll the demo course packaging in Udemy now:
 
 ---
 
+## Use "RDF Grapher" to Visualize RDF Data
+
+Here [RDF Grapher](https://www.ldf.fi/service/rdf-grapher) is one nice online tool that can parse RDF data and visualize it as a graph, I'm using this to generate visualized diagram for the data file in the course, and store the exported image in the same data file folder respectively.
+
+---
+
 Feel free to raise your comments or questions to me via [Email](mailto:xiaoqizhao@outlook.com), good luck!
