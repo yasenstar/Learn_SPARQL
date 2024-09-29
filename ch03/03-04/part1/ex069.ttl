@@ -1,7 +1,7 @@
 # filename: ex069.ttl
 
-@prefix ab: <http://learningsparql.com/ns/addressbook#>
-@prefix d: <http://learningsparql.com/ns/data#>
+@prefix ab: <http://learningsparql.com/ns/addressbook#> .
+@prefix d: <http://learningsparql.com/ns/data#> .
 
 # People
 
