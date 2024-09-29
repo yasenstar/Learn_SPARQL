@@ -8,5 +8,5 @@ SELECT ?s ?cost ?city
 WHERE {
     ?s  dm:location ?city ;
         dm:cost     ?cost .
-    FILTER ( ?city IN (db:Montreal, "Heidelberg" ) )
+    FILTER ( ?city IN (db:Montreal, "db:Lisbon") )
 }
