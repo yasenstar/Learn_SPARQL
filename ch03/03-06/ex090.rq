@@ -1,0 +1,8 @@
+# filename: ex090.rq
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+
+SELECT ?p
+WHERE {
+    ?s ?p ?o .
+}
