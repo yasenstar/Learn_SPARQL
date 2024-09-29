@@ -8,11 +8,13 @@ WHERE {
             ab:lastName     ?last ;
             ab:instrument   ?instrument .
     
-    {
-        ?person ab:instrument "sax" .
-    }
-    UNION
-    {
-        ?person ab:instrument "trumpet" .
-    }
+    # {
+    #     ?person ab:instrument "sax" .
+    # }
+    # UNION
+    # {
+    #     ?person ab:instrument "trumpet" .
+    # }
+
+    FILTER( ?instrument in ("sax", "trumpet") ) .
 }

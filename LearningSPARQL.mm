@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.929">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -296,7 +296,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1702253741493">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1727612485661" VGAP_QUANTITY="3 pt">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
@@ -1082,8 +1082,8 @@
 <node TEXT="*****: connecting the data to other data, by providing links to related data, especially links that make use of the URLs in the data" ID="ID_299802264" CREATED="1715623754764" MODIFIED="1715623805644"/>
 </node>
 </node>
-<node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1726731778410" LINK="https://en.wikipedia.org/wiki/SPARQL"/>
-<node TEXT="02.07 The SPARQL Specifications" FOLDED="true" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1726732954546" LINK="https://w3c.github.io/sparql-concepts/spec/">
+<node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1727612485652" LINK="https://en.wikipedia.org/wiki/SPARQL"/>
+<node TEXT="02.07 The SPARQL Specifications" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1726732954546" LINK="https://w3c.github.io/sparql-concepts/spec/">
 <node TEXT="1. Use URIs as names for things" ID="ID_1909612066" CREATED="1705768484959" MODIFIED="1705768502152"/>
 <node TEXT="2. Use HTTP URIs so that people can look up those names" ID="ID_1843830121" CREATED="1705768502353" MODIFIED="1705768519749"/>
 <node TEXT="3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)" ID="ID_552070909" CREATED="1705768519925" MODIFIED="1705768549688"/>
@@ -1092,7 +1092,8 @@
 </node>
 <node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
 <node TEXT="03.01 More Readable Query Results" FOLDED="true" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
-<node TEXT="03.01.01 Using the Labels Provided by DBpedia - https://dbpedia.org/snorql/" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1726895215293" LINK="https://dbpedia.org/snorql/">
+<node TEXT="03.01.01 Using the Labels Provided by DBpedia - https://dbpedia.org/snorql/" FOLDED="true" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1727612528163" LINK="https://dbpedia.org/snorql/">
+<arrowlink DESTINATION="ID_391442690"/>
 <node TEXT="query: ex048-1" ID="ID_1064149533" CREATED="1726895190952" MODIFIED="1726895198042" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3Fartist+%3Falbum%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A%7D"/>
 <node TEXT="query: ex048-2" ID="ID_608879733" CREATED="1726895130472" MODIFIED="1726895138803" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3FalbumName+%3FartistName%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A++++%3Falbum+rdfs%3Alabel+%3FalbumName+.%0D%0A++++%3Fartist+rdfs%3Alabel+%3FartistName+.%0D%0A%7D"/>
 <node TEXT="query: ex048-3" ID="ID_501142923" CREATED="1726895050319" MODIFIED="1726895070536" LINK="https://dbpedia.org/snorql/?query=PREFIX+d%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3FalbumName+%3FartistName%0D%0AWHERE+%7B%0D%0A++++%3Falbum+d%3Aproducer+%3ATimbaland+.%0D%0A++++%3Falbum+d%3Aartist+%3Fartist+.%0D%0A++++%3Falbum+rdfs%3Alabel+%3FalbumName+.%0D%0A++++%3Fartist+rdfs%3Alabel+%3FartistName+.%0D%0A++++FILTER+%28+lang%28%3FalbumName%29+%3D+%22en%22%29%0D%0A++++FILTER+%28+lang%28%3FartistName%29+%3D+%22en%22%29%0D%0A%7D"/>
