@@ -1,0 +1,12 @@
+# filename: ex109.rq
+
+PREFIX dm: <http://learningsparql.com/ns/demo#>
+PREFIX d:  <http://learningsparql.com/ns/data#>
+PREFIX db: <http://dbpedia.org/resource/>
+
+SELECT ?s ?cost ?city
+WHERE {
+    ?s  dm:location ?city ;
+        dm:cost     ?cost .
+    FILTER ( ?city IN (db:Montreal, "Heidelberg" ) )
+}
