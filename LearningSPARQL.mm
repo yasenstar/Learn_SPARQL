@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -174,7 +174,7 @@
 <icon BUILTIN="links/file/generic"/>
 </node>
 </node>
-<node TEXT="01.05 What Could Go Wrong?" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001">
+<node TEXT="01.05 What Could Go Wrong?" FOLDED="true" ID="ID_1415407541" CREATED="1702254554493" MODIFIED="1702254565001">
 <node TEXT="ex023.rq" ID="ID_560355002" CREATED="1705969036379" MODIFIED="1705969043085">
 <icon BUILTIN="links/file/generic"/>
 </node>
@@ -961,10 +961,12 @@
 <node TEXT="[ ... content ... ] is a convenience in turtle and sparql to introduce a bnode (typically in an object position) and add some properties of that bnode" ID="ID_1603469567" CREATED="1706230601407" MODIFIED="1706230639709"/>
 </node>
 </node>
-<node TEXT="02.03.06 Named Graphs" FOLDED="true" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1706231347071" LINK="https://www.w3.org/2009/07/NamedGraph.html">
+<node TEXT="02.03.06 Named Graphs" ID="ID_320976328" CREATED="1702254831176" MODIFIED="1727764838270" LINK="https://www.w3.org/2009/07/NamedGraph.html">
+<arrowlink DESTINATION="ID_21303157"/>
 <node TEXT="Named graphs are another way to group triples together." ID="ID_583307689" CREATED="1706231237425" MODIFIED="1706231280440"/>
 <node TEXT="When you assign a name to a set of triples, you can then assign metadata to that set of triples, which we called named subsets of the graph" ID="ID_245845225" CREATED="1706231280835" MODIFIED="1706231316589"/>
 <node TEXT="In a RDF database, a named graph is what we call a subset of our data that has been given a unique label (name). A graph database can contain any number of named graphs alongside its default graph, and each fact can be present in or absent from any graph." ID="ID_1461877124" CREATED="1706232885783" MODIFIED="1706233076008" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph"/>
+<node TEXT="Named Graph info from RDFOX" ID="ID_1229707376" CREATED="1727764849031" MODIFIED="1727764872700" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph#:~:text=In%20an%20RDF%20database,%20a%20named"/>
 </node>
 </node>
 <node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
@@ -1083,7 +1085,7 @@
 </node>
 </node>
 <node TEXT="02.06 SPARQL&apos;s Past, Present, and Future" ID="ID_84666791" CREATED="1702254713463" MODIFIED="1727612485652" LINK="https://en.wikipedia.org/wiki/SPARQL"/>
-<node TEXT="02.07 The SPARQL Specifications" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1726732954546" LINK="https://w3c.github.io/sparql-concepts/spec/">
+<node TEXT="02.07 The SPARQL Specifications" FOLDED="true" ID="ID_677198764" CREATED="1702254725615" MODIFIED="1726732954546" LINK="https://w3c.github.io/sparql-concepts/spec/">
 <node TEXT="1. Use URIs as names for things" ID="ID_1909612066" CREATED="1705768484959" MODIFIED="1705768502152"/>
 <node TEXT="2. Use HTTP URIs so that people can look up those names" ID="ID_1843830121" CREATED="1705768502353" MODIFIED="1705768519749"/>
 <node TEXT="3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)" ID="ID_552070909" CREATED="1705768519925" MODIFIED="1705768549688"/>
@@ -1138,10 +1140,11 @@
 <arrowlink DESTINATION="ID_538918424"/>
 </node>
 <node TEXT="03.09 Retrieving a Specific Number of Results" ID="ID_1422350324" CREATED="1702255055136" MODIFIED="1702255069322"/>
-<node TEXT="03.10 Querying Named Graphs" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1715620399778">
-<arrowlink DESTINATION="ID_320976328"/>
+<node TEXT="03.10 Querying Named Graphs" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1727764823718">
 <node TEXT="Named Graph: another way to group triples together (page 35)" ID="ID_21303157" CREATED="1727754837569" MODIFIED="1727754857038">
-<node TEXT="When you assign a name to a set of triples, of course the name is a URI, so because RDF lets you assign metadata to anything that you can identify with a URI, you can then assign metadata to that set of triples -- Named Graph. (page 35)" ID="ID_1778732341" CREATED="1727754857047" MODIFIED="1727754993843"/>
+<node TEXT="When you assign a name to a set of triples, of course the name is a URI, so because RDF lets you assign metadata to anything that you can identify with a URI, you can then assign metadata to that set of triples -- Named Graph. (page 35)" ID="ID_1778732341" CREATED="1727754857047" MODIFIED="1727755697418">
+<arrowlink DESTINATION="ID_1363598013"/>
+</node>
 <node TEXT="A dataset can include sets of triples that have names assigned to them to make it easier to manage those sets. (page 80)" ID="ID_1130404267" CREATED="1727754970401" MODIFIED="1727755019243"/>
 </node>
 <node TEXT="FROM keyword and Default Graph" ID="ID_566960497" CREATED="1727755089384" MODIFIED="1727755380538">
@@ -1163,6 +1166,56 @@
 </richcontent>
 </node>
 <node TEXT="Default graph refers to all the triples accessible to the query that aren&apos;t part of any named graphs." ID="ID_158726733" CREATED="1727755325351" MODIFIED="1727755355628"/>
+<node TEXT="FROM is a way to say &quot;add the triples from the following graph to the default dataset that I&apos;m going to query&quot;" ID="ID_144595725" CREATED="1727755437741" MODIFIED="1727755480002"/>
+</node>
+<node TEXT="FROM NAMED / GRAPH keyword and Named Graph" FOLDED="true" ID="ID_1023729920" CREATED="1727755481210" MODIFIED="1727759234833">
+<node ID="ID_155991268" CREATED="1727755492301" MODIFIED="1727759308911"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">FROM NAMED</span>&#xa0;is a way to say &quot;I'll be querying data from the particular graph, but don't add its triples to the default graph -- when I want data from this graph, I'll mention it by name.&quot;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="The SPARQL processor will remember the pairing of that graph name and that graph" ID="ID_1721405191" CREATED="1727755577088" MODIFIED="1727755622394"/>
+<node TEXT="We can every query the list of pairings." ID="ID_1805558292" CREATED="1727755629858" MODIFIED="1727755651892"/>
+<node TEXT="Because we&apos;re talking about RDF and SPARQL, a named graph&apos;s name is a URI" ID="ID_1363598013" CREATED="1727755664139" MODIFIED="1727755689924"/>
+<node TEXT="The ability to assign names is an important feature of triplestore." ID="ID_320051614" CREATED="1727755767792" MODIFIED="1727755796863"/>
+<node TEXT="&quot;Node Type Conversion Function&quot; (page 153) demos the use of BASE keyword to enable you more control over how a query processor resolves relative URIs." ID="ID_1125592898" CREATED="1727758870931" MODIFIED="1727758926605"/>
+<node ID="ID_901067615" CREATED="1727759248656" MODIFIED="1727759313300"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">GRAPH</span>&#xa0;keyword is for a query uses to reference data from a specific named graph.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="GRAPH as variable" FOLDED="true" ID="ID_1576361366" CREATED="1727760331870" MODIFIED="1727764276153">
+<node TEXT="We can use a variable instead and let the SPARQL processor look for graphs that fit the pattern." ID="ID_666330989" CREATED="1727760348013" MODIFIED="1727760387475"/>
+<node TEXT="GRAPH keyword means that the graph pattern is only looking for triples in named graphs" ID="ID_588306460" CREATED="1727760438327" MODIFIED="1727760462947"/>
+</node>
+<node TEXT="Use Name Graph as URI" FOLDED="true" ID="ID_732718211" CREATED="1727764108117" MODIFIED="1727764122641">
+<node TEXT="Because graph names are URIs, you can use them as either the subject or the object of triples." POSITION="bottom_or_right" ID="ID_824914604" CREATED="1727763312242" MODIFIED="1727763334277"/>
+<node TEXT="A graph name can also have its own metadata." POSITION="bottom_or_right" ID="ID_1012010151" CREATED="1727763439787" MODIFIED="1727763456085"/>
+<node TEXT="Some SPARQL process have some predefined named graphs that you don&apos;t need to identify in a FROM NAMED clause before referencing with the GRAPH keyword" POSITION="bottom_or_right" ID="ID_1328667306" CREATED="1727763800668" MODIFIED="1727763853926">
+<node TEXT="The open source Sesame triplestone (RDF4J) stores a default graph and any accompanying named graphs in what Sesame calls a repository" ID="ID_1512168555" CREATED="1727763853931" MODIFIED="1727763906382" LINK="https://en.wikipedia.org/wiki/RDF4J"/>
+<node TEXT="Sesame code repository (archive)" ID="ID_343121990" CREATED="1727764648222" MODIFIED="1727764668378" LINK="https://github.com/ansell/openrdf-sesame"/>
+</node>
 </node>
 </node>
 <node TEXT="03.11 Queries in Your Queries" ID="ID_1333095933" CREATED="1702255079736" MODIFIED="1702255095435"/>
@@ -1188,15 +1241,19 @@
 </node>
 <node TEXT="04.06 Asking for a Description of a Resource" ID="ID_1014068537" CREATED="1702255390986" MODIFIED="1702255400925"/>
 </node>
-<node TEXT="05. Datatypes and Functions" FOLDED="true" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
+<node TEXT="05. Datatypes and Functions" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
 <node TEXT="05.01 Datatypes and Queries" ID="ID_1892292277" CREATED="1702256680178" MODIFIED="1702256700939">
 <node TEXT="05.01.01 Representing Strings" ID="ID_1040587074" CREATED="1702256694729" MODIFIED="1702256708453"/>
 <node TEXT="05.01.02 Comparing Values and Doing Arithmetic" ID="ID_218370378" CREATED="1702256708913" MODIFIED="1702256723012"/>
 </node>
-<node TEXT="05.02 Functions" FOLDED="true" ID="ID_1222199064" CREATED="1702256724274" MODIFIED="1702256729268">
+<node TEXT="05.02 Functions" ID="ID_1222199064" CREATED="1702256724274" MODIFIED="1702256729268">
 <node TEXT="05.02.01 Program Logic Functions" ID="ID_1818668743" CREATED="1702256729603" MODIFIED="1702256749053"/>
 <node TEXT="05.02.02 Node Type and Datatype Checking Functions" ID="ID_1445051066" CREATED="1702256749273" MODIFIED="1702256763789"/>
-<node TEXT="05.02.03 Node Type Conversion Functions" ID="ID_418112981" CREATED="1702256764259" MODIFIED="1702256817395"/>
+<node TEXT="05.02.03 Node Type Conversion Functions" ID="ID_418112981" CREATED="1702256764259" MODIFIED="1702256817395">
+<node TEXT="BASE Keyword" ID="ID_966215084" CREATED="1727758931557" MODIFIED="1727758941427">
+<arrowlink DESTINATION="ID_1125592898"/>
+</node>
+</node>
 <node TEXT="05.02.04 Datatype Conversion" ID="ID_1017214527" CREATED="1702256817563" MODIFIED="1702256828917"/>
 <node TEXT="05.02.05 Checking, Adding, and Removing Spoken Language Tags" ID="ID_468087552" CREATED="1702256829242" MODIFIED="1702256846094"/>
 <node TEXT="05.02.06 String Functions" FOLDED="true" ID="ID_581876027" CREATED="1702256846283" MODIFIED="1702256851572">
