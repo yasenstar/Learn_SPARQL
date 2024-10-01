@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3.3 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -675,12 +675,12 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_1045108650"/>
-<arrowlink DESTINATION="ID_184210398"/>
-<arrowlink DESTINATION="ID_450773116"/>
-<arrowlink DESTINATION="ID_892632707"/>
 <arrowlink DESTINATION="ID_745748293"/>
+<arrowlink DESTINATION="ID_450773116"/>
+<arrowlink DESTINATION="ID_1045108650"/>
 <arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_184210398"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
 <node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
@@ -1102,8 +1102,8 @@
 </node>
 <node TEXT="03.02 Data That Might Not Be There" FOLDED="true" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
 <node TEXT="OPTIONAL" ID="ID_1749097275" CREATED="1705768293632" MODIFIED="1726921401267">
-<arrowlink DESTINATION="ID_1647965527"/>
 <arrowlink DESTINATION="ID_1415407541"/>
+<arrowlink DESTINATION="ID_1647965527"/>
 <node TEXT="The triples in the pattern work together as a unit, or as a graph pattern" ID="ID_386065804" CREATED="1726920749234" MODIFIED="1726920776547"/>
 <node TEXT="The order of OPTIONAL graph patterns matters" ID="ID_507793727" CREATED="1726920800730" MODIFIED="1726920817556"/>
 </node>
@@ -1140,6 +1140,30 @@
 <node TEXT="03.09 Retrieving a Specific Number of Results" ID="ID_1422350324" CREATED="1702255055136" MODIFIED="1702255069322"/>
 <node TEXT="03.10 Querying Named Graphs" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1715620399778">
 <arrowlink DESTINATION="ID_320976328"/>
+<node TEXT="Named Graph: another way to group triples together (page 35)" ID="ID_21303157" CREATED="1727754837569" MODIFIED="1727754857038">
+<node TEXT="When you assign a name to a set of triples, of course the name is a URI, so because RDF lets you assign metadata to anything that you can identify with a URI, you can then assign metadata to that set of triples -- Named Graph. (page 35)" ID="ID_1778732341" CREATED="1727754857047" MODIFIED="1727754993843"/>
+<node TEXT="A dataset can include sets of triples that have names assigned to them to make it easier to manage those sets. (page 80)" ID="ID_1130404267" CREATED="1727754970401" MODIFIED="1727755019243"/>
+</node>
+<node TEXT="FROM keyword and Default Graph" ID="ID_566960497" CREATED="1727755089384" MODIFIED="1727755380538">
+<node TEXT="Instead of telling the query processor what data we want to query separately from the query itself, we can specify the data to query right in the query itself with the FROM keyword" ID="ID_467357907" CREATED="1727755096981" MODIFIED="1727755175396"/>
+<node TEXT="Using FROM keyword, your query can specify as many graphs of triples as you&apos;d like" ID="ID_253191212" CREATED="1727755175840" MODIFIED="1727755201612"/>
+<node ID="ID_1872350505" CREATED="1727755251849" MODIFIED="1727755321067"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      All of the datasets you specify with FROM keyword (or specify outside of the query, like the ARQ's command line) are added together to form what's called the <span style="font-weight: bold;">default graph</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Default graph refers to all the triples accessible to the query that aren&apos;t part of any named graphs." ID="ID_158726733" CREATED="1727755325351" MODIFIED="1727755355628"/>
+</node>
 </node>
 <node TEXT="03.11 Queries in Your Queries" ID="ID_1333095933" CREATED="1702255079736" MODIFIED="1702255095435"/>
 <node TEXT="03.12 Combining Values and Assigning Values to Variables" ID="ID_336702797" CREATED="1702255095657" MODIFIED="1702255107523"/>
@@ -1157,7 +1181,7 @@
 <node TEXT="04.02 Copying Data" ID="ID_467042924" CREATED="1702255321370" MODIFIED="1702255327341"/>
 <node TEXT="04.03 Creating New Data" ID="ID_784730669" CREATED="1702255327547" MODIFIED="1702255334140"/>
 <node TEXT="04.04 Converting Data" ID="ID_189758295" CREATED="1702255334489" MODIFIED="1702255344605"/>
-<node TEXT="04.05 Finding Bad Data" ID="ID_301763934" CREATED="1702255345074" MODIFIED="1702255356589">
+<node TEXT="04.05 Finding Bad Data" FOLDED="true" ID="ID_301763934" CREATED="1702255345074" MODIFIED="1702255356589">
 <node TEXT="04.05.01 Defining Rules with SPARQL" ID="ID_1908116112" CREATED="1702255357851" MODIFIED="1702255366204"/>
 <node TEXT="04.05.02 Generating Data About Broken Rules" ID="ID_1816856140" CREATED="1702255366362" MODIFIED="1702255376517"/>
 <node TEXT="04.05.03 Using Existing SPARQL Rules Vocabularies" ID="ID_1829054477" CREATED="1702255376859" MODIFIED="1702255389429"/>
@@ -1169,13 +1193,13 @@
 <node TEXT="05.01.01 Representing Strings" ID="ID_1040587074" CREATED="1702256694729" MODIFIED="1702256708453"/>
 <node TEXT="05.01.02 Comparing Values and Doing Arithmetic" ID="ID_218370378" CREATED="1702256708913" MODIFIED="1702256723012"/>
 </node>
-<node TEXT="05.02 Functions" ID="ID_1222199064" CREATED="1702256724274" MODIFIED="1702256729268">
+<node TEXT="05.02 Functions" FOLDED="true" ID="ID_1222199064" CREATED="1702256724274" MODIFIED="1702256729268">
 <node TEXT="05.02.01 Program Logic Functions" ID="ID_1818668743" CREATED="1702256729603" MODIFIED="1702256749053"/>
 <node TEXT="05.02.02 Node Type and Datatype Checking Functions" ID="ID_1445051066" CREATED="1702256749273" MODIFIED="1702256763789"/>
 <node TEXT="05.02.03 Node Type Conversion Functions" ID="ID_418112981" CREATED="1702256764259" MODIFIED="1702256817395"/>
 <node TEXT="05.02.04 Datatype Conversion" ID="ID_1017214527" CREATED="1702256817563" MODIFIED="1702256828917"/>
 <node TEXT="05.02.05 Checking, Adding, and Removing Spoken Language Tags" ID="ID_468087552" CREATED="1702256829242" MODIFIED="1702256846094"/>
-<node TEXT="05.02.06 String Functions" ID="ID_581876027" CREATED="1702256846283" MODIFIED="1702256851572">
+<node TEXT="05.02.06 String Functions" FOLDED="true" ID="ID_581876027" CREATED="1702256846283" MODIFIED="1702256851572">
 <node TEXT="STRLEN()" ID="ID_1015575960" CREATED="1705720862541" MODIFIED="1705720874904"/>
 <node TEXT="SUBSTR()" ID="ID_1692184165" CREATED="1705720875480" MODIFIED="1705720880380"/>
 <node TEXT="UCASE(), LCASE()" ID="ID_1218911421" CREATED="1705720880838" MODIFIED="1705720888521"/>
