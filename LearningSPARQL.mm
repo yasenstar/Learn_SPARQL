@@ -1207,14 +1207,14 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="GRAPH as variable" ID="ID_1576361366" CREATED="1727760331870" MODIFIED="1727764276153">
+<node TEXT="NAMED GRAPH as variable" FOLDED="true" ID="ID_1576361366" CREATED="1727760331870" MODIFIED="1727772968527">
 <node TEXT="We can use a variable instead and let the SPARQL processor look for graphs that fit the pattern." ID="ID_666330989" CREATED="1727760348013" MODIFIED="1727760387475"/>
 <node TEXT="GRAPH keyword means that the graph pattern is only looking for triples in named graphs" ID="ID_588306460" CREATED="1727760438327" MODIFIED="1727760462947"/>
 </node>
 <node TEXT="Use Name Graph as URI" ID="ID_732718211" CREATED="1727764108117" MODIFIED="1727764122641">
 <node TEXT="Because graph names are URIs, you can use them as either the subject or the object of triples." POSITION="bottom_or_right" ID="ID_824914604" CREATED="1727763312242" MODIFIED="1727763334277"/>
 <node TEXT="A graph name can also have its own metadata." POSITION="bottom_or_right" ID="ID_1012010151" CREATED="1727763439787" MODIFIED="1727763456085"/>
-<node TEXT="Some SPARQL process have some predefined named graphs that you don&apos;t need to identify in a FROM NAMED clause before referencing with the GRAPH keyword" POSITION="bottom_or_right" ID="ID_1328667306" CREATED="1727763800668" MODIFIED="1727763853926">
+<node TEXT="Some SPARQL processor have some predefined named graphs that you don&apos;t need to identify in a FROM NAMED clause before referencing with the GRAPH keyword" POSITION="bottom_or_right" ID="ID_1328667306" CREATED="1727763800668" MODIFIED="1727773396169">
 <node TEXT="The open source Sesame triplestone (RDF4J) stores a default graph and any accompanying named graphs in what Sesame calls a repository" ID="ID_1512168555" CREATED="1727763853931" MODIFIED="1727763906382" LINK="https://en.wikipedia.org/wiki/RDF4J"/>
 <node TEXT="Get rdf 4j from rdf4j.org" ID="ID_1781259628" CREATED="1727770346795" MODIFIED="1727770368743" LINK="https://rdf4j.org/download/"/>
 <node TEXT="Sesame code repository (archive)" ID="ID_343121990" CREATED="1727764648222" MODIFIED="1727764668378" LINK="https://github.com/ansell/openrdf-sesame"/>

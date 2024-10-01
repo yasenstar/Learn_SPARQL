@@ -1,0 +1,14 @@
+# filename: ex128.rq
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT DISTINCT ?g 
+FROM NAMED <ex122.ttl>
+FROM NAMED <ex125.ttl>
+FROM <../part2/ex069.ttl>
+WHERE {
+    GRAPH ?g {
+        ?s ?p ?o .
+    }
+}

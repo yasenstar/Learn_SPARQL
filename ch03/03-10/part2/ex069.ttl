@@ -19,10 +19,10 @@ d:i8301 ab:firstName    "Craig" ;
 
 # Courses
 
-d:course34  ab:couresTitle  "Modeling Data with OWL" .
-d:course71  ab:couresTitle  "Enhancing Websites with RDFs" .
-d:course59  ab:couresTitle  "Using SPARQL with non-RDF Data" .
-d:course85  ab:couresTitle  "Updating Data with SPARQL" .
+d:course34  ab:courseTitle  "Modeling Data with OWL" .
+d:course71  ab:courseTitle  "Enhancing Websites with RDFs" .
+d:course59  ab:courseTitle  "Using SPARQL with non-RDF Data" .
+d:course85  ab:courseTitle  "Updating Data with SPARQL" .
 
 # Who's taking which courses
 
