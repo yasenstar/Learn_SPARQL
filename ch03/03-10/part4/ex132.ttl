@@ -1,0 +1,6 @@
+# filename: ex132.ttl
+
+@prefix images: <http://www.somepublisher.com/img/> .
+@prefix isi: <http://www.isi.edu/ikcap/Wings/fileOntology.owl#> .
+
+images:f4320.jpg    isi:hasMetadata <http://www.somepublisher.com/ns/m4340> .
