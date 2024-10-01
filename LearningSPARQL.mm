@@ -1141,13 +1141,13 @@
 </node>
 <node TEXT="03.09 Retrieving a Specific Number of Results" ID="ID_1422350324" CREATED="1702255055136" MODIFIED="1702255069322"/>
 <node TEXT="03.10 Querying Named Graphs" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1727764823718">
-<node TEXT="Named Graph: another way to group triples together (page 35)" ID="ID_21303157" CREATED="1727754837569" MODIFIED="1727754857038">
+<node TEXT="Named Graph: another way to group triples together (page 35)" FOLDED="true" ID="ID_21303157" CREATED="1727754837569" MODIFIED="1727754857038">
 <node TEXT="When you assign a name to a set of triples, of course the name is a URI, so because RDF lets you assign metadata to anything that you can identify with a URI, you can then assign metadata to that set of triples -- Named Graph. (page 35)" ID="ID_1778732341" CREATED="1727754857047" MODIFIED="1727755697418">
 <arrowlink DESTINATION="ID_1363598013"/>
 </node>
 <node TEXT="A dataset can include sets of triples that have names assigned to them to make it easier to manage those sets. (page 80)" ID="ID_1130404267" CREATED="1727754970401" MODIFIED="1727755019243"/>
 </node>
-<node TEXT="FROM keyword and Default Graph" ID="ID_566960497" CREATED="1727755089384" MODIFIED="1727755380538">
+<node TEXT="FROM keyword and Default Graph" FOLDED="true" ID="ID_566960497" CREATED="1727755089384" MODIFIED="1727755380538">
 <node TEXT="Instead of telling the query processor what data we want to query separately from the query itself, we can specify the data to query right in the query itself with the FROM keyword" ID="ID_467357907" CREATED="1727755096981" MODIFIED="1727755175396"/>
 <node TEXT="Using FROM keyword, your query can specify as many graphs of triples as you&apos;d like" ID="ID_253191212" CREATED="1727755175840" MODIFIED="1727755201612"/>
 <node ID="ID_1872350505" CREATED="1727755251849" MODIFIED="1727755321067"><richcontent TYPE="NODE">
@@ -1185,10 +1185,12 @@
 </richcontent>
 </node>
 <node TEXT="The SPARQL processor will remember the pairing of that graph name and that graph" ID="ID_1721405191" CREATED="1727755577088" MODIFIED="1727755622394"/>
-<node TEXT="We can every query the list of pairings." ID="ID_1805558292" CREATED="1727755629858" MODIFIED="1727755651892"/>
+<node TEXT="We can even query the list of pairings." ID="ID_1805558292" CREATED="1727755629858" MODIFIED="1727769130391"/>
 <node TEXT="Because we&apos;re talking about RDF and SPARQL, a named graph&apos;s name is a URI" ID="ID_1363598013" CREATED="1727755664139" MODIFIED="1727755689924"/>
 <node TEXT="The ability to assign names is an important feature of triplestore." ID="ID_320051614" CREATED="1727755767792" MODIFIED="1727755796863"/>
-<node TEXT="&quot;Node Type Conversion Function&quot; (page 153) demos the use of BASE keyword to enable you more control over how a query processor resolves relative URIs." ID="ID_1125592898" CREATED="1727758870931" MODIFIED="1727758926605"/>
+<node TEXT="&quot;Node Type Conversion Function&quot; (page 153) demos the use of BASE keyword to enable you more control over how a query processor resolves relative URIs." ID="ID_1125592898" CREATED="1727758870931" MODIFIED="1727758926605">
+<node TEXT="The Named Graph&apos;s names are Relative URI" ID="ID_1126294344" CREATED="1727769400310" MODIFIED="1727769415274"/>
+</node>
 <node ID="ID_901067615" CREATED="1727759248656" MODIFIED="1727759313300"><richcontent TYPE="NODE">
 
 <html>
@@ -1205,15 +1207,16 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="GRAPH as variable" FOLDED="true" ID="ID_1576361366" CREATED="1727760331870" MODIFIED="1727764276153">
+<node TEXT="GRAPH as variable" ID="ID_1576361366" CREATED="1727760331870" MODIFIED="1727764276153">
 <node TEXT="We can use a variable instead and let the SPARQL processor look for graphs that fit the pattern." ID="ID_666330989" CREATED="1727760348013" MODIFIED="1727760387475"/>
 <node TEXT="GRAPH keyword means that the graph pattern is only looking for triples in named graphs" ID="ID_588306460" CREATED="1727760438327" MODIFIED="1727760462947"/>
 </node>
-<node TEXT="Use Name Graph as URI" FOLDED="true" ID="ID_732718211" CREATED="1727764108117" MODIFIED="1727764122641">
+<node TEXT="Use Name Graph as URI" ID="ID_732718211" CREATED="1727764108117" MODIFIED="1727764122641">
 <node TEXT="Because graph names are URIs, you can use them as either the subject or the object of triples." POSITION="bottom_or_right" ID="ID_824914604" CREATED="1727763312242" MODIFIED="1727763334277"/>
 <node TEXT="A graph name can also have its own metadata." POSITION="bottom_or_right" ID="ID_1012010151" CREATED="1727763439787" MODIFIED="1727763456085"/>
 <node TEXT="Some SPARQL process have some predefined named graphs that you don&apos;t need to identify in a FROM NAMED clause before referencing with the GRAPH keyword" POSITION="bottom_or_right" ID="ID_1328667306" CREATED="1727763800668" MODIFIED="1727763853926">
 <node TEXT="The open source Sesame triplestone (RDF4J) stores a default graph and any accompanying named graphs in what Sesame calls a repository" ID="ID_1512168555" CREATED="1727763853931" MODIFIED="1727763906382" LINK="https://en.wikipedia.org/wiki/RDF4J"/>
+<node TEXT="Get rdf 4j from rdf4j.org" ID="ID_1781259628" CREATED="1727770346795" MODIFIED="1727770368743" LINK="https://rdf4j.org/download/"/>
 <node TEXT="Sesame code repository (archive)" ID="ID_343121990" CREATED="1727764648222" MODIFIED="1727764668378" LINK="https://github.com/ansell/openrdf-sesame"/>
 </node>
 </node>
