@@ -1140,7 +1140,7 @@
 <arrowlink DESTINATION="ID_538918424"/>
 </node>
 <node TEXT="03.09 Retrieving a Specific Number of Results" ID="ID_1422350324" CREATED="1702255055136" MODIFIED="1702255069322"/>
-<node TEXT="03.10 Querying Named Graphs" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1727764823718">
+<node TEXT="03.10 Querying Named Graphs" FOLDED="true" ID="ID_73857151" CREATED="1702255069672" MODIFIED="1727764823718">
 <node TEXT="Named Graph: another way to group triples together (page 35)" FOLDED="true" ID="ID_21303157" CREATED="1727754837569" MODIFIED="1727754857038">
 <node TEXT="When you assign a name to a set of triples, of course the name is a URI, so because RDF lets you assign metadata to anything that you can identify with a URI, you can then assign metadata to that set of triples -- Named Graph. (page 35)" ID="ID_1778732341" CREATED="1727754857047" MODIFIED="1727755697418">
 <arrowlink DESTINATION="ID_1363598013"/>
@@ -1211,17 +1211,27 @@
 <node TEXT="We can use a variable instead and let the SPARQL processor look for graphs that fit the pattern." ID="ID_666330989" CREATED="1727760348013" MODIFIED="1727760387475"/>
 <node TEXT="GRAPH keyword means that the graph pattern is only looking for triples in named graphs" ID="ID_588306460" CREATED="1727760438327" MODIFIED="1727760462947"/>
 </node>
-<node TEXT="Use Name Graph as URI" ID="ID_732718211" CREATED="1727764108117" MODIFIED="1727764122641">
+<node TEXT="Use Name Graph as URI" FOLDED="true" ID="ID_732718211" CREATED="1727764108117" MODIFIED="1727764122641">
 <node TEXT="Because graph names are URIs, you can use them as either the subject or the object of triples." POSITION="bottom_or_right" ID="ID_824914604" CREATED="1727763312242" MODIFIED="1727763334277"/>
 <node TEXT="A graph name can also have its own metadata." POSITION="bottom_or_right" ID="ID_1012010151" CREATED="1727763439787" MODIFIED="1727763456085"/>
-<node TEXT="Some SPARQL processor have some predefined named graphs that you don&apos;t need to identify in a FROM NAMED clause before referencing with the GRAPH keyword" POSITION="bottom_or_right" ID="ID_1328667306" CREATED="1727763800668" MODIFIED="1727773396169">
+<node TEXT="Some SPARQL processor have some predefined named graphs that you don&apos;t need to identify in a FROM NAMED clause before referencing with the GRAPH keyword" FOLDED="true" POSITION="bottom_or_right" ID="ID_1328667306" CREATED="1727763800668" MODIFIED="1727773396169">
 <node TEXT="The open source Sesame triplestone (RDF4J) stores a default graph and any accompanying named graphs in what Sesame calls a repository" ID="ID_1512168555" CREATED="1727763853931" MODIFIED="1727763906382" LINK="https://en.wikipedia.org/wiki/RDF4J"/>
 <node TEXT="Get rdf 4j from rdf4j.org" ID="ID_1781259628" CREATED="1727770346795" MODIFIED="1727770368743" LINK="https://rdf4j.org/download/"/>
 <node TEXT="Sesame code repository (archive)" ID="ID_343121990" CREATED="1727764648222" MODIFIED="1727764668378" LINK="https://github.com/ansell/openrdf-sesame"/>
 </node>
 </node>
 </node>
-<node TEXT="03.11 Queries in Your Queries" ID="ID_1333095933" CREATED="1702255079736" MODIFIED="1702255095435"/>
+<node TEXT="03.11 Queries in Your Queries" ID="ID_1333095933" CREATED="1702255079736" MODIFIED="1702255095435">
+<node TEXT="subquery in relational SQL" ID="ID_671193020" CREATED="1727788269018" MODIFIED="1727788290306" LINK="https://www.sqltutorial.org/sql-subquery/">
+<node TEXT="Subqueires in SQL, also known as inner queries or nested queries, are queries placed within another SQL query." ID="ID_446206535" CREATED="1727789537466" MODIFIED="1727789578248"/>
+<node TEXT="Subqueries are used to perform operations that would require multiple steps in a single query, enhancing the flexibility and efficiency of SQL statements" ID="ID_1256542177" CREATED="1727789578964" MODIFIED="1727789618847"/>
+</node>
+<node TEXT="Subquery in SPARQL" ID="ID_1190114805" CREATED="1727789702509" MODIFIED="1727789710124">
+<node TEXT="Subqueries in SPARQL are the queries inside of queries" ID="ID_306099932" CREATED="1727789710127" MODIFIED="1727789738263"/>
+<node TEXT="This SPARQL feature lets you break down a complex query into more easily manageable parts, and it also lets your combine information from different queries into a single answer set." ID="ID_451670611" CREATED="1727789741981" MODIFIED="1727789796265"/>
+<node TEXT="Each subquery must be enclosed in its own set of curly braces" ID="ID_217120403" CREATED="1727789801021" MODIFIED="1727789816121"/>
+</node>
+</node>
 <node TEXT="03.12 Combining Values and Assigning Values to Variables" ID="ID_336702797" CREATED="1702255095657" MODIFIED="1702255107523"/>
 <node TEXT="03.13 Creating Tables of Values in Your Queries" ID="ID_300341315" CREATED="1702255108082" MODIFIED="1702255124643"/>
 <node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." FOLDED="true" ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
