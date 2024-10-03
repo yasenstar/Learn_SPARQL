@@ -18,10 +18,11 @@ Welcome to enroll the demo course packaging in Udemy now:
 
 ## Contents per Chaperts
 
-- [Ch 00 - Preface](./ch00/)
-- [Ch 01 - Jumping Right In: Some Data and Some Queries](./ch01/)
-- [Ch 02 - The Semantic Web, RDF, and Linked Data (and SPARQL)](./ch02/)
-- [Ch 03 - SPARQL Queries: A Deeper Dive](./ch03/)
+- [Ch00 - Preface](./ch00/)
+- [Ch01 - Jumping Right In: Some Data and Some Queries](./ch01/)
+- [Ch02 - The Semantic Web, RDF, and Linked Data (and SPARQL)](./ch02/)
+- [Ch03 - SPARQL Queries: A Deeper Dive](./ch03/)
+- [Ch04 - Copying, Creating and Converting Data](./ch04/)
 
 ---
 
