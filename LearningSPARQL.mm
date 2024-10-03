@@ -1259,14 +1259,14 @@
 </node>
 </node>
 </node>
-<node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
-<node TEXT="03.14.01 Sorting Data" ID="ID_1393685546" CREATED="1702255197338" MODIFIED="1702255203940">
+<node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." FOLDED="true" ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
+<node TEXT="03.14.01 Sorting Data" FOLDED="true" ID="ID_1393685546" CREATED="1702255197338" MODIFIED="1702255203940">
 <node TEXT="ORDER BY (?variable)" ID="ID_927589840" CREATED="1727928419210" MODIFIED="1727928441187"/>
 <node TEXT="ORDER BY DESC (?variable)" ID="ID_1475215321" CREATED="1727928423155" MODIFIED="1727928436619"/>
 <node TEXT="String: alphabetical; Numeric: sort by value" ID="ID_617989910" CREATED="1727928519233" MODIFIED="1727928553219"/>
 <node TEXT="To sort on multiple keys, separate the key value names by spaces" ID="ID_144656939" CREATED="1727928487168" MODIFIED="1727928509061"/>
 </node>
-<node TEXT="03.14.02 Finding the Smallest, the Biggest, the Count, the Average..." ID="ID_1841543860" CREATED="1702255204297" MODIFIED="1702255220428">
+<node TEXT="03.14.02 Finding the Smallest, the Biggest, the Count, the Average..." FOLDED="true" ID="ID_1841543860" CREATED="1702255204297" MODIFIED="1702255220428">
 <node TEXT="For numeric" ID="ID_241280898" CREATED="1727928566908" MODIFIED="1727928627588">
 <node TEXT="Max number" ID="ID_168591749" CREATED="1727928588592" MODIFIED="1727928595387">
 <node TEXT="ORDER BY (?amount)&#xa;LIMIT 1" ID="ID_169318478" CREATED="1727928595391" MODIFIED="1727928606563"/>
@@ -1290,10 +1290,13 @@
 <node TEXT="GROUP_CONCAT(?variable; SEPARATOR = &quot;,&quot;)" ID="ID_1078153671" CREATED="1727928766046" MODIFIED="1727928801240"/>
 </node>
 </node>
-<node TEXT="03.14.03 Grouping Data and Finding Aggregate Values within Groups" ID="ID_1425350646" CREATED="1702255220985" MODIFIED="1702255240396">
-<node TEXT="GROUP BU" ID="ID_1092712963" CREATED="1727928923973" MODIFIED="1727928927680"/>
+<node TEXT="03.14.03 Grouping Data and Finding Aggregate Values within Groups" FOLDED="true" ID="ID_1425350646" CREATED="1702255220985" MODIFIED="1702255240396">
+<node TEXT="GROUP BY" ID="ID_1092712963" CREATED="1727928923973" MODIFIED="1727929056384">
+<node TEXT="Let you group sets of data together to perform aggregate functions such as subtotal calculation on each group" ID="ID_1283979133" CREATED="1727929067870" MODIFIED="1727929095947"/>
+</node>
 <node TEXT="HAVING" ID="ID_104556144" CREATED="1727928927854" MODIFIED="1727928929752">
 <node TEXT="Does for aggregate values what FILTER does for individual values: it specifies a condition that lets your restrict which values you want to appear in the results" ID="ID_1033656088" CREATED="1727928939216" MODIFIED="1727928999537"/>
+<node TEXT="Tells the SPARQL processor that we&apos;re only interested in certain condition" ID="ID_1384159179" CREATED="1727929026175" MODIFIED="1727929051192"/>
 </node>
 </node>
 </node>
