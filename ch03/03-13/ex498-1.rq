@@ -1,0 +1,20 @@
+# filename: ex496.rq
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT ?description ?date ?amount
+FROM <ex145.ttl>
+WHERE {
+    ?meal   e:description   ?description ;
+            e:date          ?date ;
+            e:amount        ?amount .
+    # VALUES (?date ?description) {
+    #     ("2011-10-15" "lunch")
+    #     ("2011-10-16" "dinner")
+    # }
+    FILTER (
+        ?date IN ("2011-10-15", "2011-10-16")
+        &&
+        (?description != "breakfast")
+    )
+}

@@ -1,0 +1,15 @@
+# filename: ex500.rq
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT ?date ?description ?amount
+FROM <ex145.ttl>
+WHERE {
+    ?meal   e:description   ?description ;
+            e:date          ?date ;
+            e:amount        ?amount .
+    VALUES (?date ?description ?amount) {
+        # (UNDEF "lunch" UNDEF)
+        (UNDEF UNDEF 11.13)
+    }
+}

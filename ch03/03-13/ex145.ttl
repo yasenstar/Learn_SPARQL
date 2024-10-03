@@ -1,6 +1,6 @@
 # filename: ex145.ttl (extended from ex138.ttl)
 
-@prefix e: <http://learningsparql.com/ns/expense#> .
+@prefix e: <http://learningsparql.com/ns/expenses#> .
 @prefix d: <http://learningsparql.com/ns/data#> .
 
 d:m40392    e:description   "breakfast" ;
