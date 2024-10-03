@@ -1,0 +1,14 @@
+# filename: ex156.rq
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT 
+    (MIN(?amount) as ?minAmount) 
+    (MAX(?amount) as ?maxAmount) 
+    (AVG(?amount) as ?avgAmount)
+    (SUM(?amount) as ?sumAmount)
+    (COUNT(?amount) as ?countAmount)
+FROM <ex145.ttl>
+WHERE {
+    ?meal e:amount ?amount .
+}

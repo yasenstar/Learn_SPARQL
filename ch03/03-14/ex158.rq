@@ -1,0 +1,10 @@
+# filename: ex156.rq
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT 
+    (GROUP_CONCAT(?amount; SEPARATOR = " -- ") AS ?amountList)
+FROM <ex145.ttl>
+WHERE {
+    ?meal e:amount ?amount .
+}

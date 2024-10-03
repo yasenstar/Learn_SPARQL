@@ -1,0 +1,9 @@
+# filename: ex154.rq
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT (MIN(?amount) as ?minAmount) (MAX(?amount) as ?maxAmount)
+FROM <ex145.ttl>
+WHERE {
+    ?meal e:amount ?amount .
+}
