@@ -1221,7 +1221,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03.11 Queries in Your Queries" ID="ID_1333095933" CREATED="1702255079736" MODIFIED="1702255095435">
+<node TEXT="03.11 Queries in Your Queries" FOLDED="true" ID="ID_1333095933" CREATED="1702255079736" MODIFIED="1702255095435">
 <node TEXT="subquery in relational SQL" ID="ID_671193020" CREATED="1727788269018" MODIFIED="1727788290306" LINK="https://www.sqltutorial.org/sql-subquery/">
 <node TEXT="Subqueires in SQL, also known as inner queries or nested queries, are queries placed within another SQL query." ID="ID_446206535" CREATED="1727789537466" MODIFIED="1727789578248"/>
 <node TEXT="Subqueries are used to perform operations that would require multiple steps in a single query, enhancing the flexibility and efficiency of SQL statements" ID="ID_1256542177" CREATED="1727789578964" MODIFIED="1727789618847"/>
@@ -1233,7 +1233,19 @@
 </node>
 </node>
 <node TEXT="03.12 Combining Values and Assigning Values to Variables" ID="ID_336702797" CREATED="1702255095657" MODIFIED="1702255107523"/>
-<node TEXT="03.13 Creating Tables of Values in Your Queries" ID="ID_300341315" CREATED="1702255108082" MODIFIED="1702255124643"/>
+<node TEXT="03.13 Creating Tables of Values in Your Queries" ID="ID_300341315" CREATED="1702255108082" MODIFIED="1702255124643">
+<node TEXT="VALUES in SQL" ID="ID_87169660" CREATED="1727872020453" MODIFIED="1727872029124">
+<node TEXT="The VALUES command specifies the valus of an INSERT INTO statement" ID="ID_1656414008" CREATED="1727872030611" MODIFIED="1727872052842">
+<node TEXT="Example:&#xa;INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)&#xa;VALUES (&apos;Cardinal&apos;, &apos;Tom B. Erichsen&apos;, &apos;Skagen 21&apos;, &apos;Stavanger&apos;, &apos;4006&apos;, &apos;Norway&apos;);" ID="ID_1922006202" CREATED="1727872052849" MODIFIED="1727872106587"/>
+</node>
+</node>
+<node TEXT="VALUES in SPARQL" ID="ID_1045768999" CREATED="1727872284825" MODIFIED="1727872290841">
+<node TEXT="The VALUES ?var {var1...} clause generates a variable with one or more values. The values can be of any type, like numeric, strings, or even items." ID="ID_654511693" CREATED="1727872290844" MODIFIED="1727872476156"/>
+<node TEXT="SPARQL allows users to write queries against data that follow the RDF specification of the W3C." ID="ID_949263006" CREATED="1727872476817" MODIFIED="1727872498427"/>
+<node TEXT="The response to a SPARQL query contains an array of dictionaries, each corresponding to one node matching the conditions of the query." ID="ID_474124347" CREATED="1727872498615" MODIFIED="1727872537237"/>
+<node TEXT="UNDEF keyword acts as a wildcard, accepting any value that may come up." ID="ID_151830332" CREATED="1727922007732" MODIFIED="1727922032960"/>
+</node>
+</node>
 <node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." FOLDED="true" ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
 <node TEXT="03.14.01 Sorting Data" ID="ID_1393685546" CREATED="1702255197338" MODIFIED="1702255203940"/>
 <node TEXT="03.14.02 Finding the Smallest, the Biggest, the Count, the Average..." ID="ID_1841543860" CREATED="1702255204297" MODIFIED="1702255220428"/>
