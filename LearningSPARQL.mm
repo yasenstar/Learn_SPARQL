@@ -1259,7 +1259,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." FOLDED="true" ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
+<node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
 <node TEXT="03.14.01 Sorting Data" FOLDED="true" ID="ID_1393685546" CREATED="1702255197338" MODIFIED="1702255203940">
 <node TEXT="ORDER BY (?variable)" ID="ID_927589840" CREATED="1727928419210" MODIFIED="1727928441187"/>
 <node TEXT="ORDER BY DESC (?variable)" ID="ID_1475215321" CREATED="1727928423155" MODIFIED="1727928436619"/>
@@ -1290,7 +1290,7 @@
 <node TEXT="GROUP_CONCAT(?variable; SEPARATOR = &quot;,&quot;)" ID="ID_1078153671" CREATED="1727928766046" MODIFIED="1727928801240"/>
 </node>
 </node>
-<node TEXT="03.14.03 Grouping Data and Finding Aggregate Values within Groups" FOLDED="true" ID="ID_1425350646" CREATED="1702255220985" MODIFIED="1702255240396">
+<node TEXT="03.14.03 Grouping Data and Finding Aggregate Values within Groups" ID="ID_1425350646" CREATED="1702255220985" MODIFIED="1702255240396">
 <node TEXT="GROUP BY" ID="ID_1092712963" CREATED="1727928923973" MODIFIED="1727929056384">
 <node TEXT="Let you group sets of data together to perform aggregate functions such as subtotal calculation on each group" ID="ID_1283979133" CREATED="1727929067870" MODIFIED="1727929095947"/>
 </node>

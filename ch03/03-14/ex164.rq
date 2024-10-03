@@ -1,0 +1,13 @@
+# filename: ex164.rq
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT ?description (SUM(?amount) AS ?mealTotalSUM)
+FROM <ex145.ttl>
+WHERE {
+    ?meal   e:description   ?description ;
+            e:amount        ?amount .
+}
+
+GROUP BY ?description
+HAVING (?mealTotalSUM > 20)

@@ -1,0 +1,14 @@
+# filename: ex160.rq
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT ?description (MAX(?amount) AS ?mealTotal)
+FROM <ex145.ttl>
+WHERE {
+    ?meal   e:description   ?description ;
+            e:amount        ?amount .
+}
+
+GROUP BY ?description
+
+ORDER BY ?description
