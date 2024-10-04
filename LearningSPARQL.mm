@@ -120,7 +120,7 @@
 <node TEXT="Sample codes" ID="ID_238022733" CREATED="1702689748323" MODIFIED="1702689753586" LINK="http://www.learningsparql.com/2ndeditionexamples/index.html"/>
 </node>
 </node>
-<node TEXT="01. Jumping Right In: Some Data and Some Queries" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
+<node TEXT="01. Jumping Right In: Some Data and Some Queries" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596485397" CREATED="1702253707408" MODIFIED="1705770618169">
 <icon BUILTIN="launch"/>
 <node TEXT="01.01 The Data to Query" FOLDED="true" ID="ID_86799583" CREATED="1702254370332" MODIFIED="1702254387992">
 <node TEXT="Semantic Triple:&#xa;Subject (s)-&gt; Predicate (p) -&gt; Object (o)" ID="ID_920990845" CREATED="1705769835343" MODIFIED="1705852553466">
@@ -1092,7 +1092,7 @@
 <node TEXT="4. Include links to other URIs so that they can discover more things." ID="ID_1215774551" CREATED="1705768550072" MODIFIED="1705768568067"/>
 </node>
 </node>
-<node TEXT="03. SPARQL Queries: A Deeper Dive" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
+<node TEXT="03. SPARQL Queries: A Deeper Dive" FOLDED="true" POSITION="bottom_or_right" ID="ID_47418205" CREATED="1702253741683" MODIFIED="1702253761941">
 <node TEXT="03.01 More Readable Query Results" FOLDED="true" ID="ID_502507515" CREATED="1702254891456" MODIFIED="1702254906770">
 <node TEXT="03.01.01 Using the Labels Provided by DBpedia - https://dbpedia.org/snorql/" FOLDED="true" ID="ID_103170033" CREATED="1702254908328" MODIFIED="1727612528163" LINK="https://dbpedia.org/snorql/">
 <arrowlink DESTINATION="ID_391442690"/>
@@ -1259,7 +1259,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
+<node TEXT="03.14 Sorting, Aggregating, Finding the Biggest and Smallest and..." FOLDED="true" ID="ID_391436192" CREATED="1702255169146" MODIFIED="1702255195420">
 <node TEXT="03.14.01 Sorting Data" FOLDED="true" ID="ID_1393685546" CREATED="1702255197338" MODIFIED="1702255203940">
 <node TEXT="ORDER BY (?variable)" ID="ID_927589840" CREATED="1727928419210" MODIFIED="1727928441187"/>
 <node TEXT="ORDER BY DESC (?variable)" ID="ID_1475215321" CREATED="1727928423155" MODIFIED="1727928436619"/>
@@ -1300,12 +1300,46 @@
 </node>
 </node>
 </node>
-<node TEXT="03.15 Querying a Remote SPARQL Service" ID="ID_860993516" CREATED="1702255241338" MODIFIED="1702255253252"/>
+<node TEXT="03.15 Querying a Remote SPARQL Service" FOLDED="true" ID="ID_860993516" CREATED="1702255241338" MODIFIED="1702255253252">
+<node TEXT="Use &quot;FROM&quot; to point at an RDF file somewhere (local or remote)" ID="ID_1573153116" CREATED="1727942783731" MODIFIED="1727942807343"/>
+<node TEXT="Use &quot;SERVICE&quot; to point at a SPARQL endpoint" ID="ID_602599282" CREATED="1727942807725" MODIFIED="1727942826702">
+<node TEXT="The SERVICE keyword can pass a graph pattern or an entire query to the endpoint" ID="ID_1491076899" CREATED="1727942869854" MODIFIED="1727942896350"/>
+</node>
+<node TEXT="D2RQ interface (Open Source)" ID="ID_1192519870" CREATED="1727943310495" MODIFIED="1727943403437" LINK="http://d2rq.org/">
+<node TEXT="Let you use SPARQL to query relational databases" ID="ID_510604457" CREATED="1727943322306" MODIFIED="1727943338600"/>
+</node>
+</node>
 <node TEXT="03.16 Federated Queries: Searching Multiple Datasets with One Query" ID="ID_739428225" CREATED="1702255253425" MODIFIED="1702255276734"/>
 </node>
-<node TEXT="04. Copying, Creating, and Converting Data (and Finding Bad Data)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1603833616" CREATED="1702253762995" MODIFIED="1702253796253">
-<node TEXT="04.01 Query Forms: SELECT, DESCRIBE, ASK, and CONSTRUCT" ID="ID_1345357370" CREATED="1702255294619" MODIFIED="1702255321179"/>
-<node TEXT="04.02 Copying Data" ID="ID_467042924" CREATED="1702255321370" MODIFIED="1702255327341"/>
+<node TEXT="04. Copying, Creating, and Converting Data (and Finding Bad Data)" POSITION="bottom_or_right" ID="ID_1603833616" CREATED="1702253762995" MODIFIED="1702253796253">
+<node TEXT="04.01 Query Forms: SELECT, DESCRIBE, ASK, and CONSTRUCT" FOLDED="true" ID="ID_1345357370" CREATED="1702255294619" MODIFIED="1702255321179">
+<node TEXT="SELECT" ID="ID_496144653" CREATED="1727954306177" MODIFIED="1727954314025">
+<node TEXT="let you request data from a collection" ID="ID_1359200989" CREATED="1727954422281" MODIFIED="1727954436559"/>
+<node TEXT="SPARQL processor such as ARQ typically show SELECT result as a table of rows and columns, with a column for each SELECTed variable name" ID="ID_680057160" CREATED="1727954437159" MODIFIED="1727954494033"/>
+<node TEXT="SPARQL APIs will load the values into a suitable data structure for the programming language that forms the basis of that API" ID="ID_202141241" CREATED="1727954494222" MODIFIED="1727960222293"/>
+</node>
+<node TEXT="CONSTRUCT" ID="ID_1966029400" CREATED="1727954314222" MODIFIED="1727954319142">
+<node TEXT="CONSTRUCT returns triples" ID="ID_1438138421" CREATED="1727956940009" MODIFIED="1727956949828"/>
+<node TEXT="You can pull triples directly out of a data source without changing them, or you can pull values out and use those values to create new triples" ID="ID_293983680" CREATED="1727956967992" MODIFIED="1727960256722"/>
+<node TEXT="This lets you copy, create, and convert RDF data, and it makes it easier to identify data that doesn&apos;t conform to specific business rules" ID="ID_1563333094" CREATED="1727957001134" MODIFIED="1727957415710"/>
+<node TEXT="SPARQL Examples - Construct" ID="ID_81236687" CREATED="1727959696088" MODIFIED="1727959707738" LINK="https://codyburleson.com/blog/sparql-examples-construct"/>
+</node>
+<node TEXT="ASK" ID="ID_169550239" CREATED="1727954319326" MODIFIED="1727954321994">
+<node TEXT="ASK asks a query processor whether a given graph pattern describes a set of triples in a particular dataset or not, and the processor returns a boolean true or false (yes or no)." ID="ID_273356281" CREATED="1727959051041" MODIFIED="1727960420902"/>
+<node TEXT="You can use sets of these rules to automate quality control in your data processing pipeline" ID="ID_1477186468" CREATED="1727959110649" MODIFIED="1727959141455"/>
+<node TEXT="SPARQL Examples - Ask" ID="ID_767473815" CREATED="1727959391041" MODIFIED="1727959403592" LINK="https://codyburleson.com/blog/sparql-examples-ask"/>
+</node>
+<node TEXT="DESCRIBE" ID="ID_1580754871" CREATED="1727954322158" MODIFIED="1727954324811">
+<node TEXT="DESCRIBE asks for triples that describe a particular resource." ID="ID_1107832208" CREATED="1727959142375" MODIFIED="1727959165423"/>
+<node TEXT="The SPARQL specification leaves it up to the query processor to decide which triples to send back as a description of the named resource." ID="ID_207347173" CREATED="1727959167964" MODIFIED="1727959200496"/>
+</node>
+</node>
+<node TEXT="04.02 Copying Data" ID="ID_467042924" CREATED="1702255321370" MODIFIED="1702255327341">
+<node TEXT="CONSTRUCT keyword lets your create triples, and those triples can be exact copies of the triples from your input" ID="ID_350575625" CREATED="1727961023221" MODIFIED="1727961051185"/>
+<node TEXT="A SPARQL query processor returns the data for a CONSTRUCT query as actual triples, not as a formatted report with a column for each named variable (SELECT query)" ID="ID_1149190769" CREATED="1728009146655" MODIFIED="1728009189433">
+<node TEXT="ARQ returns as Turtle text" ID="ID_1634117530" CREATED="1728009196452" MODIFIED="1728009208128"/>
+</node>
+</node>
 <node TEXT="04.03 Creating New Data" ID="ID_784730669" CREATED="1702255327547" MODIFIED="1702255334140"/>
 <node TEXT="04.04 Converting Data" ID="ID_189758295" CREATED="1702255334489" MODIFIED="1702255344605"/>
 <node TEXT="04.05 Finding Bad Data" FOLDED="true" ID="ID_301763934" CREATED="1702255345074" MODIFIED="1702255356589">
@@ -1315,7 +1349,7 @@
 </node>
 <node TEXT="04.06 Asking for a Description of a Resource" ID="ID_1014068537" CREATED="1702255390986" MODIFIED="1702255400925"/>
 </node>
-<node TEXT="05. Datatypes and Functions" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
+<node TEXT="05. Datatypes and Functions" FOLDED="true" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
 <node TEXT="05.01 Datatypes and Queries" ID="ID_1892292277" CREATED="1702256680178" MODIFIED="1702256700939">
 <node TEXT="05.01.01 Representing Strings" ID="ID_1040587074" CREATED="1702256694729" MODIFIED="1702256708453"/>
 <node TEXT="05.01.02 Comparing Values and Doing Arithmetic" ID="ID_218370378" CREATED="1702256708913" MODIFIED="1702256723012"/>
