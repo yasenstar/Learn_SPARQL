@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-3 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-2.7 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -296,7 +296,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1727612485661" VGAP_QUANTITY="3 pt">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1727612485661" VGAP_QUANTITY="3 pt">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
@@ -675,10 +675,10 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_745748293"/>
 <arrowlink DESTINATION="ID_450773116"/>
-<arrowlink DESTINATION="ID_1045108650"/>
 <arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_1045108650"/>
+<arrowlink DESTINATION="ID_745748293"/>
 <arrowlink DESTINATION="ID_892632707"/>
 <arrowlink DESTINATION="ID_184210398"/>
 </node>
@@ -969,7 +969,8 @@
 <node TEXT="Named Graph info from RDFOX" ID="ID_1229707376" CREATED="1727764849031" MODIFIED="1727764872700" LINK="https://www.oxfordsemantic.tech/faqs/what-is-a-named-graph#:~:text=In%20an%20RDF%20database,%20a%20named"/>
 </node>
 </node>
-<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1702254707657">
+<node TEXT="02.04 Reusing and Creating Vocabularies: RDF Schema and OWL" FOLDED="true" ID="ID_1129003913" CREATED="1702254690151" MODIFIED="1728014388790">
+<arrowlink DESTINATION="ID_1076562278"/>
 <node TEXT="RDF Schema and the RDF based Web Ontology Language (OWL) add a typing mechanism to classify subjects and objects into hierarchies" ID="ID_502756357" CREATED="1705801750062" MODIFIED="1716132512974">
 <arrowlink DESTINATION="ID_569413191"/>
 <node TEXT="RDF 1.2 Schema (RDFS)" FOLDED="true" POSITION="bottom_or_right" ID="ID_365140921" CREATED="1706223733863" MODIFIED="1706223753266" LINK="https://www.w3.org/TR/rdf12-schema/">
@@ -1162,7 +1163,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Default graph refers to all the triples accessible to the query that aren&apos;t part of any named graphs." ID="ID_158726733" CREATED="1727755325351" MODIFIED="1727755355628"/>
@@ -1181,7 +1181,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="The SPARQL processor will remember the pairing of that graph name and that graph" ID="ID_1721405191" CREATED="1727755577088" MODIFIED="1727755622394"/>
@@ -1203,7 +1202,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1334,14 +1332,34 @@
 <node TEXT="The SPARQL specification leaves it up to the query processor to decide which triples to send back as a description of the named resource." ID="ID_207347173" CREATED="1727959167964" MODIFIED="1727959200496"/>
 </node>
 </node>
-<node TEXT="04.02 Copying Data" ID="ID_467042924" CREATED="1702255321370" MODIFIED="1702255327341">
+<node TEXT="04.02 Copying Data" FOLDED="true" ID="ID_467042924" CREATED="1702255321370" MODIFIED="1702255327341">
 <node TEXT="CONSTRUCT keyword lets your create triples, and those triples can be exact copies of the triples from your input" ID="ID_350575625" CREATED="1727961023221" MODIFIED="1727961051185"/>
 <node TEXT="A SPARQL query processor returns the data for a CONSTRUCT query as actual triples, not as a formatted report with a column for each named variable (SELECT query)" ID="ID_1149190769" CREATED="1728009146655" MODIFIED="1728009189433">
 <node TEXT="ARQ returns as Turtle text" ID="ID_1634117530" CREATED="1728009196452" MODIFIED="1728009208128"/>
 </node>
 </node>
-<node TEXT="04.03 Creating New Data" ID="ID_784730669" CREATED="1702255327547" MODIFIED="1702255334140"/>
-<node TEXT="04.04 Converting Data" ID="ID_189758295" CREATED="1702255334489" MODIFIED="1702255344605"/>
+<node TEXT="04.03 Creating New Data" ID="ID_784730669" CREATED="1702255327547" MODIFIED="1702255334140">
+<node TEXT="The triples create in a CONSTRUCT query need not be composed entirely of variables" ID="ID_890400842" CREATED="1728013263190" MODIFIED="1728013287854">
+<node TEXT="If you want, yoiu can create one or more triples entirely from hard-coded values, with an empty GRAPH patter following the WHERE keyword." ID="ID_151726921" CREATED="1728013308062" MODIFIED="1728013356739"/>
+</node>
+<node TEXT="It is very common in SPARQL queries to look for relationships among the data and then use a CONSTRUCT clause to create new triples that make those relationships explicit." ID="ID_1921175673" CREATED="1728013551983" MODIFIED="1728013605364"/>
+<node TEXT="Relational Database view" ID="ID_1888303267" CREATED="1728014219021" MODIFIED="1728014225821">
+<node TEXT="Relationship database treat these CONSTRUCT queries are not really creating new information, instead, they&apos;re actually taking information that is implicit and making it explicit" ID="ID_1325380381" CREATED="1728014225824" MODIFIED="1728014291152"/>
+<node TEXT="A relational database is a closed world with very fixed boundaries" ID="ID_1567075033" CREATED="1728014291613" MODIFIED="1728014311000"/>
+<node TEXT="Easy data aggregation is one of RDF;s greatest benefits" ID="ID_1640385484" CREATED="1728014318997" MODIFIED="1728014338410"/>
+</node>
+<node TEXT="Declaring a resource to be a member of a particular class" ID="ID_1076562278" CREATED="1728014352143" MODIFIED="1728014366658">
+<node TEXT="This way can tell people more about it because there may be metadata associated with that class" POSITION="bottom_or_right" ID="ID_871303848" CREATED="1728014391729" MODIFIED="1728014430226"/>
+<node TEXT="Identifying resources as members of classes is a good practice because it makes it easier to infer information about your data" POSITION="bottom_or_right" ID="ID_1651072025" CREATED="1728014432663" MODIFIED="1728014464979"/>
+<node TEXT="Classes are also members of a class -- the class rdfs:Class, or its subclass owl:Class." POSITION="bottom_or_right" ID="ID_819543391" CREATED="1728014487815" MODIFIED="1728014516921"/>
+<node TEXT="In practice, when you say that a resource is a member of a particular class, you&apos;re probably doing it because that class is already declared somewhere else" POSITION="bottom_or_right" ID="ID_1446644816" CREATED="1728014166183" MODIFIED="1728014203586"/>
+</node>
+</node>
+<node TEXT="04.04 Converting Data" ID="ID_189758295" CREATED="1702255334489" MODIFIED="1702255344605">
+<node TEXT="Because CONSTRUCT queries can create new triples based on information extracted from a dataset, they&apos;re a great way to convert data that uses properties from one namespace into data that uses properties from another." ID="ID_1502800287" CREATED="1728014565080" MODIFIED="1728014628212">
+<node TEXT="This lets you take data from just about anywhere and turn it into something that you can use in your system." ID="ID_1080693731" CREATED="1728014639567" MODIFIED="1728014683387"/>
+</node>
+</node>
 <node TEXT="04.05 Finding Bad Data" FOLDED="true" ID="ID_301763934" CREATED="1702255345074" MODIFIED="1702255356589">
 <node TEXT="04.05.01 Defining Rules with SPARQL" ID="ID_1908116112" CREATED="1702255357851" MODIFIED="1702255366204"/>
 <node TEXT="04.05.02 Generating Data About Broken Rules" ID="ID_1816856140" CREATED="1702255366362" MODIFIED="1702255376517"/>
@@ -1371,8 +1389,8 @@
 <node TEXT="STRSTARTS(), STRENDS()" ID="ID_1391061348" CREATED="1705720893148" MODIFIED="1705720915915"/>
 <node TEXT="CONTAINS()" ID="ID_952028586" CREATED="1705720901179" MODIFIED="1705720925148"/>
 <node TEXT="regex()" ID="ID_1011205149" CREATED="1705720926637" MODIFIED="1727614598409">
-<arrowlink DESTINATION="ID_538918424"/>
 <arrowlink DESTINATION="ID_391442690"/>
+<arrowlink DESTINATION="ID_538918424"/>
 </node>
 </node>
 <node TEXT="05.02.07 Numeric Functions" ID="ID_378138253" CREATED="1702256853403" MODIFIED="1702256861045"/>
