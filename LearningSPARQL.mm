@@ -296,7 +296,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1727612485661" VGAP_QUANTITY="3 pt">
+<node TEXT="02. The Semantic Web, RDF, and Linked Data (and SPARQL)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1548498218" CREATED="1702253725194" MODIFIED="1727612485661" VGAP_QUANTITY="3 pt">
 <node TEXT="02.01 What Exactly Is the &quot;Semantic Web&quot;?" FOLDED="true" ID="ID_389713209" CREATED="1702254581574" MODIFIED="1702254596480">
 <node ID="ID_1806005635" CREATED="1705799893876" MODIFIED="1705799944594"><richcontent TYPE="NODE">
 
@@ -1338,9 +1338,9 @@
 <node TEXT="ARQ returns as Turtle text" ID="ID_1634117530" CREATED="1728009196452" MODIFIED="1728009208128"/>
 </node>
 </node>
-<node TEXT="04.03 Creating New Data" ID="ID_784730669" CREATED="1702255327547" MODIFIED="1702255334140">
+<node TEXT="04.03 Creating New Data" FOLDED="true" ID="ID_784730669" CREATED="1702255327547" MODIFIED="1702255334140">
 <node TEXT="The triples create in a CONSTRUCT query need not be composed entirely of variables" ID="ID_890400842" CREATED="1728013263190" MODIFIED="1728013287854">
-<node TEXT="If you want, yoiu can create one or more triples entirely from hard-coded values, with an empty GRAPH patter following the WHERE keyword." ID="ID_151726921" CREATED="1728013308062" MODIFIED="1728013356739"/>
+<node TEXT="If you want, you can create one or more triples entirely from hard-coded values, with an empty GRAPH pattern following the WHERE keyword." ID="ID_151726921" CREATED="1728013308062" MODIFIED="1728028138289"/>
 </node>
 <node TEXT="It is very common in SPARQL queries to look for relationships among the data and then use a CONSTRUCT clause to create new triples that make those relationships explicit." ID="ID_1921175673" CREATED="1728013551983" MODIFIED="1728013605364"/>
 <node TEXT="Relational Database view" ID="ID_1888303267" CREATED="1728014219021" MODIFIED="1728014225821">
@@ -1355,13 +1355,16 @@
 <node TEXT="In practice, when you say that a resource is a member of a particular class, you&apos;re probably doing it because that class is already declared somewhere else" POSITION="bottom_or_right" ID="ID_1446644816" CREATED="1728014166183" MODIFIED="1728014203586"/>
 </node>
 </node>
-<node TEXT="04.04 Converting Data" ID="ID_189758295" CREATED="1702255334489" MODIFIED="1702255344605">
+<node TEXT="04.04 Converting Data" FOLDED="true" ID="ID_189758295" CREATED="1702255334489" MODIFIED="1702255344605">
 <node TEXT="Because CONSTRUCT queries can create new triples based on information extracted from a dataset, they&apos;re a great way to convert data that uses properties from one namespace into data that uses properties from another." ID="ID_1502800287" CREATED="1728014565080" MODIFIED="1728014628212">
 <node TEXT="This lets you take data from just about anywhere and turn it into something that you can use in your system." ID="ID_1080693731" CREATED="1728014639567" MODIFIED="1728014683387"/>
 </node>
+<node TEXT="Converting data may also mean normalization (正规化) resource URIs to more easliy combine data." ID="ID_1081937363" CREATED="1728014852193" MODIFIED="1728014905301"/>
 </node>
-<node TEXT="04.05 Finding Bad Data" FOLDED="true" ID="ID_301763934" CREATED="1702255345074" MODIFIED="1702255356589">
-<node TEXT="04.05.01 Defining Rules with SPARQL" ID="ID_1908116112" CREATED="1702255357851" MODIFIED="1702255366204"/>
+<node TEXT="04.05 Finding Bad Data" ID="ID_301763934" CREATED="1702255345074" MODIFIED="1702255356589">
+<node TEXT="04.05.01 Defining Rules with SPARQL" ID="ID_1908116112" CREATED="1702255357851" MODIFIED="1702255366204">
+<node TEXT="the ASK query form asks whether a given graph" ID="ID_325520260" CREATED="1728019254155" MODIFIED="1728019680087"/>
+</node>
 <node TEXT="04.05.02 Generating Data About Broken Rules" ID="ID_1816856140" CREATED="1702255366362" MODIFIED="1702255376517"/>
 <node TEXT="04.05.03 Using Existing SPARQL Rules Vocabularies" ID="ID_1829054477" CREATED="1702255376859" MODIFIED="1702255389429"/>
 </node>
