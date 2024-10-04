@@ -1,0 +1,7 @@
+PREFIX prop: <http://dbpedia.org/property/>
+ASK
+{
+<http://dbpedia.org/resource/Amazon_River> prop:length ?amazon .
+<http://dbpedia.org/resource/Nile> prop:length ?nile .
+FILTER(?amazon = ?nile) .
+}
