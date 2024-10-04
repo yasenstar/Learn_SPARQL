@@ -1,0 +1,10 @@
+# filename: ex192.ttl
+
+@prefix ab: <http://learningsparql.com/ns/addressbook#> .
+@prefix d: <http://learningsparql.com/ns/data#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ab:aunt rdf:type    owl:Class ;
+        rdfs:comment    "The sister of one of the resource's parents." .
