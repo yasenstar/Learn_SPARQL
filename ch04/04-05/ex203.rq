@@ -1,0 +1,18 @@
+# filename: ex203.rq
+
+PREFIX dm: <http://learningsparql.com/ns/demo#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# SELECT *
+# ASK
+CONSTRUCT {
+    ?s  dm:location ?city ;
+        dm:problem dm:prob29 .
+    dm:prob29   rdfs:label  "Location value must be a URI."
+}
+FROM <ex198.ttl>
+WHERE {
+    ?s dm:location ?city .
+    FILTER (!(isURI(?city)))
+}
