@@ -1,0 +1,14 @@
+# filename: ex201.rq
+
+PREFIX dm: <http://learningsparql.com/ns/demo#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# SELECT *
+# ASK
+SELECT *
+FROM <ex198.ttl>
+WHERE {
+    ?item dm:amount ?amount .
+    FILTER ( datatype(?amount) != xsd:integer )
+}

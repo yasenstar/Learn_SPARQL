@@ -1,0 +1,13 @@
+# filename: ex218.rq
+
+PREFIX d: <http://learningsparql.com/ns/data#>
+PREFIX dm: <http://learningsparql.com/ns/demo#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mt: <http://learningsparql.com/ns/mytypesystem#>
+
+SELECT ?s
+FROM <ex217.ttl>
+WHERE {
+    ?s ?p "two"^^mt:potrzebies .
+    # FILTER (DATATYPE(?o) != xsd:integer)
+}
