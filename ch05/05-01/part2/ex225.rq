@@ -1,0 +1,10 @@
+# filename: ex225.rq
+
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT ?s ?o
+FROM <ex224.ttl>
+WHERE {
+    ?s ?p ?o .
+}
+ORDER BY ?s
