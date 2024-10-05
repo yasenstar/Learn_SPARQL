@@ -1,0 +1,12 @@
+# filename: ex232.rq (refer from ex139.rq)
+
+PREFIX e: <http://learningsparql.com/ns/expenses#>
+
+SELECT ?description ?amount ?tip ?total
+FROM <ex138.ttl>
+WHERE {
+    ?meal   e:description   ?description ;
+            e:amount        ?amount .
+    BIND ((?amount*0.2) AS ?tip)
+    BIND ((?amount+?tip) AS ?total)
+}
