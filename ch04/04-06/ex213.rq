@@ -1,0 +1,7 @@
+# filename: ex213.rq
+
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+DESCRIBE <http://learningsparql.com/ns/data#course59>
+# SELECT *
+WHERE { ?s ?p ?o .}
