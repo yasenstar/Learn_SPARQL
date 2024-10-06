@@ -23,6 +23,7 @@ Welcome to enroll the demo course packaging in Udemy now:
 - [Ch02 - The Semantic Web, RDF, and Linked Data (and SPARQL)](./ch02/)
 - [Ch03 - SPARQL Queries: A Deeper Dive](./ch03/)
 - [Ch04 - Copying, Creating and Converting Data](./ch04/)
+- [Ch05 - Datatypes and Functions](./ch05/)
 
 ---
 
