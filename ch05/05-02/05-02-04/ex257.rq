@@ -1,0 +1,16 @@
+# filename: ex257.rq
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT ?s ?o ?integerTest ?decimalTest ?floatTest ?doubleTest
+FROM <ex241.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (xsd:integer(?o) as ?integerTest) # in book id5 is not converted
+    BIND (xsd:decimal(?o) as ?decimalTest) # in book id5 is not converted
+    BIND (xsd:float(?o) as ?floatTest)
+    BIND (xsd:double(?o) as ?doubleTest)
+}
+ORDER BY ?s

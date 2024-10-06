@@ -1,0 +1,15 @@
+# filename: ex260.rq
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT ?s ?o ?booleanTest
+FROM <ex259.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (xsd:string(?o) as ?stringTest)
+    BIND (xsd:boolean(?o) as ?booleanTest)
+}
+ORDER BY ?s
+
+# in my test, id4 is not able to converted to boolean
