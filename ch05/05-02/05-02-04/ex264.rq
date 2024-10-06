@@ -1,0 +1,13 @@
+# filename: ex264.rq
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT ?s ?o ?decimalTest
+FROM <ex241.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (STRDT(str(?o),xsd:decimal) as ?decimalTest)
+}
+ORDER BY ?s

@@ -1,0 +1,10 @@
+@prefix d:  <http://learningsparql.com/ns/data#> .
+@prefix dm: <http://learningsparql.com/ns/demo#> .
+@prefix im: <http://learningsparql.com/ns/importedData#> .
+@prefix u:  <http://learningsparql.com/ns/units#> .
+
+d:item2  dm:amount  "10"^^u:squareMeters .
+
+d:item3  dm:amount  "30"^^u:centimeters .
+
+d:item1  dm:amount  "14"^^u:liters .
