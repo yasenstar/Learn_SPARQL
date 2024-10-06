@@ -4,7 +4,10 @@ PREFIX dm: <http://learningsparql.com/ns/demo#>
 # PREFIX d:  <http://learningsparql.com/ns/data#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT *
+# SELECT *
+CONSTRUCT {
+    ?locationURI rdf:type dm:Place .
+}
 FROM <ex104.ttl>
 WHERE {
     ?item dm:location ?locationValue .

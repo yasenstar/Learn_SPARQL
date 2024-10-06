@@ -1,0 +1,14 @@
+# filename: ex239.rq
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+
+SELECT ?firstName ?first ?nickName ?last
+FROM <ex054.ttl>
+WHERE {
+    ?s  ab:lastName ?last ;
+        ab:firstName ?first .
+    OPTIONAL {
+        ?s ab:nick ?nickName .
+    }
+    BIND ( COALESCE(?nickName, ?first) AS ?firstName)
+}
