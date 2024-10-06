@@ -1,0 +1,12 @@
+# filename: ex251.rq
+
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT ?s ?testStr ?testStrType
+FROM <ex241.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (str(?o) AS ?testStr)
+    BIND (datatype(?testStr) AS ?testStrType)
+}
+ORDER BY ?s

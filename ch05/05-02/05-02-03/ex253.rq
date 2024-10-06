@@ -1,0 +1,15 @@
+# filename: ex253.rq
+
+# PREFIX d: <http://learningsparql.com/ns/data#>
+
+BASE <http://Learningsparql.com/ns/demo#>
+
+# SELECT ?s ?testURI
+CONSTRUCT { ?s ?p ?testURI .}
+# FROM <ex241.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (URI(ENCODE_FOR_URI(str(?o))) AS ?testURI)
+    # BIND (datatype(?testStr) AS ?testStrType)
+}
+ORDER BY ?s
