@@ -1,0 +1,11 @@
+# filename: ex246.rq
+
+BASE <http://learningsparql.com/ns/demo#>
+
+# SELECT *
+CONSTRUCT {?s ?p ?testURI . }
+# FROM <ex241.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (URI(ENCODE_FOR_URI(?o)) AS ?testURI)
+}
