@@ -1,0 +1,16 @@
+# filename: ex242.rq
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dm:  <http://learningsparql.com/ns/demo#>
+PREFIX d:   <http://learningsparql.com/ns/data#>
+
+SELECT ?o ?blankTest ?literalTest ?numericTest ?IRITest ?URITest
+FROM <ex241.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (ISBLANK(?o) as ?blankTest)
+    BIND (ISIRI(?o) as ?IRITest)
+    BIND (ISLITERAL(?o) as ?literalTest)
+    BIND (ISNUMERIC(?o) as ?numericTest)
+    BIND (ISURI(?o) as ?URITest)
+}

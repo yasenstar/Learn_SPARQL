@@ -1371,12 +1371,12 @@
 <node TEXT="04.06 Asking for a Description of a Resource" ID="ID_1014068537" CREATED="1702255390986" MODIFIED="1702255400925"/>
 </node>
 <node TEXT="05. Datatypes and Functions" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
-<node TEXT="05.01 Datatypes and Queries" FOLDED="true" ID="ID_1892292277" CREATED="1702256680178" MODIFIED="1702256700939">
+<node TEXT="05.01 Datatypes and Queries" ID="ID_1892292277" CREATED="1702256680178" MODIFIED="1702256700939">
 <node TEXT="05.01.00 Recap" FOLDED="true" ID="ID_1626925790" CREATED="1728098416796" MODIFIED="1728098424046">
 <node TEXT="RDF Semantics Recommendations" ID="ID_1475828176" CREATED="1728098761441" MODIFIED="1728098789287" LINK="https://www.w3.org/TR/rdf-mt/#:~:text=RDF%20Semantics.%20W3C%20Recommendation%2010%20February#:~:text=RDF%20Semantics.%20W3C%20Recommendation%2010%20February"/>
 <node TEXT="XML Schema Part 2: Datatypes Second Edition" ID="ID_872264262" CREATED="1728113800591" MODIFIED="1728113809798" LINK="https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/"/>
 </node>
-<node TEXT="05.01.01 Representing Strings" ID="ID_1040587074" CREATED="1702256694729" MODIFIED="1702256708453">
+<node TEXT="05.01.01 Representing Strings" FOLDED="true" ID="ID_1040587074" CREATED="1702256694729" MODIFIED="1702256708453">
 <node TEXT="String in Turtle &amp; SPARQL" ID="ID_510343001" CREATED="1728112316845" MODIFIED="1728112357376">
 <node TEXT="double quotes" ID="ID_1171336448" CREATED="1728112357391" MODIFIED="1728112365322"/>
 <node TEXT="single quotes / apostrophes" ID="ID_220889217" CREATED="1728112365478" MODIFIED="1728112387545"/>
@@ -1395,9 +1395,9 @@
 </node>
 <node TEXT="05.01.02 Comparing Values and Doing Arithmetic" ID="ID_218370378" CREATED="1702256708913" MODIFIED="1702256723012"/>
 </node>
-<node TEXT="05.02 Functions" ID="ID_1222199064" CREATED="1702256724274" MODIFIED="1702256729268">
+<node TEXT="05.02 Functions" ID="ID_1222199064" CREATED="1702256724274" MODIFIED="1728201292200" VGAP_QUANTITY="3 pt">
 <node TEXT="05.02.01 Program Logic Functions: IF() and COALESCE()" FOLDED="true" ID="ID_1818668743" CREATED="1702256729603" MODIFIED="1728193271734">
-<node TEXT="IF(): evaluate one expression and return values based on what it find" ID="ID_1147871790" CREATED="1728134864925" MODIFIED="1728193304307">
+<node TEXT="IF(): evaluate one expression and return values based on what it find" FOLDED="true" ID="ID_1147871790" CREATED="1728134864925" MODIFIED="1728193304307">
 <node TEXT="IF() takes three arguments" ID="ID_89768756" CREATED="1728193304315" MODIFIED="1728193314532"/>
 <node ID="ID_882707567" CREATED="1728193314715" MODIFIED="1728193351565"><richcontent TYPE="NODE">
 
@@ -1415,7 +1415,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="COALESCE(): gives many parameters and return the first one that doesn&apos;t result in an error" ID="ID_1993526470" CREATED="1728193388756" MODIFIED="1728193439966">
+<node TEXT="COALESCE(): gives many parameters and return the first one that doesn&apos;t result in an error" FOLDED="true" ID="ID_1993526470" CREATED="1728193388756" MODIFIED="1728193439966">
 <node TEXT="In SPARQL query, the parameter expressions that may or may not work are often variables that may or may not be bound, depending on whether the right pattern of data comes along" ID="ID_1740353845" CREATED="1728193461362" MODIFIED="1728193497132"/>
 </node>
 </node>
@@ -1467,7 +1467,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05.02.03 Node Type Conversion Functions" FOLDED="true" ID="ID_418112981" CREATED="1702256764259" MODIFIED="1702256817395">
+<node TEXT="05.02.03 Node Type Conversion Functions" ID="ID_418112981" CREATED="1702256764259" MODIFIED="1702256817395">
 <node TEXT="BASE Keyword" FOLDED="true" POSITION="bottom_or_right" ID="ID_966215084" CREATED="1727758931557" MODIFIED="1727758941427">
 <arrowlink DESTINATION="ID_1125592898"/>
 <node TEXT="ARQ will use the one defined in BASE for relative URI, otherwise, ARQ will use a base URI of file:///" ID="ID_1069827049" CREATED="1728194535175" MODIFIED="1728194574437"/>
@@ -1530,7 +1530,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05.02.05 Checking, Adding, and Removing Spoken Language Tags" FOLDED="true" ID="ID_468087552" CREATED="1702256829242" MODIFIED="1702256846094">
+<node TEXT="05.02.05 Checking, Adding, and Removing Spoken Language Tags" FOLDED="true" ID="ID_468087552" CREATED="1702256829242" MODIFIED="1728201292199">
 <node TEXT="lang()" FOLDED="true" ID="ID_898956090" CREATED="1728195419343" MODIFIED="1728195422755">
 <font BOLD="true"/>
 <node TEXT="returns the language tag attached to a literal" ID="ID_1580225581" CREATED="1728195423513" MODIFIED="1728195437727"/>

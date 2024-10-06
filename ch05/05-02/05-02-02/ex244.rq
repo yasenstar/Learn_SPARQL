@@ -1,0 +1,10 @@
+# filename: ex244.rq
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+SELECT ?o ?datatype
+FROM <ex241.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (datatype(?o) as ?datatype)
+}
