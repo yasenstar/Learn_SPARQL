@@ -1371,7 +1371,7 @@
 <node TEXT="04.06 Asking for a Description of a Resource" ID="ID_1014068537" CREATED="1702255390986" MODIFIED="1702255400925"/>
 </node>
 <node TEXT="05. Datatypes and Functions" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
-<node TEXT="05.01 Datatypes and Queries" ID="ID_1892292277" CREATED="1702256680178" MODIFIED="1702256700939">
+<node TEXT="05.01 Datatypes and Queries" FOLDED="true" ID="ID_1892292277" CREATED="1702256680178" MODIFIED="1702256700939">
 <node TEXT="05.01.00 Recap" FOLDED="true" ID="ID_1626925790" CREATED="1728098416796" MODIFIED="1728098424046">
 <node TEXT="RDF Semantics Recommendations" ID="ID_1475828176" CREATED="1728098761441" MODIFIED="1728098789287" LINK="https://www.w3.org/TR/rdf-mt/#:~:text=RDF%20Semantics.%20W3C%20Recommendation%2010%20February#:~:text=RDF%20Semantics.%20W3C%20Recommendation%2010%20February"/>
 <node TEXT="XML Schema Part 2: Datatypes Second Edition" ID="ID_872264262" CREATED="1728113800591" MODIFIED="1728113809798" LINK="https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/"/>
@@ -1396,15 +1396,168 @@
 <node TEXT="05.01.02 Comparing Values and Doing Arithmetic" ID="ID_218370378" CREATED="1702256708913" MODIFIED="1702256723012"/>
 </node>
 <node TEXT="05.02 Functions" ID="ID_1222199064" CREATED="1702256724274" MODIFIED="1702256729268">
-<node TEXT="05.02.01 Program Logic Functions" ID="ID_1818668743" CREATED="1702256729603" MODIFIED="1702256749053"/>
-<node TEXT="05.02.02 Node Type and Datatype Checking Functions" ID="ID_1445051066" CREATED="1702256749273" MODIFIED="1702256763789"/>
-<node TEXT="05.02.03 Node Type Conversion Functions" ID="ID_418112981" CREATED="1702256764259" MODIFIED="1702256817395">
-<node TEXT="BASE Keyword" ID="ID_966215084" CREATED="1727758931557" MODIFIED="1727758941427">
+<node TEXT="05.02.01 Program Logic Functions: IF() and COALESCE()" FOLDED="true" ID="ID_1818668743" CREATED="1702256729603" MODIFIED="1728193271734">
+<node TEXT="IF(): evaluate one expression and return values based on what it find" ID="ID_1147871790" CREATED="1728134864925" MODIFIED="1728193304307">
+<node TEXT="IF() takes three arguments" ID="ID_89768756" CREATED="1728193304315" MODIFIED="1728193314532"/>
+<node ID="ID_882707567" CREATED="1728193314715" MODIFIED="1728193351565"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If the first one evaluates to a boolean <span style="font-weight: bold;">true</span><span style="font-weight: normal;">, the function returns the value of the second argument; otherwise, it returns the third</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="COALESCE(): gives many parameters and return the first one that doesn&apos;t result in an error" ID="ID_1993526470" CREATED="1728193388756" MODIFIED="1728193439966">
+<node TEXT="In SPARQL query, the parameter expressions that may or may not work are often variables that may or may not be bound, depending on whether the right pattern of data comes along" ID="ID_1740353845" CREATED="1728193461362" MODIFIED="1728193497132"/>
+</node>
+</node>
+<node TEXT="05.02.02 Node Type and Datatype Checking Functions" FOLDED="true" ID="ID_1445051066" CREATED="1702256749273" MODIFIED="1702256763789">
+<node TEXT="datatype()" ID="ID_880869257" CREATED="1728193977821" MODIFIED="1728193982963">
+<node ID="ID_1663434894" CREATED="1728193982967" MODIFIED="1728194008545"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If a value is a typed literal, the <span style="font-weight: bold;">datatype()</span><span style="font-weight: normal;">&#xa0;&#xa0;function lets you find out what type it is.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="To check the type of the value, using these functions:" ID="ID_1351057552" CREATED="1728194028824" MODIFIED="1728194057112">
+<node TEXT="isBlank()" ID="ID_984985340" CREATED="1728194057124" MODIFIED="1728194062408">
+<font BOLD="true"/>
+</node>
+<node ID="ID_743020372" CREATED="1728194062904" MODIFIED="1728194070249"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">isLiteral()</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="isNumeric()" ID="ID_1560694429" CREATED="1728194070400" MODIFIED="1728194074650">
+<font BOLD="true"/>
+</node>
+<node TEXT="isIRI()" ID="ID_164912060" CREATED="1728194074825" MODIFIED="1728194078562">
+<font BOLD="true"/>
+</node>
+<node TEXT="isURI()" ID="ID_1794651092" CREATED="1728194078741" MODIFIED="1728194081992">
+<font BOLD="true"/>
+</node>
+</node>
+</node>
+<node TEXT="05.02.03 Node Type Conversion Functions" FOLDED="true" ID="ID_418112981" CREATED="1702256764259" MODIFIED="1702256817395">
+<node TEXT="BASE Keyword" FOLDED="true" POSITION="bottom_or_right" ID="ID_966215084" CREATED="1727758931557" MODIFIED="1727758941427">
 <arrowlink DESTINATION="ID_1125592898"/>
+<node TEXT="ARQ will use the one defined in BASE for relative URI, otherwise, ARQ will use a base URI of file:///" ID="ID_1069827049" CREATED="1728194535175" MODIFIED="1728194574437"/>
+</node>
+<node FOLDED="true" ID="ID_671710430" CREATED="1728194207241" MODIFIED="1728194243066"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">URI()</span><span style="font-weight: normal;">&#xa0;function (a synonym for the </span><span style="font-weight: bold;">IRI()</span><span style="font-weight: normal;">)</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Lets you convert values to URIs if possible." ID="ID_719115944" CREATED="1728194243070" MODIFIED="1728194257050"/>
+</node>
+<node TEXT="ENCODE_FOR_URI()" FOLDED="true" ID="ID_1768180638" CREATED="1728194282960" MODIFIED="1728194292167">
+<font BOLD="true"/>
+<node TEXT="Escape any URI-unfriendly characters like the space to %20." ID="ID_548824871" CREATED="1728194292171" MODIFIED="1728194332058"/>
+</node>
+<node FOLDED="true" ID="ID_1855660770" CREATED="1728194342825" MODIFIED="1728194360763"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      str()<span style="font-weight: bold;">&#xa0;</span><span style="font-weight: normal;">function</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font BOLD="true"/>
+<node TEXT="returns a string representation of the argument passed to it." ID="ID_948282699" CREATED="1728194352504" MODIFIED="1728194378796"/>
+<node TEXT="Technically, it returns the &quot;lexical (词汇) form&quot; of a literal or the &quot;codepoint representation&quot; of an IRI" ID="ID_1606117073" CREATED="1728194381521" MODIFIED="1728194421253"/>
 </node>
 </node>
-<node TEXT="05.02.04 Datatype Conversion" ID="ID_1017214527" CREATED="1702256817563" MODIFIED="1702256828917"/>
-<node TEXT="05.02.05 Checking, Adding, and Removing Spoken Language Tags" ID="ID_468087552" CREATED="1702256829242" MODIFIED="1702256846094"/>
+<node TEXT="05.02.04 Datatype Conversion" FOLDED="true" ID="ID_1017214527" CREATED="1702256817563" MODIFIED="1702256828917">
+<node TEXT="Function for converting type to" FOLDED="true" ID="ID_1919126806" CREATED="1728194768970" MODIFIED="1728194796220">
+<node TEXT="xsd:integer()" ID="ID_1438841455" CREATED="1728194774983" MODIFIED="1728194786908"/>
+<node TEXT="xsd:decimal()" ID="ID_572070347" CREATED="1728194780906" MODIFIED="1728194806651"/>
+<node TEXT="xsd:float()" ID="ID_938340909" CREATED="1728194806842" MODIFIED="1728194811446"/>
+<node TEXT="xsd:double()" ID="ID_798269272" CREATED="1728194819035" MODIFIED="1728194823099"/>
+<node TEXT="xsd:string()" ID="ID_1381022260" CREATED="1728194823266" MODIFIED="1728194827004"/>
+<node TEXT="xsd:boolean()" ID="ID_578962204" CREATED="1728194827179" MODIFIED="1728194831292"/>
+<node TEXT="xsd:dateTime()" ID="ID_135915476" CREATED="1728194831483" MODIFIED="1728194836293"/>
+</node>
+<node TEXT="STRDT()" FOLDED="true" ID="ID_724366710" CREATED="1728194906803" MODIFIED="1728194911246">
+<font BOLD="true"/>
+<node TEXT="&quot;STRing DataType&quot; function creates a typed literal from its two arguments: a value specified as a simple literal, and a URI specifying the type" ID="ID_116050411" CREATED="1728194912389" MODIFIED="1728194953406"/>
+<node TEXT="CONCAT()" POSITION="bottom_or_right" ID="ID_417241411" CREATED="1728195162725" MODIFIED="1728195169452">
+<font BOLD="true"/>
+<node TEXT="concatenates the two strings" ID="ID_1338060186" CREATED="1728195170096" MODIFIED="1728195197813"/>
+</node>
+</node>
+</node>
+<node TEXT="05.02.05 Checking, Adding, and Removing Spoken Language Tags" FOLDED="true" ID="ID_468087552" CREATED="1702256829242" MODIFIED="1702256846094">
+<node TEXT="lang()" FOLDED="true" ID="ID_898956090" CREATED="1728195419343" MODIFIED="1728195422755">
+<font BOLD="true"/>
+<node TEXT="returns the language tag attached to a literal" ID="ID_1580225581" CREATED="1728195423513" MODIFIED="1728195437727"/>
+</node>
+<node TEXT="langMatches()" FOLDED="true" ID="ID_83618791" CREATED="1728195496912" MODIFIED="1728195502189">
+<font BOLD="true"/>
+<node ID="ID_1504653136" CREATED="1728195503738" MODIFIED="1728195583015"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      offers more flexibility, it compares the language tag in its first argument with the value in its second and returns a boolean <span style="font-weight: bold;">true</span><span style="font-weight: normal;">&#xa0;&#xa0;if the language matches</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="STRLANG()" FOLDED="true" ID="ID_1450919779" CREATED="1728196335431" MODIFIED="1728196340222">
+<font BOLD="true"/>
+<node TEXT="takes a literal and a string representing a language tag as arguments and returns the literal tagged with that language code" ID="ID_911129890" CREATED="1728196342095" MODIFIED="1728196372886"/>
+</node>
+</node>
 <node TEXT="05.02.06 String Functions" FOLDED="true" ID="ID_581876027" CREATED="1702256846283" MODIFIED="1702256851572">
 <node TEXT="STRLEN()" ID="ID_1015575960" CREATED="1705720862541" MODIFIED="1705720874904"/>
 <node TEXT="SUBSTR()" ID="ID_1692184165" CREATED="1705720875480" MODIFIED="1705720880380"/>
@@ -1416,9 +1569,72 @@
 <arrowlink DESTINATION="ID_538918424"/>
 </node>
 </node>
-<node TEXT="05.02.07 Numeric Functions" ID="ID_378138253" CREATED="1702256853403" MODIFIED="1702256861045"/>
-<node TEXT="05.02.08 Date and Time Functions" ID="ID_363970334" CREATED="1702256861260" MODIFIED="1702256869541"/>
-<node TEXT="05.02.09 Hash Functions" ID="ID_1858329807" CREATED="1702256869755" MODIFIED="1702256877284"/>
+<node TEXT="05.02.07 Numeric Functions" FOLDED="true" ID="ID_378138253" CREATED="1702256853403" MODIFIED="1702256861045">
+<node TEXT="typical arithmetic operators: +, -, *, /" ID="ID_1771739446" CREATED="1728196749959" MODIFIED="1728196769325"/>
+<node TEXT="AVG(), MIN, MAX(), SUM, and COUNT()" ID="ID_1177238686" CREATED="1728196769950" MODIFIED="1728196789183"/>
+<node TEXT="abs(), round(), ceil(), and floor()" ID="ID_1008443726" CREATED="1728196798892" MODIFIED="1728196809113"/>
+<node TEXT="rand(): returns a double-precision number between 0 and 1" ID="ID_1417277093" CREATED="1728196818005" MODIFIED="1728196835974"/>
+</node>
+<node TEXT="05.02.08 Date and Time Functions" FOLDED="true" ID="ID_363970334" CREATED="1702256861260" MODIFIED="1702256869541">
+<node TEXT="Target data type: xsd:dataTime, xsd:date, xsd:time" ID="ID_1251614527" CREATED="1728197008077" MODIFIED="1728197036013"/>
+<node TEXT="now()" FOLDED="true" ID="ID_30646178" CREATED="1728197039936" MODIFIED="1728197043173">
+<node TEXT="tells you the date and time that your query started running" ID="ID_759577218" CREATED="1728197043173" MODIFIED="1728197057650"/>
+</node>
+<node TEXT="data and time functions" FOLDED="true" ID="ID_151259945" CREATED="1728197134681" MODIFIED="1728197147179">
+<node TEXT="year()" ID="ID_200295331" CREATED="1728197147194" MODIFIED="1728197152868"/>
+<node TEXT="month()" ID="ID_1959093059" CREATED="1728197152994" MODIFIED="1728197155885"/>
+<node TEXT="day()" ID="ID_877646532" CREATED="1728197156073" MODIFIED="1728197158204"/>
+<node TEXT="hours()" ID="ID_1361474663" CREATED="1728197158379" MODIFIED="1728197161576"/>
+<node TEXT="minutes()" ID="ID_1472280629" CREATED="1728197161765" MODIFIED="1728197164631"/>
+<node TEXT="seconds()" ID="ID_460223010" CREATED="1728197170949" MODIFIED="1728197179656">
+<node TEXT="returns the seconds portion of a date-time value as a decimal number" ID="ID_882061500" CREATED="1728197179656" MODIFIED="1728197199766"/>
+</node>
+</node>
+<node TEXT="timezone() and tz()" FOLDED="true" ID="ID_1837643652" CREATED="1728197228092" MODIFIED="1728197234633">
+<node ID="ID_818878190" CREATED="1728197237796" MODIFIED="1728197264953"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      timezone() function returns the time zone of a date typed as an <span style="font-weight: bold;">xsd:dayTimeDuration</span>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="tz() returns a simple literal version of time zone" ID="ID_1029674765" CREATED="1728197265964" MODIFIED="1728197277654"/>
+</node>
+</node>
+<node TEXT="05.02.09 Hash Functions" FOLDED="true" ID="ID_1858329807" CREATED="1702256869755" MODIFIED="1702256877284">
+<node TEXT="SPARQL&apos;s cryptographic hash functions convert a string of text to a hexadecimal representation of a bit string that can serve as a coded signature for the input string." ID="ID_768525999" CREATED="1728197406026" MODIFIED="1728197494172"/>
+<node ID="ID_166506423" CREATED="1728197548287" MODIFIED="1728197596459"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The FOAF vocabulary includes the <span style="font-weight: bold;">foaf:mbox_sha1sum</span><span style="font-weight: normal;">&#xa0;&#xa0;property, which stores a hash string of an email address (&quot;mailbox&quot;) generated with the SHA-1 cryptograpic function.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SPARQL supports these has functions" FOLDED="true" ID="ID_227624362" CREATED="1728197641736" MODIFIED="1728197651011">
+<node TEXT="MD5()" ID="ID_939495741" CREATED="1728197651011" MODIFIED="1728197654836"/>
+<node TEXT="SHA1()" ID="ID_208293363" CREATED="1728197655092" MODIFIED="1728197658109"/>
+<node TEXT="SHA224()" ID="ID_672621540" CREATED="1728197658265" MODIFIED="1728197661236"/>
+<node TEXT="SHA256()" ID="ID_677018760" CREATED="1728197661408" MODIFIED="1728197664569"/>
+<node TEXT="SHA384()" ID="ID_1720021026" CREATED="1728197664725" MODIFIED="1728197672136"/>
+<node TEXT="SHA512()" ID="ID_900289085" CREATED="1728197672340" MODIFIED="1728197676357"/>
+</node>
+</node>
 </node>
 <node TEXT="05.03 Extension Functions" ID="ID_1505584738" CREATED="1702256879386" MODIFIED="1702256885676"/>
 </node>
