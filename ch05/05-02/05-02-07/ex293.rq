@@ -1,0 +1,16 @@
+# filename: ex293.rq
+
+PREFIX  dm: <http://learningsparql.com/ns/demo#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT *
+FROM <ex292.ttl>
+WHERE {
+    ?s dm:amount ?amount .
+    BIND (abs(?amount) AS ?absTest)
+    BIND (round(?amount) AS ?roundTest)
+    BIND (ceil(?amount) AS ?ceilTest)
+    BIND (floor(?amount) AS ?floorTest)
+}
+ORDER BY ?s
