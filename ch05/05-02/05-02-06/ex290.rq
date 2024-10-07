@@ -1,0 +1,11 @@
+# filename: ex290.rq
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT *
+FROM <ex289.ttl>
+WHERE {
+    ?s rdfs:label ?label .
+    BIND (ENCODE_FOR_URI(?label) AS ?encodeTest)
+}
