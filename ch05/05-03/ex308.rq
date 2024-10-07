@@ -1,0 +1,15 @@
+# filename: ex308.rq
+
+# PREFIX afn: <http://jena.hpl.hp.com/ARQ/function#>
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
+PREFIX d:   <http://learningsparql.com/ns/data#>
+
+SELECT DISTINCT ?s ?sLocalname ?sNamespace
+FROM <ex012.ttl>
+WHERE {
+    ?s ?p ?o .
+    BIND (afn:localname(?s) AS ?sLocalname)
+    BIND (afn:namespace(?s) AS ?sNamespace)
+}
+
+# new prefix from https://jena.apache.org/documentation/query/library-function.html
