@@ -1,0 +1,12 @@
+# filename: ex303.rq
+
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT *
+WHERE {
+    BIND (now() AS ?currentTime)
+    BIND (seconds(?currentTime) AS ?currentSeconds)
+    BIND (year(?currentTime) AS ?currentYear)
+    BIND (timezone(?currentTime) AS ?currentTimezone)
+}
+ORDER BY ?mtg

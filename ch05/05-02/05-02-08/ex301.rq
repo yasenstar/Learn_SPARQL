@@ -1,0 +1,14 @@
+# filename: ex301.rq
+
+PREFIX d: <http://learningsparql.com/ns/data#>
+PREFIX t: <http://purl.org/tio/ns#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT *
+FROM <ex298.ttl>
+WHERE {
+    ?mtg t:starts ?startTime .
+    BIND (timezone(?startTime) AS ?timezoneTest)
+    BIND (tz(?startTime) AS ?tzTest)
+}
+ORDER BY ?mtg

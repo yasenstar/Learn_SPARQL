@@ -1,0 +1,17 @@
+# filename: ex299.rq
+
+PREFIX d: <http://learningsparql.com/ns/data#>
+PREFIX t: <http://purl.org/tio/ns#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT *
+FROM <ex298.ttl>
+WHERE {
+    ?mtg t:starts ?startTime .
+    BIND (year(?startTime) AS ?yearTest)
+    BIND (month(?startTime) AS ?monthTest)
+    BIND (day(?startTime) AS ?dayTest)
+    BIND (hours(?startTime) AS ?hoursTest)
+    BIND (minutes(?startTime) AS ?minutesTest)
+    BIND (seconds(?startTime) AS ?secondsTest)
+}
