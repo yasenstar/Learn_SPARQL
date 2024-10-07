@@ -1,0 +1,20 @@
+# filename: ex305.rq
+
+PREFIX foaf: <http://xmlns.com/foat/0.1/>
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+PREFIX d:  <http://learningsparql.com/ns/data#>
+
+# SELECT *
+CONSTRUCT {
+    ?s  foaf:firstName    ?first ;
+        foaf:lastName     ?last ;
+        foaf:mbox_sha1sum        ?hashEmail ;
+}
+WHERE {
+    ?s  ab:firstName    ?first ;
+        ab:lastName     ?last ;
+        ab:email        ?email ;
+    
+    BIND (SHA1(?email) AS ?hashEmail)
+    # BIND (MD5(?email) AS ?hashEmailMD5)
+}
