@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.929">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.715">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1370,7 +1370,7 @@
 </node>
 <node TEXT="04.06 Asking for a Description of a Resource" ID="ID_1014068537" CREATED="1702255390986" MODIFIED="1702255400925"/>
 </node>
-<node TEXT="05. Datatypes and Functions" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
+<node TEXT="05. Datatypes and Functions" FOLDED="true" POSITION="bottom_or_right" ID="ID_619476244" CREATED="1702253796940" MODIFIED="1702253805221">
 <node TEXT="05.01 Datatypes and Queries" FOLDED="true" ID="ID_1892292277" CREATED="1702256680178" MODIFIED="1702256700939">
 <node TEXT="05.01.00 Recap" FOLDED="true" ID="ID_1626925790" CREATED="1728098416796" MODIFIED="1728098424046">
 <node TEXT="RDF Semantics Recommendations" ID="ID_1475828176" CREATED="1728098761441" MODIFIED="1728098789287" LINK="https://www.w3.org/TR/rdf-mt/#:~:text=RDF%20Semantics.%20W3C%20Recommendation%2010%20February#:~:text=RDF%20Semantics.%20W3C%20Recommendation%2010%20February"/>
@@ -1575,12 +1575,12 @@
 <node TEXT="abs(), round(), ceil(), and floor()" ID="ID_1008443726" CREATED="1728196798892" MODIFIED="1728196809113"/>
 <node TEXT="rand(): returns a double-precision number between 0 and 1" ID="ID_1417277093" CREATED="1728196818005" MODIFIED="1728196835974"/>
 </node>
-<node TEXT="05.02.08 Date and Time Functions" ID="ID_363970334" CREATED="1702256861260" MODIFIED="1702256869541">
+<node TEXT="05.02.08 Date and Time Functions" FOLDED="true" ID="ID_363970334" CREATED="1702256861260" MODIFIED="1702256869541">
 <node TEXT="Target data type: xsd:dataTime, xsd:date, xsd:time" ID="ID_1251614527" CREATED="1728197008077" MODIFIED="1728197036013"/>
 <node TEXT="now()" ID="ID_30646178" CREATED="1728197039936" MODIFIED="1728197043173">
 <node TEXT="tells you the date and time that your query started running" ID="ID_759577218" CREATED="1728197043173" MODIFIED="1728197057650"/>
 </node>
-<node TEXT="data and time functions" FOLDED="true" ID="ID_151259945" CREATED="1728197134681" MODIFIED="1728197147179">
+<node TEXT="data and time functions" ID="ID_151259945" CREATED="1728197134681" MODIFIED="1728197147179">
 <node TEXT="year()" ID="ID_200295331" CREATED="1728197147194" MODIFIED="1728197152868"/>
 <node TEXT="month()" ID="ID_1959093059" CREATED="1728197152994" MODIFIED="1728197155885"/>
 <node TEXT="day()" ID="ID_877646532" CREATED="1728197156073" MODIFIED="1728197158204"/>
@@ -1590,7 +1590,7 @@
 <node TEXT="returns the seconds portion of a date-time value as a decimal number" ID="ID_882061500" CREATED="1728197179656" MODIFIED="1728197199766"/>
 </node>
 </node>
-<node TEXT="timezone() and tz()" FOLDED="true" ID="ID_1837643652" CREATED="1728197228092" MODIFIED="1728197234633">
+<node TEXT="timezone() and tz()" ID="ID_1837643652" CREATED="1728197228092" MODIFIED="1728197234633">
 <node ID="ID_818878190" CREATED="1728197237796" MODIFIED="1728197264953"><richcontent TYPE="NODE">
 
 <html>
@@ -1638,8 +1638,17 @@
 </node>
 <node TEXT="05.03 Extension Functions" ID="ID_1505584738" CREATED="1702256879386" MODIFIED="1702256885676"/>
 </node>
-<node TEXT="06. Updating Data with SPARQL" FOLDED="true" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
-<node TEXT="06.01 Getting Started with Fuseki" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478"/>
+<node TEXT="06. Updating Data with SPARQL" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
+<node TEXT="06.01 Getting Started with Fuseki" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478">
+<node TEXT="Get Apache Fuseki Server" ID="ID_1381880616" CREATED="1728301630545" MODIFIED="1728301642988">
+<node TEXT="Download &quot;apache-jena-fuseki-5.1.0.zip" ID="ID_434563538" CREATED="1728301651433" MODIFIED="1728301669802" LINK="https://jena.apache.org/download/index.cgi"/>
+<node TEXT="Need Java version &gt; 16" ID="ID_1878335234" CREATED="1728301674180" MODIFIED="1728301687341"/>
+</node>
+<node TEXT="Get OpenJDK" ID="ID_1815766778" CREATED="1728301689075" MODIFIED="1728301702354">
+<node TEXT="Download from openjdk.org" ID="ID_1330511738" CREATED="1728301702356" MODIFIED="1728301718655" LINK="https://openjdk.org/install/"/>
+<node TEXT="Install OpenJDK on Windows via MSI (Now: OpenJDK 21.0.4 LTS)" ID="ID_949090394" CREATED="1728301719362" MODIFIED="1728301812004" LINK="https://learn.microsoft.com/en-us/java/openjdk/install"/>
+</node>
+</node>
 <node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173"/>
 <node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989"/>
 <node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629"/>
