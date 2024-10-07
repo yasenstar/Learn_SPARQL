@@ -1,0 +1,12 @@
+# filename: ex269.rq
+
+SELECT *
+WHERE {
+    :Ducati <http://dbpedia.org/ontology/locationCity>  ?city .
+    ?city rdfs:label    ?cityName .
+    FILTER (lang(?cityName) = "en")
+}
+
+# execute this query on https://dbpedia.org/snorql/
+
+# The :Ducati is not available now, use :Gamefam instead
