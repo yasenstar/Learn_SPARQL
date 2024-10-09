@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-2.4 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-2.1 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -675,12 +675,12 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_166133416"/>
-<arrowlink DESTINATION="ID_745748293"/>
 <arrowlink DESTINATION="ID_450773116"/>
-<arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_166133416"/>
 <arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_1045108650"/>
+<arrowlink DESTINATION="ID_745748293"/>
+<arrowlink DESTINATION="ID_892632707"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
 <node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
@@ -1411,7 +1411,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1433,7 +1432,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1453,7 +1451,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="isNumeric()" ID="ID_1560694429" CREATED="1728194070400" MODIFIED="1728194074650">
@@ -1484,7 +1481,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Lets you convert values to URIs if possible." ID="ID_719115944" CREATED="1728194243070" MODIFIED="1728194257050"/>
 </node>
@@ -1504,7 +1500,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="true"/>
 <node TEXT="returns a string representation of the argument passed to it." ID="ID_948282699" CREATED="1728194352504" MODIFIED="1728194378796"/>
@@ -1549,7 +1544,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1565,8 +1559,8 @@
 <node TEXT="STRSTARTS(), STRENDS()" ID="ID_1391061348" CREATED="1705720893148" MODIFIED="1705720915915"/>
 <node TEXT="CONTAINS()" ID="ID_952028586" CREATED="1705720901179" MODIFIED="1705720925148"/>
 <node TEXT="regex()" ID="ID_1011205149" CREATED="1705720926637" MODIFIED="1727614598409">
-<arrowlink DESTINATION="ID_391442690"/>
 <arrowlink DESTINATION="ID_538918424"/>
+<arrowlink DESTINATION="ID_391442690"/>
 </node>
 </node>
 <node TEXT="05.02.07 Numeric Functions" FOLDED="true" ID="ID_378138253" CREATED="1702256853403" MODIFIED="1702256861045">
@@ -1603,7 +1597,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="tz() returns a simple literal version of time zone" ID="ID_1029674765" CREATED="1728197265964" MODIFIED="1728197277654"/>
@@ -1623,7 +1616,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="SPARQL supports these has functions" FOLDED="true" ID="ID_227624362" CREATED="1728197641736" MODIFIED="1728197651011">
@@ -1640,19 +1632,22 @@
 </node>
 <node TEXT="06. Updating Data with SPARQL" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
 <node TEXT="06.01 Getting Started with Fuseki" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478">
-<node TEXT="Get Apache Fuseki Server" ID="ID_1381880616" CREATED="1728301630545" MODIFIED="1728301642988">
+<node TEXT="Get Apache Fuseki Server" FOLDED="true" ID="ID_1381880616" CREATED="1728301630545" MODIFIED="1728301642988">
 <node TEXT="Download &quot;apache-jena-fuseki-5.1.0.zip" ID="ID_434563538" CREATED="1728301651433" MODIFIED="1728301669802" LINK="https://jena.apache.org/download/index.cgi"/>
 <node TEXT="Need Java version &gt; 16" ID="ID_1878335234" CREATED="1728301674180" MODIFIED="1728301687341"/>
 </node>
-<node TEXT="Get OpenJDK" ID="ID_1815766778" CREATED="1728301689075" MODIFIED="1728301702354">
+<node TEXT="Get OpenJDK" FOLDED="true" ID="ID_1815766778" CREATED="1728301689075" MODIFIED="1728301702354">
 <node TEXT="Download from openjdk.org" ID="ID_1330511738" CREATED="1728301702356" MODIFIED="1728301718655" LINK="https://openjdk.org/install/"/>
 <node TEXT="Install OpenJDK on Windows via MSI (Now: OpenJDK 21.0.4 LTS)" ID="ID_949090394" CREATED="1728301719362" MODIFIED="1728301812004" LINK="https://learn.microsoft.com/en-us/java/openjdk/install"/>
+</node>
+<node TEXT="Plan with fuseki-server" FOLDED="true" ID="ID_532223434" CREATED="1728453759639" MODIFIED="1728453768039">
+<node TEXT="CLI: fuseki-server --update --loc=dataDir /myDataset" ID="ID_591907188" CREATED="1728453780096" MODIFIED="1728453798209"/>
 </node>
 </node>
 <node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173"/>
 <node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989"/>
 <node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629"/>
-<node TEXT="06.05 Named Graphs" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715621415282">
+<node TEXT="06.05 Named Graphs" FOLDED="true" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715621415282">
 <arrowlink DESTINATION="ID_320976328"/>
 <node TEXT="06.05.1 Dropping Graphs" ID="ID_462413524" CREATED="1702256943725" MODIFIED="1702256951413"/>
 <node TEXT="06.05.2 Named Graph Syntax Shortcuts: WITH and USING" ID="ID_304013574" CREATED="1702256951699" MODIFIED="1702256966549"/>
