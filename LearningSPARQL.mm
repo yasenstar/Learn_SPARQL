@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.715">
+<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.929">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1631,22 +1631,30 @@
 <node TEXT="05.03 Extension Functions" ID="ID_1505584738" CREATED="1702256879386" MODIFIED="1702256885676"/>
 </node>
 <node TEXT="06. Updating Data with SPARQL" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
-<node TEXT="06.01 Getting Started with Fuseki" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478">
-<node TEXT="Get Apache Fuseki Server" FOLDED="true" ID="ID_1381880616" CREATED="1728301630545" MODIFIED="1728301642988">
+<node TEXT="06.01 Getting Started with Fuseki" FOLDED="true" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478">
+<node TEXT="Get Apache Fuseki Server" ID="ID_1381880616" CREATED="1728301630545" MODIFIED="1728301642988">
 <node TEXT="Download &quot;apache-jena-fuseki-5.1.0.zip" ID="ID_434563538" CREATED="1728301651433" MODIFIED="1728301669802" LINK="https://jena.apache.org/download/index.cgi"/>
 <node TEXT="Need Java version &gt; 16" ID="ID_1878335234" CREATED="1728301674180" MODIFIED="1728301687341"/>
 </node>
-<node TEXT="Get OpenJDK" FOLDED="true" ID="ID_1815766778" CREATED="1728301689075" MODIFIED="1728301702354">
+<node TEXT="Get OpenJDK" ID="ID_1815766778" CREATED="1728301689075" MODIFIED="1728301702354">
 <node TEXT="Download from openjdk.org" ID="ID_1330511738" CREATED="1728301702356" MODIFIED="1728301718655" LINK="https://openjdk.org/install/"/>
 <node TEXT="Install OpenJDK on Windows via MSI (Now: OpenJDK 21.0.4 LTS)" ID="ID_949090394" CREATED="1728301719362" MODIFIED="1728301812004" LINK="https://learn.microsoft.com/en-us/java/openjdk/install"/>
 </node>
-<node TEXT="Plan with fuseki-server" FOLDED="true" ID="ID_532223434" CREATED="1728453759639" MODIFIED="1728453768039">
+<node TEXT="Play with fuseki-server" ID="ID_532223434" CREATED="1728453759639" MODIFIED="1728456113878">
 <node TEXT="CLI: fuseki-server --update --loc=dataDir /myDataset" ID="ID_591907188" CREATED="1728453780096" MODIFIED="1728453798209"/>
 </node>
 </node>
-<node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173"/>
-<node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989"/>
-<node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629"/>
+<node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173">
+<node TEXT="1) INSERT DATA { triple patter }" ID="ID_19533365" CREATED="1728462109210" MODIFIED="1728463452684"/>
+<node TEXT="2) INSERT { triple pattern } WHERE {}" ID="ID_1706597098" CREATED="1728462119379" MODIFIED="1728463327547"/>
+</node>
+<node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989">
+<node TEXT="1) DELETE DATA { triple patter }" ID="ID_287549994" CREATED="1728463399194" MODIFIED="1728463455387"/>
+<node TEXT="2) DELETE { triple pattern } WHERE {}" ID="ID_666798877" CREATED="1728463415752" MODIFIED="1728463432099"/>
+</node>
+<node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629">
+<node TEXT="DELETE { triple pattern }&#xa;INSERT {triple pattern }&#xa;WHERE {triple pattern }" ID="ID_1666184806" CREATED="1728463514488" MODIFIED="1728463549332"/>
+</node>
 <node TEXT="06.05 Named Graphs" FOLDED="true" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715621415282">
 <arrowlink DESTINATION="ID_320976328"/>
 <node TEXT="06.05.1 Dropping Graphs" ID="ID_462413524" CREATED="1702256943725" MODIFIED="1702256951413"/>

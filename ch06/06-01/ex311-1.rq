@@ -1,0 +1,15 @@
+# filename: ex311-1.rq
+# from Fuseki sample
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+PREFIX d: <http://learningsparql.com/ns/data#>
+
+SELECT *
+FROM <ex012.ttl>
+WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 100

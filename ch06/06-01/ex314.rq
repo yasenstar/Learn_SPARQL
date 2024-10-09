@@ -1,0 +1,11 @@
+# filename: ex314.rq
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+
+CONSTRUCT {
+    ?person a ab:Person .
+}
+WHERE {
+    ?person ab:firstName    ?firstName ;
+            ab:lastName     ?lastName .
+}
