@@ -1644,26 +1644,94 @@
 <node TEXT="CLI: fuseki-server --update --loc=dataDir /myDataset" ID="ID_591907188" CREATED="1728453780096" MODIFIED="1728453798209"/>
 </node>
 </node>
-<node TEXT="06.02 Adding Data to a Dataset" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173">
-<node TEXT="1) INSERT DATA { triple patter }" ID="ID_19533365" CREATED="1728462109210" MODIFIED="1728463452684"/>
+<node TEXT="06.02 Adding Data to a Dataset" FOLDED="true" ID="ID_439979794" CREATED="1702256904946" MODIFIED="1702256915173">
+<node TEXT="1) INSERT DATA { triple pattern }" ID="ID_19533365" CREATED="1728462109210" MODIFIED="1728464641954"/>
 <node TEXT="2) INSERT { triple pattern } WHERE {}" ID="ID_1706597098" CREATED="1728462119379" MODIFIED="1728463327547"/>
 </node>
-<node TEXT="06.03 Deleting Data" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989">
-<node TEXT="1) DELETE DATA { triple patter }" ID="ID_287549994" CREATED="1728463399194" MODIFIED="1728463455387"/>
+<node TEXT="06.03 Deleting Data" FOLDED="true" ID="ID_1821076435" CREATED="1702256915371" MODIFIED="1702256925989">
+<node TEXT="1) DELETE DATA { triple pattern }" ID="ID_287549994" CREATED="1728463399194" MODIFIED="1728464644395"/>
 <node TEXT="2) DELETE { triple pattern } WHERE {}" ID="ID_666798877" CREATED="1728463415752" MODIFIED="1728463432099"/>
+</node>
+<node FOLDED="true" ID="ID_899831118" CREATED="1728541289618" MODIFIED="1728542646094"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Add-on: More testing on Running fuseki-server for <span style="text-decoration: underline;">Update Request</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Use CLI parameters:&#xa;fuseki-server --mem /NAME --update&#xa;fuseki-server --update --loc=dataDir /myDataset" ID="ID_698245885" CREATED="1728541313693" MODIFIED="1728548037527" LINK="https://jena.apache.org/documentation/fuseki2/fuseki-configuration.html"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Great thanks: Philips Ross (https://x.com/philross) &amp; Fariz Darari
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Philips helps indicate the need of configuration setting for Fuseki.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://jena.apache.org/documentation/fuseki2/fuseki-configuration.html
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Fariz shares the setting for working on &quot;update request&quot; in Windows:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://medium.com/@fadirra/setting-up-jena-fuseki-with-update-in-windows-10-2c8a2802ee8f
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="--update: tell Fuseki to allow updates to stored data. without this, it defaults to read-only mode" ID="ID_244141127" CREATED="1728541373711" MODIFIED="1728541475862">
+<hook URI="../../../C:/Users/v0cn037/Pictures/202410/fuseki-server-run.png" SIZE="0.31413612" NAME="ExternalObject"/>
+</node>
+<node TEXT="--loc=dataDir: tills it to store dat in a TDB database and store it in the dataDir directory" ID="ID_1813780482" CREATED="1728541489015" MODIFIED="1728541541379"/>
+<node TEXT="--meme: tells Fuseki to store in-memory, non-peristent databases (always updatable)" ID="ID_1478645429" CREATED="1728541605807" MODIFIED="1728541632515"/>
+<node TEXT="/NAME: &quot;/myDataset&quot; for example, the dataset path name, which must begin with a slash" ID="ID_1301194887" CREATED="1728541547655" MODIFIED="1728541601669"/>
+</node>
+<node TEXT="Setup /run/config.ttl (If using MEM)" FOLDED="true" ID="ID_567990304" CREATED="1728542104971" MODIFIED="1728542273060" VGAP_QUANTITY="3 pt">
+<node TEXT="# &lt;#service1&gt; rdf:type fuseki:Service ;&#xa;#    fuseki:name                     &quot;testDataset&quot; ;    # http://host:port/testDataset&#xa;#    fuseki:serviceQuery             &quot;query&quot; ;    # SPARQL query service&#xa;#    fuseki:serviceUpdate              &quot;update&quot; ;   # SPARQL query service&#xa;#    fuseki:serviceReadGraphStore    &quot;data&quot; ;     # SPARQL Graph store protocol (read only)&#xa;#    fuseki:dataset           &lt;#testDataset&gt; ;&#xa;#    .&#xa;&#xa;# &lt;#testDataset&gt;    rdf:type ja:RDFDataset ;&#xa;#     rdfs:label &quot;testDataset&quot; ;&#xa;#     ja:defaultGraph&#xa;#       [ rdfs:label &quot;testDataset.ttl&quot; ;&#xa;#         a ja:MemoryModel ;&#xa;#         ja:content [ja:externalContent &lt;file:configuration/testDataset.ttl&gt; ] ;&#xa;#       ] ;&#xa;#     ." ID="ID_1945678039" CREATED="1728542183193" MODIFIED="1728542253280"/>
+</node>
+<node TEXT="Create fuseki-update.html" ID="ID_1198405337" CREATED="1728542122652" MODIFIED="1728542131094">
+<node TEXT="&lt;form action=&quot;http://localhost:3030/myDataset/update&quot; method=&quot;post&quot;&gt;&#xa;    &lt;fieldset&gt;&#xa;      &lt;legend&gt;Fuseki SPARQL Update&lt;/legend&gt;&#xa;      &lt;textarea name=&quot;update&quot; rows=&quot;30&quot; cols=&quot;100&quot;&gt;Put your SPARQL update query here...&lt;/textarea&gt;&lt;br&gt;&#xa;      &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;&#xa;    &lt;/fieldset&gt;&#xa;  &lt;/form&gt;" ID="ID_347054574" CREATED="1728542177028" MODIFIED="1728542179805"/>
+</node>
 </node>
 <node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629">
 <node TEXT="DELETE { triple pattern }&#xa;INSERT {triple pattern }&#xa;WHERE {triple pattern }" ID="ID_1666184806" CREATED="1728463514488" MODIFIED="1728463549332"/>
 </node>
 <node TEXT="06.05 Named Graphs" FOLDED="true" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715621415282">
 <arrowlink DESTINATION="ID_320976328"/>
+<node TEXT="06.05.0 Basic Upderstanding" ID="ID_130345484" CREATED="1728542651133" MODIFIED="1728542686778"/>
 <node TEXT="06.05.1 Dropping Graphs" ID="ID_462413524" CREATED="1702256943725" MODIFIED="1702256951413"/>
 <node TEXT="06.05.2 Named Graph Syntax Shortcuts: WITH and USING" ID="ID_304013574" CREATED="1702256951699" MODIFIED="1702256966549"/>
 <node TEXT="06.05.03 Copying and Moving Entire Graphs" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518"/>
 <node TEXT="06.05.04 Deleting and Replacing Triples in Named Graphs" ID="ID_1230375298" CREATED="1702256978738" MODIFIED="1702256992845"/>
 </node>
 </node>
-<node TEXT="07. Query Efficiency and Debugging" FOLDED="true" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
+<node TEXT="07. Query Efficiency and Debugging" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
 <node TEXT="07.01 Efficiency Inside the WHERE Clause" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
 <node TEXT="07.01.01 Reduce the Search Space" ID="ID_474317469" CREATED="1702257031830" MODIFIED="1702257039836"/>
 <node TEXT="07.01.02 OPTIONAL Is Very Optional" ID="ID_1647965527" CREATED="1702257040051" MODIFIED="1702257050092"/>
