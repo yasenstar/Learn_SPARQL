@@ -1,0 +1,35 @@
+PREFIX ab:   <http://learningsparql.com/ns/addressbook#>
+PREFIX d:    <http://learningsparql.com/ns/data#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+d:c1    a       skos:Concept;
+        <http://www.w3.org/2008/05/skos-xl#prefLabel>
+                d:Mammal .
+
+d:c2    a            skos:Concept;
+        skos:broder  d:c1;
+        <http://www.w3.org/2008/05/skos-xl#prefLabel>
+                d:Dog .
+
+d:c3    a            skos:Concept;
+        skos:broder  d:c1;
+        <http://www.w3.org/2008/05/skos-xl#prefLabel>
+                d:Cat .
+
+d:Mammal  a     <http://www.w3.org/2008/05/skos-xl#Label>;
+        <http://purl.org/dc/elements/1.1/source>
+                <http://en.wikipedia.org/wiki/Mammal>;
+        <http://www.w3.org/2008/05/skos-xl#literalForm>
+                "Mammal" .
+
+d:Dog   a       <http://www.w3.org/2008/05/skos-xl#Label>;
+        <http://purl.org/dc/elements/1.1/source>
+                <http://en.wikipedia.org/wiki/Dog>;
+        <http://www.w3.org/2008/05/skos-xl#literalForm>
+                "Dog" .
+
+d:Cat   a       <http://www.w3.org/2008/05/skos-xl#Label>;
+        <http://purl.org/dc/elements/1.1/source>
+                <http://en.wikipedia.org/wiki/Cat>;
+        <http://www.w3.org/2008/05/skos-xl#literalForm>
+                "Cat" .
