@@ -1752,7 +1752,7 @@
 <node TEXT="USING NAMED is like FROM NAMED" ID="ID_475415300" CREATED="1728710170083" MODIFIED="1728710179858"/>
 </node>
 </node>
-<node TEXT="06.05.03 Copying and Moving Entire Graphs" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518">
+<node TEXT="06.05.03 Copying and Moving Entire Graphs" FOLDED="true" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518">
 <node TEXT="SPARQL Update&apos;s COPY and MOVE operations let you copy and move triples between named graphs or between the default graph and a named graph" ID="ID_1630952958" CREATED="1728710220970" MODIFIED="1728710255260"/>
 <node TEXT="The COPY operation copies triples from one graph into another, replacing any existing triples in the destination graph." ID="ID_664344473" CREATED="1728710498569" MODIFIED="1728710524724"/>
 <node TEXT="The MOVE operation move triples from one graph to another, also replacing existing triples in the destination graph." ID="ID_1520908544" CREATED="1728717143812" MODIFIED="1728717175639">
@@ -1762,8 +1762,11 @@
 <node TEXT="06.05.04 Deleting and Replacing Triples in Named Graphs" ID="ID_1230375298" CREATED="1702256978738" MODIFIED="1702256992845"/>
 </node>
 </node>
-<node TEXT="07. Query Efficiency and Debugging" FOLDED="true" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
-<node TEXT="07.01 Efficiency Inside the WHERE Clause" FOLDED="true" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
+<node TEXT="07. Query Efficiency and Debugging" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
+<node TEXT="07.01 Efficiency Inside the WHERE Clause" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
+<node TEXT="07.01.00 Basic Information" ID="ID_360756122" CREATED="1728736607440" MODIFIED="1728736617331">
+<node TEXT="" ID="ID_408007560" CREATED="1728736617335" MODIFIED="1728736617335"/>
+</node>
 <node TEXT="07.01.01 Reduce the Search Space" ID="ID_474317469" CREATED="1702257031830" MODIFIED="1702257039836"/>
 <node TEXT="07.01.02 OPTIONAL Is Very Optional" ID="ID_1647965527" CREATED="1702257040051" MODIFIED="1702257050092"/>
 <node TEXT="07.01.03 Triple Pattern Order Matters" ID="ID_1078774344" CREATED="1702257050428" MODIFIED="1702257060865"/>
