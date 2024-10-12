@@ -10,12 +10,6 @@ Welcome to enroll the demo course packaging in Udemy now:
 
 ---
 
-## Mindmap of the Book
-
-![mindmap](img/LearningSPARQL.jpg)
-
----
-
 ## Contents per Chaperts
 
 - [Ch00 - Preface](./ch00/)
@@ -25,6 +19,12 @@ Welcome to enroll the demo course packaging in Udemy now:
 - [Ch04 - Copying, Creating and Converting Data](./ch04/)
 - [Ch05 - Datatypes and Functions](./ch05/)
 - [Ch06 - Updating Data with SPARQL](./ch06/)
+
+---
+
+## Mindmap of the Book
+
+![mindmap](img/LearningSPARQL.jpg)
 
 ---
 
