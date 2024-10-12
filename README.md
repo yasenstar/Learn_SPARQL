@@ -1,5 +1,10 @@
 # Learn SPARQL
 
+| Book | Course |
+| --- | --- |
+| Learn by practicing on book "Learning SPARQL", which is authored by [Bob DuCharme](https://www.linkedin.com/in/bobdc/) | Welcome to enroll the demo course packaging in Udemy now: |
+| [![book cover](img/cover_learning-sparql.png)](http://learningsparql.com/) | [![udemy-logo](img/udemy-icon.png)](https://www.udemy.com/course/learning-sparql-for-querying-rdf-by-practice/?referralCode=BA578CE881FA1438F6DF) |
+
 Learn by practicing on book "Learning SPARQL", which is authored by [Bob DuCharme](https://www.linkedin.com/in/bobdc/)
 
 [![book cover](img/cover_learning-sparql.png)](http://learningsparql.com/)
