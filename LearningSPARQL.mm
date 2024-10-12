@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1702253670607"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.929">
+<node TEXT="Learning SPARQL" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1728742939439"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.929">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1630,7 +1630,7 @@
 </node>
 <node TEXT="05.03 Extension Functions" ID="ID_1505584738" CREATED="1702256879386" MODIFIED="1702256885676"/>
 </node>
-<node TEXT="06. Updating Data with SPARQL" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
+<node TEXT="06. Updating Data with SPARQL" FOLDED="true" POSITION="bottom_or_right" ID="ID_1240009482" CREATED="1702253805659" MODIFIED="1702253816494">
 <node TEXT="06.01 Getting Started with Fuseki" FOLDED="true" ID="ID_969211686" CREATED="1702256892204" MODIFIED="1702256904478">
 <node TEXT="Get Apache Fuseki Server" ID="ID_1381880616" CREATED="1728301630545" MODIFIED="1728301642988">
 <node TEXT="Download &quot;apache-jena-fuseki-5.1.0.zip" ID="ID_434563538" CREATED="1728301651433" MODIFIED="1728301669802" LINK="https://jena.apache.org/download/index.cgi"/>
@@ -1762,10 +1762,10 @@
 <node TEXT="06.05.04 Deleting and Replacing Triples in Named Graphs" ID="ID_1230375298" CREATED="1702256978738" MODIFIED="1702256992845"/>
 </node>
 </node>
-<node TEXT="07. Query Efficiency and Debugging" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
+<node TEXT="07. Query Efficiency and Debugging" FOLDED="true" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
 <node TEXT="07.01 Efficiency Inside the WHERE Clause" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
 <node TEXT="07.01.00 Basic Information" ID="ID_360756122" CREATED="1728736607440" MODIFIED="1728736617331">
-<node TEXT="" ID="ID_408007560" CREATED="1728736617335" MODIFIED="1728736617335"/>
+<node TEXT="While the order of a graph pattern&apos;s tripe patterns should not affect the eventual query results, the ordering can have a big effect on the speed of the query&apos;s execution." ID="ID_408007560" CREATED="1728736617335" MODIFIED="1728736663001"/>
 </node>
 <node TEXT="07.01.01 Reduce the Search Space" ID="ID_474317469" CREATED="1702257031830" MODIFIED="1702257039836"/>
 <node TEXT="07.01.02 OPTIONAL Is Very Optional" ID="ID_1647965527" CREATED="1702257040051" MODIFIED="1702257050092"/>
