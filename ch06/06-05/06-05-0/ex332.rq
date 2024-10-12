@@ -1,4 +1,4 @@
-# filename: ex322.rq
+# filename: ex332.rq
 
 SELECT ?g ?s ?p ?o
 WHERE {
