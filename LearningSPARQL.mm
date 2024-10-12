@@ -8,7 +8,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-2.1 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-1.8 pt;" ENDINCLINATION="81.6 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -675,12 +675,12 @@
 <arrowlink DESTINATION="ID_544354516"/>
 </node>
 <node TEXT="Graphileon (GDB Tool)" POSITION="bottom_or_right" ID="ID_1431290346" CREATED="1706309955706" MODIFIED="1706310291925" LINK="https://graphileon.com/">
-<arrowlink DESTINATION="ID_450773116"/>
+<arrowlink DESTINATION="ID_745748293"/>
 <arrowlink DESTINATION="ID_166133416"/>
+<arrowlink DESTINATION="ID_892632707"/>
+<arrowlink DESTINATION="ID_450773116"/>
 <arrowlink DESTINATION="ID_184210398"/>
 <arrowlink DESTINATION="ID_1045108650"/>
-<arrowlink DESTINATION="ID_745748293"/>
-<arrowlink DESTINATION="ID_892632707"/>
 </node>
 <node TEXT="MarkLogic" ID="ID_1334628323" CREATED="1706309620961" MODIFIED="1706310452349" LINK="https://www.marklogic.com/"/>
 <node TEXT="Memgraph Enterprise/Cloud Edition" ID="ID_450773116" CREATED="1706309905378" MODIFIED="1706310668125" LINK="https://memgraph.com/">
@@ -1105,8 +1105,8 @@
 </node>
 <node TEXT="03.02 Data That Might Not Be There" FOLDED="true" ID="ID_835493373" CREATED="1702254954705" MODIFIED="1702254965179">
 <node TEXT="OPTIONAL" ID="ID_1749097275" CREATED="1705768293632" MODIFIED="1726921401267">
-<arrowlink DESTINATION="ID_1647965527"/>
 <arrowlink DESTINATION="ID_1415407541"/>
+<arrowlink DESTINATION="ID_1647965527"/>
 <node TEXT="The triples in the pattern work together as a unit, or as a graph pattern" ID="ID_386065804" CREATED="1726920749234" MODIFIED="1726920776547"/>
 <node TEXT="The order of OPTIONAL graph patterns matters" ID="ID_507793727" CREATED="1726920800730" MODIFIED="1726920817556"/>
 </node>
@@ -1559,8 +1559,8 @@
 <node TEXT="STRSTARTS(), STRENDS()" ID="ID_1391061348" CREATED="1705720893148" MODIFIED="1705720915915"/>
 <node TEXT="CONTAINS()" ID="ID_952028586" CREATED="1705720901179" MODIFIED="1705720925148"/>
 <node TEXT="regex()" ID="ID_1011205149" CREATED="1705720926637" MODIFIED="1727614598409">
-<arrowlink DESTINATION="ID_538918424"/>
 <arrowlink DESTINATION="ID_391442690"/>
+<arrowlink DESTINATION="ID_538918424"/>
 </node>
 </node>
 <node TEXT="05.02.07 Numeric Functions" FOLDED="true" ID="ID_378138253" CREATED="1702256853403" MODIFIED="1702256861045">
@@ -1664,9 +1664,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="Use CLI parameters:&#xa;fuseki-server --mem /NAME --update&#xa;fuseki-server --update --loc=dataDir /myDataset" ID="ID_698245885" CREATED="1728541313693" MODIFIED="1728548037527" LINK="https://jena.apache.org/documentation/fuseki2/fuseki-configuration.html"><richcontent TYPE="NOTE">
+<node TEXT="Use CLI parameters:&#xa;fuseki-server --mem /NAME --update&#xa;fuseki-server --update --loc=dataDir /myDataset" FOLDED="true" ID="ID_698245885" CREATED="1728541313693" MODIFIED="1728548037527" LINK="https://jena.apache.org/documentation/fuseki2/fuseki-configuration.html"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1703,8 +1702,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="--update: tell Fuseki to allow updates to stored data. without this, it defaults to read-only mode" ID="ID_244141127" CREATED="1728541373711" MODIFIED="1728541475862">
 <hook URI="../../../C:/Users/v0cn037/Pictures/202410/fuseki-server-run.png" SIZE="0.31413612" NAME="ExternalObject"/>
 </node>
@@ -1715,24 +1713,54 @@
 <node TEXT="Setup /run/config.ttl (If using MEM)" FOLDED="true" ID="ID_567990304" CREATED="1728542104971" MODIFIED="1728542273060" VGAP_QUANTITY="3 pt">
 <node TEXT="# &lt;#service1&gt; rdf:type fuseki:Service ;&#xa;#    fuseki:name                     &quot;testDataset&quot; ;    # http://host:port/testDataset&#xa;#    fuseki:serviceQuery             &quot;query&quot; ;    # SPARQL query service&#xa;#    fuseki:serviceUpdate              &quot;update&quot; ;   # SPARQL query service&#xa;#    fuseki:serviceReadGraphStore    &quot;data&quot; ;     # SPARQL Graph store protocol (read only)&#xa;#    fuseki:dataset           &lt;#testDataset&gt; ;&#xa;#    .&#xa;&#xa;# &lt;#testDataset&gt;    rdf:type ja:RDFDataset ;&#xa;#     rdfs:label &quot;testDataset&quot; ;&#xa;#     ja:defaultGraph&#xa;#       [ rdfs:label &quot;testDataset.ttl&quot; ;&#xa;#         a ja:MemoryModel ;&#xa;#         ja:content [ja:externalContent &lt;file:configuration/testDataset.ttl&gt; ] ;&#xa;#       ] ;&#xa;#     ." ID="ID_1945678039" CREATED="1728542183193" MODIFIED="1728542253280"/>
 </node>
-<node TEXT="Create fuseki-update.html" ID="ID_1198405337" CREATED="1728542122652" MODIFIED="1728542131094">
+<node TEXT="Create fuseki-update.html" FOLDED="true" ID="ID_1198405337" CREATED="1728542122652" MODIFIED="1728542131094">
 <node TEXT="&lt;form action=&quot;http://localhost:3030/myDataset/update&quot; method=&quot;post&quot;&gt;&#xa;    &lt;fieldset&gt;&#xa;      &lt;legend&gt;Fuseki SPARQL Update&lt;/legend&gt;&#xa;      &lt;textarea name=&quot;update&quot; rows=&quot;30&quot; cols=&quot;100&quot;&gt;Put your SPARQL update query here...&lt;/textarea&gt;&lt;br&gt;&#xa;      &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;&#xa;    &lt;/fieldset&gt;&#xa;  &lt;/form&gt;" ID="ID_347054574" CREATED="1728542177028" MODIFIED="1728542179805"/>
 </node>
 </node>
-<node TEXT="06.04 Changing Existing Data" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629">
+<node TEXT="06.04 Changing Existing Data" FOLDED="true" ID="ID_778767554" CREATED="1702256926203" MODIFIED="1702256935629">
 <node TEXT="DELETE { triple pattern }&#xa;INSERT {triple pattern }&#xa;WHERE {triple pattern }" ID="ID_1666184806" CREATED="1728463514488" MODIFIED="1728463549332"/>
 </node>
-<node TEXT="06.05 Named Graphs" FOLDED="true" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715621415282">
+<node TEXT="06.05 Named Graphs" ID="ID_1144160241" CREATED="1702256935874" MODIFIED="1715621415282">
 <arrowlink DESTINATION="ID_320976328"/>
 <node TEXT="06.05.0 Basic Upderstanding" ID="ID_130345484" CREATED="1728542651133" MODIFIED="1728542686778"/>
-<node TEXT="06.05.1 Dropping Graphs" ID="ID_462413524" CREATED="1702256943725" MODIFIED="1702256951413"/>
-<node TEXT="06.05.2 Named Graph Syntax Shortcuts: WITH and USING" ID="ID_304013574" CREATED="1702256951699" MODIFIED="1702256966549"/>
-<node TEXT="06.05.03 Copying and Moving Entire Graphs" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518"/>
+<node TEXT="06.05.1 Dropping Graphs" FOLDED="true" ID="ID_462413524" CREATED="1702256943725" MODIFIED="1702256951413">
+<node TEXT="DROP GRAPH [URI of named graph name]" ID="ID_933105642" CREATED="1728709441596" MODIFIED="1728709466416">
+<node TEXT="Drop a designated named graph" ID="ID_317180791" CREATED="1728709466420" MODIFIED="1728709477624"/>
+</node>
+<node TEXT="DROP DEFAULT" ID="ID_1968677701" CREATED="1728709478636" MODIFIED="1728709484775">
+<node TEXT="clears the default graph since you can&apos;t actually drop a default graph" ID="ID_1274437097" CREATED="1728709484779" MODIFIED="1728709503743"/>
+</node>
+<node TEXT="DROP ALL" ID="ID_1658239402" CREATED="1728709505441" MODIFIED="1728709507427">
+<node TEXT="drops the default graph and all named graphs" ID="ID_1768728371" CREATED="1728709507432" MODIFIED="1728709526007"/>
+</node>
+<node TEXT="DROP NAMED" ID="ID_1700776092" CREATED="1728709526794" MODIFIED="1728709530044">
+<node TEXT="drops all named graphs" ID="ID_1809771610" CREATED="1728709530048" MODIFIED="1728709545232"/>
+</node>
+<node TEXT="DROP vs CLEAR" ID="ID_1369145075" CREATED="1728709618883" MODIFIED="1728709624076">
+<node TEXT="DROP removes complete graphs" ID="ID_1237197039" CREATED="1728709624080" MODIFIED="1728709633966"/>
+<node TEXT="CLEAR removes the triples from within the graphs while leaving the empty graphs -- &quot;for stores that record empty graphs.&quot;" ID="ID_317133358" CREATED="1728709634138" MODIFIED="1728709674065"/>
+</node>
+</node>
+<node TEXT="06.05.2 Named Graph Syntax Shortcuts: WITH and USING" FOLDED="true" ID="ID_304013574" CREATED="1702256951699" MODIFIED="1702256966549">
+<node TEXT="WITH: tells the SPARQL processor the name of a graph to use whenever a graph isn&apos;t named in the remainder of the update request" ID="ID_1365318206" CREATED="1728709766636" MODIFIED="1728709795704">
+<node TEXT="INSERT DATA is not working with the WITH keyword." ID="ID_151993996" CREATED="1728709838381" MODIFIED="1728709855002"/>
+<node TEXT="Need to use &quot;INSERT {} WHERE {}&quot; after WITH keyword" ID="ID_85473274" CREATED="1728709855358" MODIFIED="1728709870383"/>
+</node>
+<node TEXT="USING: does for update queries what FROM does for SELECT queries" ID="ID_701656389" CREATED="1728709946649" MODIFIED="1728709964476">
+<node TEXT="It identifies a graph that the WHERE clause should look at" ID="ID_1474165073" CREATED="1728709964482" MODIFIED="1728709976169"/>
+<node TEXT="USING NAMED is like FROM NAMED" ID="ID_475415300" CREATED="1728710170083" MODIFIED="1728710179858"/>
+</node>
+</node>
+<node TEXT="06.05.03 Copying and Moving Entire Graphs" FOLDED="true" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518">
+<node TEXT="SPARQL Update&apos;s COPY and MOVE operations let you copy and move triples between named graphs or between the default graph and a named graph" ID="ID_1630952958" CREATED="1728710220970" MODIFIED="1728710255260"/>
+<node TEXT="The COPY operation copies triples from one graph into another, replacing any existing triples in the destination graph." ID="ID_664344473" CREATED="1728710498569" MODIFIED="1728710524724"/>
+<node TEXT="The MOVE operation move triples from one graph to another, also replacing existing triples in the destination graph." ID="ID_1520908544" CREATED="1728717143812" MODIFIED="1728717175639"/>
+</node>
 <node TEXT="06.05.04 Deleting and Replacing Triples in Named Graphs" ID="ID_1230375298" CREATED="1702256978738" MODIFIED="1702256992845"/>
 </node>
 </node>
-<node TEXT="07. Query Efficiency and Debugging" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
-<node TEXT="07.01 Efficiency Inside the WHERE Clause" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
+<node TEXT="07. Query Efficiency and Debugging" FOLDED="true" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
+<node TEXT="07.01 Efficiency Inside the WHERE Clause" FOLDED="true" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
 <node TEXT="07.01.01 Reduce the Search Space" ID="ID_474317469" CREATED="1702257031830" MODIFIED="1702257039836"/>
 <node TEXT="07.01.02 OPTIONAL Is Very Optional" ID="ID_1647965527" CREATED="1702257040051" MODIFIED="1702257050092"/>
 <node TEXT="07.01.03 Triple Pattern Order Matters" ID="ID_1078774344" CREATED="1702257050428" MODIFIED="1702257060865"/>
