@@ -1740,6 +1740,7 @@
 <node TEXT="DROP removes complete graphs" ID="ID_1237197039" CREATED="1728709624080" MODIFIED="1728709633966"/>
 <node TEXT="CLEAR removes the triples from within the graphs while leaving the empty graphs -- &quot;for stores that record empty graphs.&quot;" ID="ID_317133358" CREATED="1728709634138" MODIFIED="1728709674065"/>
 </node>
+<node TEXT="CREATE GRAPH is not working in Fuseki" ID="ID_191121086" CREATED="1728719190580" MODIFIED="1728719205588" LINK="https://stackoverflow.com/questions/27089877/error-creating-and-viewing-graph-in-sparql"/>
 </node>
 <node TEXT="06.05.2 Named Graph Syntax Shortcuts: WITH and USING" FOLDED="true" ID="ID_304013574" CREATED="1702256951699" MODIFIED="1702256966549">
 <node TEXT="WITH: tells the SPARQL processor the name of a graph to use whenever a graph isn&apos;t named in the remainder of the update request" ID="ID_1365318206" CREATED="1728709766636" MODIFIED="1728709795704">
@@ -1751,10 +1752,12 @@
 <node TEXT="USING NAMED is like FROM NAMED" ID="ID_475415300" CREATED="1728710170083" MODIFIED="1728710179858"/>
 </node>
 </node>
-<node TEXT="06.05.03 Copying and Moving Entire Graphs" FOLDED="true" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518">
+<node TEXT="06.05.03 Copying and Moving Entire Graphs" ID="ID_1828366677" CREATED="1702256967036" MODIFIED="1702256978518">
 <node TEXT="SPARQL Update&apos;s COPY and MOVE operations let you copy and move triples between named graphs or between the default graph and a named graph" ID="ID_1630952958" CREATED="1728710220970" MODIFIED="1728710255260"/>
 <node TEXT="The COPY operation copies triples from one graph into another, replacing any existing triples in the destination graph." ID="ID_664344473" CREATED="1728710498569" MODIFIED="1728710524724"/>
-<node TEXT="The MOVE operation move triples from one graph to another, also replacing existing triples in the destination graph." ID="ID_1520908544" CREATED="1728717143812" MODIFIED="1728717175639"/>
+<node TEXT="The MOVE operation move triples from one graph to another, also replacing existing triples in the destination graph." ID="ID_1520908544" CREATED="1728717143812" MODIFIED="1728717175639">
+<node TEXT="Question on the result incorrect of &quot;MOVE&quot;" ID="ID_969437554" CREATED="1728726285276" MODIFIED="1728726302375" LINK="https://x.com/XiaoqiZhao/status/1845037773147037949"/>
+</node>
 </node>
 <node TEXT="06.05.04 Deleting and Replacing Triples in Named Graphs" ID="ID_1230375298" CREATED="1702256978738" MODIFIED="1702256992845"/>
 </node>

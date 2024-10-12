@@ -24,6 +24,7 @@ Welcome to enroll the demo course packaging in Udemy now:
 - [Ch03 - SPARQL Queries: A Deeper Dive](./ch03/)
 - [Ch04 - Copying, Creating and Converting Data](./ch04/)
 - [Ch05 - Datatypes and Functions](./ch05/)
+- [Ch06 - Updating Data with SPARQL](./ch06/)
 
 ---
 
