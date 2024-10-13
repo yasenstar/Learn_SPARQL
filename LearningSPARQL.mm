@@ -1763,7 +1763,7 @@
 </node>
 </node>
 <node TEXT="07. Query Efficiency and Debugging" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
-<node TEXT="07.01 Efficiency Inside the WHERE Clause" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
+<node TEXT="07.01 Efficiency Inside the WHERE Clause" FOLDED="true" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
 <node TEXT="07.01.00 Basic Information" FOLDED="true" ID="ID_360756122" CREATED="1728736607440" MODIFIED="1728736617331">
 <node TEXT="While the order of a graph pattern&apos;s tripe patterns should not affect the eventual query results, the ordering can have a big effect on the speed of the query&apos;s execution." ID="ID_408007560" CREATED="1728736617335" MODIFIED="1728736663001"/>
 <node TEXT="Steps of SPARQL processor moves through a WHERE clause" ID="ID_1739935992" CREATED="1728783500238" MODIFIED="1728783563897">
@@ -1822,7 +1822,7 @@
 </node>
 </node>
 </node>
-<node TEXT="07.01.04 FILTERs: Where and What" ID="ID_292306479" CREATED="1702257061250" MODIFIED="1702257070349">
+<node TEXT="07.01.04 FILTERs: Where and What" FOLDED="true" ID="ID_292306479" CREATED="1702257061250" MODIFIED="1702257070349">
 <node ID="ID_1444528546" CREATED="1728803165788" MODIFIED="1728803272246"><richcontent TYPE="NODE">
 
 <html>
@@ -1869,11 +1869,150 @@
 
 </richcontent>
 </node>
+<node ID="ID_1195377681" CREATED="1728804030367" MODIFIED="1728804075103"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      For checking one email domain, using <span style="font-weight: bold;">STRENDS()</span><span style="font-weight: normal;">&#xa0;&#xa0;instead of </span><span style="font-weight: bold;">CONTAINS()</span><span style="font-weight: normal;">&#xa0;&#xa0;takes the matching down to the string level</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_848506339" CREATED="1728804075864" MODIFIED="1728804116899"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      With most SPARQL processors, <span style="font-weight: bold;">sameTerms()</span><span style="font-weight: normal;">&#xa0;&#xa0;function is more efficient than using the equals operator</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
-<node TEXT="07.01.05 Property Paths Can Be Expensive" ID="ID_213899099" CREATED="1702257071146" MODIFIED="1702257086514"/>
+<node ID="ID_643114799" CREATED="1728804446828" MODIFIED="1728804477007"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Using <span style="font-weight: bold;">ARQ SPARQL engine with its --time command line parameter</span><span style="font-weight: normal;">&#xa0;shows the query time</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="07.02 Efficiency Outside the WHERE Clause" ID="ID_956506592" CREATED="1702257088108" MODIFIED="1702257101159"/>
+</node>
+<node TEXT="07.01.05 Property Paths Can Be Expensive" FOLDED="true" ID="ID_213899099" CREATED="1702257071146" MODIFIED="1702257086514">
+<node TEXT="Property Paths give you more sophisticated ways to describe patterns to search for." ID="ID_1056476130" CREATED="1728804663557" MODIFIED="1728804801287"/>
+<node TEXT="The wider choice of options in how and where property paths let you search for patterns among your data means that they often increase your query&apos;s search space" ID="ID_1458440432" CREATED="1728804801518" MODIFIED="1728804838215"/>
+</node>
+</node>
+<node TEXT="07.02 Efficiency Outside the WHERE Clause" FOLDED="true" ID="ID_956506592" CREATED="1702257088108" MODIFIED="1702257101159">
+<node ID="ID_1162262799" CREATED="1728805026583" MODIFIED="1728805357951">
+<icon BUILTIN="stop-sign"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asking the SPARQL processor to sort the returned values with <span style="font-weight: bold;">ORDER BY</span><span style="font-weight: normal;">&#xa0;may be asking a lot.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_558167542" CREATED="1728805208842" MODIFIED="1728805366096">
+<icon BUILTIN="stop-sign"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">DISTINCT</span><span style="font-weight: normal;">&#xa0;keyword requires scanning through the entire answer set.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font BOLD="false"/>
+</node>
+<node ID="ID_1489412274" CREATED="1728805367605" MODIFIED="1728805414151">
+<icon BUILTIN="idea"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">LIMIT</span><span style="font-weight: normal;">&#xa0;keyword usually tells the SPARQL processor to do less work than it might otherwise have, so it can make a query execute faster.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Naming fewer variables in SELECT statement can make query run faster" ID="ID_1203659306" CREATED="1728805512012" MODIFIED="1728805537129">
+<icon BUILTIN="idea"/>
+</node>
+<node ID="ID_1560016466" CREATED="1728805635905" MODIFIED="1728805718337">
+<icon BUILTIN="stop-sign"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">SELECT *</span>&#xa0;is a nice shorthand when you're first assembling a query, but for a query that will be used as part of a production system, asking the SPARQL processor to return all the bound variables is usually asking more of it than you really need
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1466721692" CREATED="1728805755664" MODIFIED="1728805832047">
+<icon BUILTIN="idea"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The most extreme (and most efficient) application of asking for fewer variables is to <span style="font-weight: bold;">not ask for any of them</span><span style="font-weight: normal;">, which is essentially what an ASK query does</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Don&apos;t even bother with OPTIONAL clauses in asn ASK query unless it&apos;s using FILTER or MINUS in a way that may affect the returned result" ID="ID_603760914" CREATED="1728805861542" MODIFIED="1728805896928"/>
+</node>
+</node>
 <node TEXT="07.03 Debugging" ID="ID_802368171" CREATED="1702257101899" MODIFIED="1702257112550">
 <node TEXT="07.03.01 Manual Debugging" ID="ID_1780273334" CREATED="1702257113556" MODIFIED="1702257129982"/>
 <node TEXT="07.03.02 SPARQL Algebra" ID="ID_311918315" CREATED="1702257130284" MODIFIED="1702257137678"/>
