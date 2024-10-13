@@ -1762,15 +1762,115 @@
 <node TEXT="06.05.04 Deleting and Replacing Triples in Named Graphs" ID="ID_1230375298" CREATED="1702256978738" MODIFIED="1702256992845"/>
 </node>
 </node>
-<node TEXT="07. Query Efficiency and Debugging" FOLDED="true" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
+<node TEXT="07. Query Efficiency and Debugging" POSITION="bottom_or_right" ID="ID_1195747025" CREATED="1702253818300" MODIFIED="1702253827277">
 <node TEXT="07.01 Efficiency Inside the WHERE Clause" ID="ID_1844824567" CREATED="1702256999205" MODIFIED="1702257031184">
-<node TEXT="07.01.00 Basic Information" ID="ID_360756122" CREATED="1728736607440" MODIFIED="1728736617331">
+<node TEXT="07.01.00 Basic Information" FOLDED="true" ID="ID_360756122" CREATED="1728736607440" MODIFIED="1728736617331">
 <node TEXT="While the order of a graph pattern&apos;s tripe patterns should not affect the eventual query results, the ordering can have a big effect on the speed of the query&apos;s execution." ID="ID_408007560" CREATED="1728736617335" MODIFIED="1728736663001"/>
+<node TEXT="Steps of SPARQL processor moves through a WHERE clause" ID="ID_1739935992" CREATED="1728783500238" MODIFIED="1728783563897">
+<node TEXT="1. It looks for triples in the dataset that match the first pattern" ID="ID_1285621059" CREATED="1728783563902" MODIFIED="1728783583096">
+<node TEXT="If it finds none, it gives up the search -- unless the triple pattern is in an OPTIONAL clause, in which case the processor keeps trying to match further triple patters." ID="ID_1647826916" CREATED="1728783635973" MODIFIED="1728783696734"/>
 </node>
-<node TEXT="07.01.01 Reduce the Search Space" ID="ID_474317469" CREATED="1702257031830" MODIFIED="1702257039836"/>
-<node TEXT="07.01.02 OPTIONAL Is Very Optional" ID="ID_1647965527" CREATED="1702257040051" MODIFIED="1702257050092"/>
-<node TEXT="07.01.03 Triple Pattern Order Matters" ID="ID_1078774344" CREATED="1702257050428" MODIFIED="1702257060865"/>
-<node TEXT="07.01.04 FILTERs: Where and What" ID="ID_292306479" CREATED="1702257061250" MODIFIED="1702257070349"/>
+<node TEXT="2. If it did find at least one triple that matched the triple pattern in step 1, and the triple pattern had any variables, it stores the appropriate values in (or, to use the technical term, binds them to) those variables." ID="ID_1411071404" CREATED="1728783697581" MODIFIED="1728783752428">
+<node TEXT="BIND statements also assign values to variables" ID="ID_1748574118" CREATED="1728783752432" MODIFIED="1728783762146"/>
+</node>
+<node TEXT="3. If the next triple pattern in the WHERE clause uses any variables that were bound during a match against an earlier triple pattern, the query processor substitutes those values into those parts of the triple pattern and then goes looking for triples that match that pattern" ID="ID_1131350091" CREATED="1728783792358" MODIFIED="1728783863302"/>
+<node TEXT="4. If it doesn&apos;t find any and the triple pattern isn&apos;t in an OPTIONAL clause, it gives up." ID="ID_1145071969" CREATED="1728783863494" MODIFIED="1728783893563">
+<node TEXT="If it does find some, it resume at stpe 2 with this triple pattern." ID="ID_1069149493" CREATED="1728783893568" MODIFIED="1728783917314">
+<arrowlink DESTINATION="ID_1411071404"/>
+</node>
+</node>
+<node TEXT="If the query never gave up because of a lack of matches, it repeats the step 2 and 3 until it&apos;s matched the full graph pattern of the WHERE clause against the dataset." ID="ID_580900563" CREATED="1728783931117" MODIFIED="1728784008369"/>
+<node TEXT="Then it applies any FILTER statements, which can use simple or complex expressions to specify triples to filter out of the result set." ID="ID_697981299" CREATED="1728784008679" MODIFIED="1728784039295"/>
+<node TEXT="Finally, it passes along the remaining variables values to the rest of your query outside of the WHERE clause" ID="ID_1722965275" CREATED="1728784039459" MODIFIED="1728784064112"/>
+</node>
+<node TEXT="General Principle: A fast query is one that, if there are no matches for the graph pattern, gives up quickly, and if there are matches, quickly returns the variable values that it bound." ID="ID_1329076592" CREATED="1728784070933" MODIFIED="1728784129974"/>
+</node>
+<node TEXT="07.01.01 Reduce the Search Space" FOLDED="true" ID="ID_474317469" CREATED="1702257031830" MODIFIED="1702257039836">
+<node TEXT="Principle: reduce the search space as much as possible as early as possible" ID="ID_528624084" CREATED="1728788995200" MODIFIED="1728789055401"/>
+<node TEXT="One simple application of this idea: take advantage of data typing" ID="ID_1225302817" CREATED="1728789067828" MODIFIED="1728789089294">
+<node TEXT="RDF doesn&apos;t require your to declare classes and then identify which resources are members of which classes, but triples that do this can be easier to search quickly." ID="ID_39735687" CREATED="1728789085146" MODIFIED="1728789195566"/>
+</node>
+<node TEXT="When your data identifies class membership for the resources being described, it can help speed up queries that people make of your data" ID="ID_1817959830" CREATED="1728789089299" MODIFIED="1728789231551"/>
+</node>
+<node TEXT="07.01.02 OPTIONAL Is Very Optional" FOLDED="true" ID="ID_1647965527" CREATED="1702257040051" MODIFIED="1702257050092">
+<node TEXT="OPTIONAL is the guiltiest party in slowing down queries, adding the most complexity to the job that the SPARQL processor must do to find the relevant data and return it." ID="ID_1903104299" CREATED="1728789301888" MODIFIED="1728789335901">
+<node TEXT="Nested OPTIONAL clauses compound the problem" ID="ID_1790897702" CREATED="1728789336115" MODIFIED="1728789347148"/>
+</node>
+<node TEXT="Because nonOptional triple patterns can help a SPARQL engine decide whether it&apos;s going to fine an answer set or not, moving OPTIONAL clauses after them can mitigate its effects" ID="ID_1559581315" CREATED="1728789480076" MODIFIED="1728789522579"/>
+<node TEXT="The best optimization is to just avoid using OPTIONAL whenever possible" ID="ID_617022183" CREATED="1728789641939" MODIFIED="1728789662941">
+<node TEXT="In an ASK query, an OPTIONAL clause has no effect on the answer -- either the required triples are there or not -- so it wont&apos; do anything but slow the query down." ID="ID_1104460094" CREATED="1728789694159" MODIFIED="1728789730520">
+<node TEXT="The combination of OPTIONAL with a FILTER or MINUS clause can affect the result of an ASK query, so this advice only applies to simple uses of OPTIONAL" ID="ID_277156133" CREATED="1728789744964" MODIFIED="1728789781138"/>
+</node>
+</node>
+</node>
+<node TEXT="07.01.03 Triple Pattern Order Matters" FOLDED="true" ID="ID_1078774344" CREATED="1702257050428" MODIFIED="1702257060865">
+<node TEXT="The fewer triples that a triple pattern matches against, the more it narrows down the search space, and the faster the query processor can finish its job." ID="ID_834406209" CREATED="1728789810381" MODIFIED="1728789874021">
+<node TEXT="Usually the one with more unbound variables will match against more triples because it&apos;s more flexible" ID="ID_603827474" CREATED="1728790353433" MODIFIED="1728790395311"/>
+</node>
+<node TEXT="A variable&apos;s position in the triple can also provide a clue about the relative number of triples that it may match." ID="ID_51865434" CREATED="1728790478781" MODIFIED="1728790510708"/>
+<node TEXT="Open Source C# dotNetRDF Library: rank the triple patterns in the order describing which parts of each triple are have fixed values instead of being variables" ID="ID_1811629306" CREATED="1728802451299" MODIFIED="1728802889459" LINK="https://dotnetrdf.org/">
+<node TEXT="1. Subject-Predicate-Object" ID="ID_968997893" CREATED="1728802890297" MODIFIED="1728802898434">
+<node TEXT="This triple pattern with a subject, a predicate, an object, and no variables is the most selective of all, because it will only match one triple." ID="ID_497536489" CREATED="1728802969681" MODIFIED="1728803001814"/>
+</node>
+<node TEXT="2. Subject-Predicate" ID="ID_688292980" CREATED="1728802898599" MODIFIED="1728802903776"/>
+<node TEXT="3. Subject-Object" ID="ID_698863541" CREATED="1728802903940" MODIFIED="1728802912644"/>
+<node TEXT="4. Predicate-Object" ID="ID_593501359" CREATED="1728802912805" MODIFIED="1728802918564"/>
+<node TEXT="5. Subject" ID="ID_1285365468" CREATED="1728802918786" MODIFIED="1728802921732"/>
+<node TEXT="6. Predicate" ID="ID_678427648" CREATED="1728802921897" MODIFIED="1728802925033"/>
+<node TEXT="7. Object" ID="ID_1837984125" CREATED="1728802925217" MODIFIED="1728802927637">
+<node TEXT="This is the least selective (besides, of course, a triple pattern with three variables) that has variable in the subject and predicate position and a specific value in the object position" ID="ID_247657063" CREATED="1728803027496" MODIFIED="1728803080965"/>
+</node>
+</node>
+</node>
+<node TEXT="07.01.04 FILTERs: Where and What" ID="ID_292306479" CREATED="1702257061250" MODIFIED="1702257070349">
+<node ID="ID_1444528546" CREATED="1728803165788" MODIFIED="1728803272246"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Along with moving triple patterns around in a graph pattern, <span style="font-weight: bold;">moving a FILTER statement earlier can also reduce the search space for subsequent triples</span><span style="font-weight: normal;">, as long as all of the variables that it references have been bound before the FILTER statement.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1084567273" CREATED="1728803284837" MODIFIED="1728803318793"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sometime, <span style="font-weight: bold;">careful use of triple patterns can let you omit a FILTER statement</span><span style="font-weight: normal;">&#xa0;and make a query faster</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="When you do use a FILTER keyword, the work that you ask it to do can also affect query performance" ID="ID_1415140490" CREATED="1728803808270" MODIFIED="1728803844299">
+<node ID="ID_345252246" CREATED="1728803879842" MODIFIED="1728803921487"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">CONTAINS()</span><span style="font-weight: normal;">&#xa0;function, being more limited (or say more specialized) than the </span><span style="font-weight: bold;">regex()</span><span style="font-weight: normal;">&#xa0;&#xa0;function, will probably do its job faster than the </span><span style="font-weight: bold;">regex()</span><span style="font-weight: normal;">&#xa0;&#xa0;function</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 <node TEXT="07.01.05 Property Paths Can Be Expensive" ID="ID_213899099" CREATED="1702257071146" MODIFIED="1702257086514"/>
 </node>
 <node TEXT="07.02 Efficiency Outside the WHERE Clause" ID="ID_956506592" CREATED="1702257088108" MODIFIED="1702257101159"/>

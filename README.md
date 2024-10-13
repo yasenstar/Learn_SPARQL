@@ -39,4 +39,10 @@ Here [RDF Grapher](https://www.ldf.fi/service/rdf-grapher) is one nice online to
 
 ---
 
+## Other reference about RDF and SPARQL
+
+Here [Reference Information](/RefInfo.md) you may find some interesting gathered information, keep eyes on...
+
+---
+
 Feel free to raise your comments or questions to me via [Email](mailto:xiaoqizhao@outlook.com), good luck!
